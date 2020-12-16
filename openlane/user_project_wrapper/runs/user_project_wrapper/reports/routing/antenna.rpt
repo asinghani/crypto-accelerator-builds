@@ -1,0 +1,1880 @@
+Warning - class CORE ANTENNACELL is not found. This msg can be ignored if not in the antenna-avoid flow
+
+Net - analog_io[0]
+
+Net - analog_io[10]
+
+Net - analog_io[11]
+
+Net - analog_io[12]
+
+Net - analog_io[13]
+
+Net - analog_io[14]
+
+Net - analog_io[15]
+
+Net - analog_io[16]
+
+Net - analog_io[17]
+
+Net - analog_io[18]
+
+Net - analog_io[19]
+
+Net - analog_io[1]
+
+Net - analog_io[20]
+
+Net - analog_io[21]
+
+Net - analog_io[22]
+
+Net - analog_io[23]
+
+Net - analog_io[24]
+
+Net - analog_io[25]
+
+Net - analog_io[26]
+
+Net - analog_io[27]
+
+Net - analog_io[28]
+
+Net - analog_io[29]
+
+Net - analog_io[2]
+
+Net - analog_io[30]
+
+Net - analog_io[3]
+
+Net - analog_io[4]
+
+Net - analog_io[5]
+
+Net - analog_io[6]
+
+Net - analog_io[7]
+
+Net - analog_io[8]
+
+Net - analog_io[9]
+
+Net - io_in[0]
+  No sinks on this net
+
+Net - io_in[10]
+  No sinks on this net
+
+Net - io_in[11]
+  No sinks on this net
+
+Net - io_in[12]
+  No sinks on this net
+
+Net - io_in[13]
+  No sinks on this net
+
+Net - io_in[14]
+  No sinks on this net
+
+Net - io_in[15]
+  No sinks on this net
+
+Net - io_in[16]
+  No sinks on this net
+
+Net - io_in[17]
+  No sinks on this net
+
+Net - io_in[18]
+  No sinks on this net
+
+Net - io_in[19]
+  No sinks on this net
+
+Net - io_in[1]
+  No sinks on this net
+
+Net - io_in[20]
+  No sinks on this net
+
+Net - io_in[21]
+  No sinks on this net
+
+Net - io_in[22]
+  No sinks on this net
+
+Net - io_in[23]
+  No sinks on this net
+
+Net - io_in[24]
+  No sinks on this net
+
+Net - io_in[25]
+  No sinks on this net
+
+Net - io_in[26]
+  No sinks on this net
+
+Net - io_in[27]
+  No sinks on this net
+
+Net - io_in[28]
+  No sinks on this net
+
+Net - io_in[29]
+  No sinks on this net
+
+Net - io_in[2]
+  No sinks on this net
+
+Net - io_in[30]
+  No sinks on this net
+
+Net - io_in[31]
+  No sinks on this net
+
+Net - io_in[32]
+  No sinks on this net
+
+Net - io_in[33]
+  No sinks on this net
+
+Net - io_in[34]
+  No sinks on this net
+
+Net - io_in[35]
+  No sinks on this net
+
+Net - io_in[36]
+  No sinks on this net
+
+Net - io_in[37]
+  No sinks on this net
+
+Net - io_in[3]
+  No sinks on this net
+
+Net - io_in[4]
+  No sinks on this net
+
+Net - io_in[5]
+  No sinks on this net
+
+Net - io_in[6]
+  No sinks on this net
+
+Net - io_in[7]
+  No sinks on this net
+
+Net - io_in[8]
+  No sinks on this net
+
+Net - io_in[9]
+  No sinks on this net
+
+Net - io_oeb[0]
+  No sinks on this net
+
+Net - io_oeb[10]
+  No sinks on this net
+
+Net - io_oeb[11]
+  No sinks on this net
+
+Net - io_oeb[12]
+  No sinks on this net
+
+Net - io_oeb[13]
+  No sinks on this net
+
+Net - io_oeb[14]
+  No sinks on this net
+
+Net - io_oeb[15]
+  No sinks on this net
+
+Net - io_oeb[16]
+  No sinks on this net
+
+Net - io_oeb[17]
+  No sinks on this net
+
+Net - io_oeb[18]
+  No sinks on this net
+
+Net - io_oeb[19]
+  No sinks on this net
+
+Net - io_oeb[1]
+  No sinks on this net
+
+Net - io_oeb[20]
+  No sinks on this net
+
+Net - io_oeb[21]
+  No sinks on this net
+
+Net - io_oeb[22]
+  No sinks on this net
+
+Net - io_oeb[23]
+  No sinks on this net
+
+Net - io_oeb[24]
+  No sinks on this net
+
+Net - io_oeb[25]
+  No sinks on this net
+
+Net - io_oeb[26]
+  No sinks on this net
+
+Net - io_oeb[27]
+  No sinks on this net
+
+Net - io_oeb[28]
+  No sinks on this net
+
+Net - io_oeb[29]
+  No sinks on this net
+
+Net - io_oeb[2]
+  No sinks on this net
+
+Net - io_oeb[30]
+  No sinks on this net
+
+Net - io_oeb[31]
+  No sinks on this net
+
+Net - io_oeb[32]
+  No sinks on this net
+
+Net - io_oeb[33]
+  No sinks on this net
+
+Net - io_oeb[34]
+  No sinks on this net
+
+Net - io_oeb[35]
+  No sinks on this net
+
+Net - io_oeb[36]
+  No sinks on this net
+
+Net - io_oeb[37]
+  No sinks on this net
+
+Net - io_oeb[3]
+  No sinks on this net
+
+Net - io_oeb[4]
+  No sinks on this net
+
+Net - io_oeb[5]
+  No sinks on this net
+
+Net - io_oeb[6]
+  No sinks on this net
+
+Net - io_oeb[7]
+  No sinks on this net
+
+Net - io_oeb[8]
+  No sinks on this net
+
+Net - io_oeb[9]
+  No sinks on this net
+
+Net - io_out[0]
+  No sinks on this net
+
+Net - io_out[10]
+  No sinks on this net
+
+Net - io_out[11]
+  No sinks on this net
+
+Net - io_out[12]
+  No sinks on this net
+
+Net - io_out[13]
+  No sinks on this net
+
+Net - io_out[14]
+  No sinks on this net
+
+Net - io_out[15]
+  No sinks on this net
+
+Net - io_out[16]
+  No sinks on this net
+
+Net - io_out[17]
+  No sinks on this net
+
+Net - io_out[18]
+  No sinks on this net
+
+Net - io_out[19]
+  No sinks on this net
+
+Net - io_out[1]
+  No sinks on this net
+
+Net - io_out[20]
+  No sinks on this net
+
+Net - io_out[21]
+  No sinks on this net
+
+Net - io_out[22]
+  No sinks on this net
+
+Net - io_out[23]
+  No sinks on this net
+
+Net - io_out[24]
+  No sinks on this net
+
+Net - io_out[25]
+  No sinks on this net
+
+Net - io_out[26]
+  No sinks on this net
+
+Net - io_out[27]
+  No sinks on this net
+
+Net - io_out[28]
+  No sinks on this net
+
+Net - io_out[29]
+  No sinks on this net
+
+Net - io_out[2]
+  No sinks on this net
+
+Net - io_out[30]
+  No sinks on this net
+
+Net - io_out[31]
+  No sinks on this net
+
+Net - io_out[32]
+  No sinks on this net
+
+Net - io_out[33]
+  No sinks on this net
+
+Net - io_out[34]
+  No sinks on this net
+
+Net - io_out[35]
+  No sinks on this net
+
+Net - io_out[36]
+  No sinks on this net
+
+Net - io_out[37]
+  No sinks on this net
+
+Net - io_out[3]
+  No sinks on this net
+
+Net - io_out[4]
+  No sinks on this net
+
+Net - io_out[5]
+  No sinks on this net
+
+Net - io_out[6]
+  No sinks on this net
+
+Net - io_out[7]
+  No sinks on this net
+
+Net - io_out[8]
+  No sinks on this net
+
+Net - io_out[9]
+  No sinks on this net
+
+Net - la_data_in[0]
+  No sinks on this net
+
+Net - la_data_in[100]
+  No sinks on this net
+
+Net - la_data_in[101]
+  No sinks on this net
+
+Net - la_data_in[102]
+  No sinks on this net
+
+Net - la_data_in[103]
+  No sinks on this net
+
+Net - la_data_in[104]
+  No sinks on this net
+
+Net - la_data_in[105]
+  No sinks on this net
+
+Net - la_data_in[106]
+  No sinks on this net
+
+Net - la_data_in[107]
+  No sinks on this net
+
+Net - la_data_in[108]
+  No sinks on this net
+
+Net - la_data_in[109]
+  No sinks on this net
+
+Net - la_data_in[10]
+  No sinks on this net
+
+Net - la_data_in[110]
+  No sinks on this net
+
+Net - la_data_in[111]
+  No sinks on this net
+
+Net - la_data_in[112]
+  No sinks on this net
+
+Net - la_data_in[113]
+  No sinks on this net
+
+Net - la_data_in[114]
+  No sinks on this net
+
+Net - la_data_in[115]
+  No sinks on this net
+
+Net - la_data_in[116]
+  No sinks on this net
+
+Net - la_data_in[117]
+  No sinks on this net
+
+Net - la_data_in[118]
+  No sinks on this net
+
+Net - la_data_in[119]
+  No sinks on this net
+
+Net - la_data_in[11]
+  No sinks on this net
+
+Net - la_data_in[120]
+  No sinks on this net
+
+Net - la_data_in[121]
+  No sinks on this net
+
+Net - la_data_in[122]
+  No sinks on this net
+
+Net - la_data_in[123]
+  No sinks on this net
+
+Net - la_data_in[124]
+  No sinks on this net
+
+Net - la_data_in[125]
+  No sinks on this net
+
+Net - la_data_in[126]
+  No sinks on this net
+
+Net - la_data_in[127]
+  No sinks on this net
+
+Net - la_data_in[12]
+  No sinks on this net
+
+Net - la_data_in[13]
+  No sinks on this net
+
+Net - la_data_in[14]
+  No sinks on this net
+
+Net - la_data_in[15]
+  No sinks on this net
+
+Net - la_data_in[16]
+  No sinks on this net
+
+Net - la_data_in[17]
+  No sinks on this net
+
+Net - la_data_in[18]
+  No sinks on this net
+
+Net - la_data_in[19]
+  No sinks on this net
+
+Net - la_data_in[1]
+  No sinks on this net
+
+Net - la_data_in[20]
+  No sinks on this net
+
+Net - la_data_in[21]
+  No sinks on this net
+
+Net - la_data_in[22]
+  No sinks on this net
+
+Net - la_data_in[23]
+  No sinks on this net
+
+Net - la_data_in[24]
+  No sinks on this net
+
+Net - la_data_in[25]
+  No sinks on this net
+
+Net - la_data_in[26]
+  No sinks on this net
+
+Net - la_data_in[27]
+  No sinks on this net
+
+Net - la_data_in[28]
+  No sinks on this net
+
+Net - la_data_in[29]
+  No sinks on this net
+
+Net - la_data_in[2]
+  No sinks on this net
+
+Net - la_data_in[30]
+  No sinks on this net
+
+Net - la_data_in[31]
+  No sinks on this net
+
+Net - la_data_in[32]
+  No sinks on this net
+
+Net - la_data_in[33]
+  No sinks on this net
+
+Net - la_data_in[34]
+  No sinks on this net
+
+Net - la_data_in[35]
+  No sinks on this net
+
+Net - la_data_in[36]
+  No sinks on this net
+
+Net - la_data_in[37]
+  No sinks on this net
+
+Net - la_data_in[38]
+  No sinks on this net
+
+Net - la_data_in[39]
+  No sinks on this net
+
+Net - la_data_in[3]
+  No sinks on this net
+
+Net - la_data_in[40]
+  No sinks on this net
+
+Net - la_data_in[41]
+  No sinks on this net
+
+Net - la_data_in[42]
+  No sinks on this net
+
+Net - la_data_in[43]
+  No sinks on this net
+
+Net - la_data_in[44]
+  No sinks on this net
+
+Net - la_data_in[45]
+  No sinks on this net
+
+Net - la_data_in[46]
+  No sinks on this net
+
+Net - la_data_in[47]
+  No sinks on this net
+
+Net - la_data_in[48]
+  No sinks on this net
+
+Net - la_data_in[49]
+  No sinks on this net
+
+Net - la_data_in[4]
+  No sinks on this net
+
+Net - la_data_in[50]
+  No sinks on this net
+
+Net - la_data_in[51]
+  No sinks on this net
+
+Net - la_data_in[52]
+  No sinks on this net
+
+Net - la_data_in[53]
+  No sinks on this net
+
+Net - la_data_in[54]
+  No sinks on this net
+
+Net - la_data_in[55]
+  No sinks on this net
+
+Net - la_data_in[56]
+  No sinks on this net
+
+Net - la_data_in[57]
+  No sinks on this net
+
+Net - la_data_in[58]
+  No sinks on this net
+
+Net - la_data_in[59]
+  No sinks on this net
+
+Net - la_data_in[5]
+  No sinks on this net
+
+Net - la_data_in[60]
+  No sinks on this net
+
+Net - la_data_in[61]
+  No sinks on this net
+
+Net - la_data_in[62]
+  No sinks on this net
+
+Net - la_data_in[63]
+  No sinks on this net
+
+Net - la_data_in[64]
+  No sinks on this net
+
+Net - la_data_in[65]
+  No sinks on this net
+
+Net - la_data_in[66]
+  No sinks on this net
+
+Net - la_data_in[67]
+  No sinks on this net
+
+Net - la_data_in[68]
+  No sinks on this net
+
+Net - la_data_in[69]
+  No sinks on this net
+
+Net - la_data_in[6]
+  No sinks on this net
+
+Net - la_data_in[70]
+  No sinks on this net
+
+Net - la_data_in[71]
+  No sinks on this net
+
+Net - la_data_in[72]
+  No sinks on this net
+
+Net - la_data_in[73]
+  No sinks on this net
+
+Net - la_data_in[74]
+  No sinks on this net
+
+Net - la_data_in[75]
+  No sinks on this net
+
+Net - la_data_in[76]
+  No sinks on this net
+
+Net - la_data_in[77]
+  No sinks on this net
+
+Net - la_data_in[78]
+  No sinks on this net
+
+Net - la_data_in[79]
+  No sinks on this net
+
+Net - la_data_in[7]
+  No sinks on this net
+
+Net - la_data_in[80]
+  No sinks on this net
+
+Net - la_data_in[81]
+  No sinks on this net
+
+Net - la_data_in[82]
+  No sinks on this net
+
+Net - la_data_in[83]
+  No sinks on this net
+
+Net - la_data_in[84]
+  No sinks on this net
+
+Net - la_data_in[85]
+  No sinks on this net
+
+Net - la_data_in[86]
+  No sinks on this net
+
+Net - la_data_in[87]
+  No sinks on this net
+
+Net - la_data_in[88]
+  No sinks on this net
+
+Net - la_data_in[89]
+  No sinks on this net
+
+Net - la_data_in[8]
+  No sinks on this net
+
+Net - la_data_in[90]
+  No sinks on this net
+
+Net - la_data_in[91]
+  No sinks on this net
+
+Net - la_data_in[92]
+  No sinks on this net
+
+Net - la_data_in[93]
+  No sinks on this net
+
+Net - la_data_in[94]
+  No sinks on this net
+
+Net - la_data_in[95]
+  No sinks on this net
+
+Net - la_data_in[96]
+  No sinks on this net
+
+Net - la_data_in[97]
+  No sinks on this net
+
+Net - la_data_in[98]
+  No sinks on this net
+
+Net - la_data_in[99]
+  No sinks on this net
+
+Net - la_data_in[9]
+  No sinks on this net
+
+Net - la_data_out[0]
+  No sinks on this net
+
+Net - la_data_out[100]
+  No sinks on this net
+
+Net - la_data_out[101]
+  No sinks on this net
+
+Net - la_data_out[102]
+  No sinks on this net
+
+Net - la_data_out[103]
+  No sinks on this net
+
+Net - la_data_out[104]
+  No sinks on this net
+
+Net - la_data_out[105]
+  No sinks on this net
+
+Net - la_data_out[106]
+  No sinks on this net
+
+Net - la_data_out[107]
+  No sinks on this net
+
+Net - la_data_out[108]
+  No sinks on this net
+
+Net - la_data_out[109]
+  No sinks on this net
+
+Net - la_data_out[10]
+  No sinks on this net
+
+Net - la_data_out[110]
+  No sinks on this net
+
+Net - la_data_out[111]
+  No sinks on this net
+
+Net - la_data_out[112]
+  No sinks on this net
+
+Net - la_data_out[113]
+  No sinks on this net
+
+Net - la_data_out[114]
+  No sinks on this net
+
+Net - la_data_out[115]
+  No sinks on this net
+
+Net - la_data_out[116]
+  No sinks on this net
+
+Net - la_data_out[117]
+  No sinks on this net
+
+Net - la_data_out[118]
+  No sinks on this net
+
+Net - la_data_out[119]
+  No sinks on this net
+
+Net - la_data_out[11]
+  No sinks on this net
+
+Net - la_data_out[120]
+  No sinks on this net
+
+Net - la_data_out[121]
+  No sinks on this net
+
+Net - la_data_out[122]
+  No sinks on this net
+
+Net - la_data_out[123]
+  No sinks on this net
+
+Net - la_data_out[124]
+  No sinks on this net
+
+Net - la_data_out[125]
+  No sinks on this net
+
+Net - la_data_out[126]
+  No sinks on this net
+
+Net - la_data_out[127]
+  No sinks on this net
+
+Net - la_data_out[12]
+  No sinks on this net
+
+Net - la_data_out[13]
+  No sinks on this net
+
+Net - la_data_out[14]
+  No sinks on this net
+
+Net - la_data_out[15]
+  No sinks on this net
+
+Net - la_data_out[16]
+  No sinks on this net
+
+Net - la_data_out[17]
+  No sinks on this net
+
+Net - la_data_out[18]
+  No sinks on this net
+
+Net - la_data_out[19]
+  No sinks on this net
+
+Net - la_data_out[1]
+  No sinks on this net
+
+Net - la_data_out[20]
+  No sinks on this net
+
+Net - la_data_out[21]
+  No sinks on this net
+
+Net - la_data_out[22]
+  No sinks on this net
+
+Net - la_data_out[23]
+  No sinks on this net
+
+Net - la_data_out[24]
+  No sinks on this net
+
+Net - la_data_out[25]
+  No sinks on this net
+
+Net - la_data_out[26]
+  No sinks on this net
+
+Net - la_data_out[27]
+  No sinks on this net
+
+Net - la_data_out[28]
+  No sinks on this net
+
+Net - la_data_out[29]
+  No sinks on this net
+
+Net - la_data_out[2]
+  No sinks on this net
+
+Net - la_data_out[30]
+  No sinks on this net
+
+Net - la_data_out[31]
+  No sinks on this net
+
+Net - la_data_out[32]
+  No sinks on this net
+
+Net - la_data_out[33]
+  No sinks on this net
+
+Net - la_data_out[34]
+  No sinks on this net
+
+Net - la_data_out[35]
+  No sinks on this net
+
+Net - la_data_out[36]
+  No sinks on this net
+
+Net - la_data_out[37]
+  No sinks on this net
+
+Net - la_data_out[38]
+  No sinks on this net
+
+Net - la_data_out[39]
+  No sinks on this net
+
+Net - la_data_out[3]
+  No sinks on this net
+
+Net - la_data_out[40]
+  No sinks on this net
+
+Net - la_data_out[41]
+  No sinks on this net
+
+Net - la_data_out[42]
+  No sinks on this net
+
+Net - la_data_out[43]
+  No sinks on this net
+
+Net - la_data_out[44]
+  No sinks on this net
+
+Net - la_data_out[45]
+  No sinks on this net
+
+Net - la_data_out[46]
+  No sinks on this net
+
+Net - la_data_out[47]
+  No sinks on this net
+
+Net - la_data_out[48]
+  No sinks on this net
+
+Net - la_data_out[49]
+  No sinks on this net
+
+Net - la_data_out[4]
+  No sinks on this net
+
+Net - la_data_out[50]
+  No sinks on this net
+
+Net - la_data_out[51]
+  No sinks on this net
+
+Net - la_data_out[52]
+  No sinks on this net
+
+Net - la_data_out[53]
+  No sinks on this net
+
+Net - la_data_out[54]
+  No sinks on this net
+
+Net - la_data_out[55]
+  No sinks on this net
+
+Net - la_data_out[56]
+  No sinks on this net
+
+Net - la_data_out[57]
+  No sinks on this net
+
+Net - la_data_out[58]
+  No sinks on this net
+
+Net - la_data_out[59]
+  No sinks on this net
+
+Net - la_data_out[5]
+  No sinks on this net
+
+Net - la_data_out[60]
+  No sinks on this net
+
+Net - la_data_out[61]
+  No sinks on this net
+
+Net - la_data_out[62]
+  No sinks on this net
+
+Net - la_data_out[63]
+  No sinks on this net
+
+Net - la_data_out[64]
+  No sinks on this net
+
+Net - la_data_out[65]
+  No sinks on this net
+
+Net - la_data_out[66]
+  No sinks on this net
+
+Net - la_data_out[67]
+  No sinks on this net
+
+Net - la_data_out[68]
+  No sinks on this net
+
+Net - la_data_out[69]
+  No sinks on this net
+
+Net - la_data_out[6]
+  No sinks on this net
+
+Net - la_data_out[70]
+  No sinks on this net
+
+Net - la_data_out[71]
+  No sinks on this net
+
+Net - la_data_out[72]
+  No sinks on this net
+
+Net - la_data_out[73]
+  No sinks on this net
+
+Net - la_data_out[74]
+  No sinks on this net
+
+Net - la_data_out[75]
+  No sinks on this net
+
+Net - la_data_out[76]
+  No sinks on this net
+
+Net - la_data_out[77]
+  No sinks on this net
+
+Net - la_data_out[78]
+  No sinks on this net
+
+Net - la_data_out[79]
+  No sinks on this net
+
+Net - la_data_out[7]
+  No sinks on this net
+
+Net - la_data_out[80]
+  No sinks on this net
+
+Net - la_data_out[81]
+  No sinks on this net
+
+Net - la_data_out[82]
+  No sinks on this net
+
+Net - la_data_out[83]
+  No sinks on this net
+
+Net - la_data_out[84]
+  No sinks on this net
+
+Net - la_data_out[85]
+  No sinks on this net
+
+Net - la_data_out[86]
+  No sinks on this net
+
+Net - la_data_out[87]
+  No sinks on this net
+
+Net - la_data_out[88]
+  No sinks on this net
+
+Net - la_data_out[89]
+  No sinks on this net
+
+Net - la_data_out[8]
+  No sinks on this net
+
+Net - la_data_out[90]
+  No sinks on this net
+
+Net - la_data_out[91]
+  No sinks on this net
+
+Net - la_data_out[92]
+  No sinks on this net
+
+Net - la_data_out[93]
+  No sinks on this net
+
+Net - la_data_out[94]
+  No sinks on this net
+
+Net - la_data_out[95]
+  No sinks on this net
+
+Net - la_data_out[96]
+  No sinks on this net
+
+Net - la_data_out[97]
+  No sinks on this net
+
+Net - la_data_out[98]
+  No sinks on this net
+
+Net - la_data_out[99]
+  No sinks on this net
+
+Net - la_data_out[9]
+  No sinks on this net
+
+Net - la_oen[0]
+  No sinks on this net
+
+Net - la_oen[100]
+  No sinks on this net
+
+Net - la_oen[101]
+  No sinks on this net
+
+Net - la_oen[102]
+  No sinks on this net
+
+Net - la_oen[103]
+  No sinks on this net
+
+Net - la_oen[104]
+  No sinks on this net
+
+Net - la_oen[105]
+  No sinks on this net
+
+Net - la_oen[106]
+  No sinks on this net
+
+Net - la_oen[107]
+  No sinks on this net
+
+Net - la_oen[108]
+  No sinks on this net
+
+Net - la_oen[109]
+  No sinks on this net
+
+Net - la_oen[10]
+  No sinks on this net
+
+Net - la_oen[110]
+  No sinks on this net
+
+Net - la_oen[111]
+  No sinks on this net
+
+Net - la_oen[112]
+  No sinks on this net
+
+Net - la_oen[113]
+  No sinks on this net
+
+Net - la_oen[114]
+  No sinks on this net
+
+Net - la_oen[115]
+  No sinks on this net
+
+Net - la_oen[116]
+  No sinks on this net
+
+Net - la_oen[117]
+  No sinks on this net
+
+Net - la_oen[118]
+  No sinks on this net
+
+Net - la_oen[119]
+  No sinks on this net
+
+Net - la_oen[11]
+  No sinks on this net
+
+Net - la_oen[120]
+  No sinks on this net
+
+Net - la_oen[121]
+  No sinks on this net
+
+Net - la_oen[122]
+  No sinks on this net
+
+Net - la_oen[123]
+  No sinks on this net
+
+Net - la_oen[124]
+  No sinks on this net
+
+Net - la_oen[125]
+  No sinks on this net
+
+Net - la_oen[126]
+  No sinks on this net
+
+Net - la_oen[127]
+  No sinks on this net
+
+Net - la_oen[12]
+  No sinks on this net
+
+Net - la_oen[13]
+  No sinks on this net
+
+Net - la_oen[14]
+  No sinks on this net
+
+Net - la_oen[15]
+  No sinks on this net
+
+Net - la_oen[16]
+  No sinks on this net
+
+Net - la_oen[17]
+  No sinks on this net
+
+Net - la_oen[18]
+  No sinks on this net
+
+Net - la_oen[19]
+  No sinks on this net
+
+Net - la_oen[1]
+  No sinks on this net
+
+Net - la_oen[20]
+  No sinks on this net
+
+Net - la_oen[21]
+  No sinks on this net
+
+Net - la_oen[22]
+  No sinks on this net
+
+Net - la_oen[23]
+  No sinks on this net
+
+Net - la_oen[24]
+  No sinks on this net
+
+Net - la_oen[25]
+  No sinks on this net
+
+Net - la_oen[26]
+  No sinks on this net
+
+Net - la_oen[27]
+  No sinks on this net
+
+Net - la_oen[28]
+  No sinks on this net
+
+Net - la_oen[29]
+  No sinks on this net
+
+Net - la_oen[2]
+  No sinks on this net
+
+Net - la_oen[30]
+  No sinks on this net
+
+Net - la_oen[31]
+  No sinks on this net
+
+Net - la_oen[32]
+  No sinks on this net
+
+Net - la_oen[33]
+  No sinks on this net
+
+Net - la_oen[34]
+  No sinks on this net
+
+Net - la_oen[35]
+  No sinks on this net
+
+Net - la_oen[36]
+  No sinks on this net
+
+Net - la_oen[37]
+  No sinks on this net
+
+Net - la_oen[38]
+  No sinks on this net
+
+Net - la_oen[39]
+  No sinks on this net
+
+Net - la_oen[3]
+  No sinks on this net
+
+Net - la_oen[40]
+  No sinks on this net
+
+Net - la_oen[41]
+  No sinks on this net
+
+Net - la_oen[42]
+  No sinks on this net
+
+Net - la_oen[43]
+  No sinks on this net
+
+Net - la_oen[44]
+  No sinks on this net
+
+Net - la_oen[45]
+  No sinks on this net
+
+Net - la_oen[46]
+  No sinks on this net
+
+Net - la_oen[47]
+  No sinks on this net
+
+Net - la_oen[48]
+  No sinks on this net
+
+Net - la_oen[49]
+  No sinks on this net
+
+Net - la_oen[4]
+  No sinks on this net
+
+Net - la_oen[50]
+  No sinks on this net
+
+Net - la_oen[51]
+  No sinks on this net
+
+Net - la_oen[52]
+  No sinks on this net
+
+Net - la_oen[53]
+  No sinks on this net
+
+Net - la_oen[54]
+  No sinks on this net
+
+Net - la_oen[55]
+  No sinks on this net
+
+Net - la_oen[56]
+  No sinks on this net
+
+Net - la_oen[57]
+  No sinks on this net
+
+Net - la_oen[58]
+  No sinks on this net
+
+Net - la_oen[59]
+  No sinks on this net
+
+Net - la_oen[5]
+  No sinks on this net
+
+Net - la_oen[60]
+  No sinks on this net
+
+Net - la_oen[61]
+  No sinks on this net
+
+Net - la_oen[62]
+  No sinks on this net
+
+Net - la_oen[63]
+  No sinks on this net
+
+Net - la_oen[64]
+  No sinks on this net
+
+Net - la_oen[65]
+  No sinks on this net
+
+Net - la_oen[66]
+  No sinks on this net
+
+Net - la_oen[67]
+  No sinks on this net
+
+Net - la_oen[68]
+  No sinks on this net
+
+Net - la_oen[69]
+  No sinks on this net
+
+Net - la_oen[6]
+  No sinks on this net
+
+Net - la_oen[70]
+  No sinks on this net
+
+Net - la_oen[71]
+  No sinks on this net
+
+Net - la_oen[72]
+  No sinks on this net
+
+Net - la_oen[73]
+  No sinks on this net
+
+Net - la_oen[74]
+  No sinks on this net
+
+Net - la_oen[75]
+  No sinks on this net
+
+Net - la_oen[76]
+  No sinks on this net
+
+Net - la_oen[77]
+  No sinks on this net
+
+Net - la_oen[78]
+  No sinks on this net
+
+Net - la_oen[79]
+  No sinks on this net
+
+Net - la_oen[7]
+  No sinks on this net
+
+Net - la_oen[80]
+  No sinks on this net
+
+Net - la_oen[81]
+  No sinks on this net
+
+Net - la_oen[82]
+  No sinks on this net
+
+Net - la_oen[83]
+  No sinks on this net
+
+Net - la_oen[84]
+  No sinks on this net
+
+Net - la_oen[85]
+  No sinks on this net
+
+Net - la_oen[86]
+  No sinks on this net
+
+Net - la_oen[87]
+  No sinks on this net
+
+Net - la_oen[88]
+  No sinks on this net
+
+Net - la_oen[89]
+  No sinks on this net
+
+Net - la_oen[8]
+  No sinks on this net
+
+Net - la_oen[90]
+  No sinks on this net
+
+Net - la_oen[91]
+  No sinks on this net
+
+Net - la_oen[92]
+  No sinks on this net
+
+Net - la_oen[93]
+  No sinks on this net
+
+Net - la_oen[94]
+  No sinks on this net
+
+Net - la_oen[95]
+  No sinks on this net
+
+Net - la_oen[96]
+  No sinks on this net
+
+Net - la_oen[97]
+  No sinks on this net
+
+Net - la_oen[98]
+  No sinks on this net
+
+Net - la_oen[99]
+  No sinks on this net
+
+Net - la_oen[9]
+  No sinks on this net
+
+Net - user_clock2
+
+Net - wb_clk_i
+  No sinks on this net
+
+Net - wb_rst_i
+  No sinks on this net
+
+Net - wbs_ack_o
+  No sinks on this net
+
+Net - wbs_adr_i[0]
+  No sinks on this net
+
+Net - wbs_adr_i[10]
+  No sinks on this net
+
+Net - wbs_adr_i[11]
+  No sinks on this net
+
+Net - wbs_adr_i[12]
+  No sinks on this net
+
+Net - wbs_adr_i[13]
+  No sinks on this net
+
+Net - wbs_adr_i[14]
+  No sinks on this net
+
+Net - wbs_adr_i[15]
+  No sinks on this net
+
+Net - wbs_adr_i[16]
+  No sinks on this net
+
+Net - wbs_adr_i[17]
+  No sinks on this net
+
+Net - wbs_adr_i[18]
+  No sinks on this net
+
+Net - wbs_adr_i[19]
+  No sinks on this net
+
+Net - wbs_adr_i[1]
+  No sinks on this net
+
+Net - wbs_adr_i[20]
+  No sinks on this net
+
+Net - wbs_adr_i[21]
+  No sinks on this net
+
+Net - wbs_adr_i[22]
+  No sinks on this net
+
+Net - wbs_adr_i[23]
+  No sinks on this net
+
+Net - wbs_adr_i[24]
+  No sinks on this net
+
+Net - wbs_adr_i[25]
+  No sinks on this net
+
+Net - wbs_adr_i[26]
+  No sinks on this net
+
+Net - wbs_adr_i[27]
+  No sinks on this net
+
+Net - wbs_adr_i[28]
+  No sinks on this net
+
+Net - wbs_adr_i[29]
+  No sinks on this net
+
+Net - wbs_adr_i[2]
+  No sinks on this net
+
+Net - wbs_adr_i[30]
+  No sinks on this net
+
+Net - wbs_adr_i[31]
+  No sinks on this net
+
+Net - wbs_adr_i[3]
+  No sinks on this net
+
+Net - wbs_adr_i[4]
+  No sinks on this net
+
+Net - wbs_adr_i[5]
+  No sinks on this net
+
+Net - wbs_adr_i[6]
+  No sinks on this net
+
+Net - wbs_adr_i[7]
+  No sinks on this net
+
+Net - wbs_adr_i[8]
+  No sinks on this net
+
+Net - wbs_adr_i[9]
+  No sinks on this net
+
+Net - wbs_cyc_i
+  No sinks on this net
+
+Net - wbs_dat_i[0]
+  No sinks on this net
+
+Net - wbs_dat_i[10]
+  No sinks on this net
+
+Net - wbs_dat_i[11]
+  No sinks on this net
+
+Net - wbs_dat_i[12]
+  No sinks on this net
+
+Net - wbs_dat_i[13]
+  No sinks on this net
+
+Net - wbs_dat_i[14]
+  No sinks on this net
+
+Net - wbs_dat_i[15]
+  No sinks on this net
+
+Net - wbs_dat_i[16]
+  No sinks on this net
+
+Net - wbs_dat_i[17]
+  No sinks on this net
+
+Net - wbs_dat_i[18]
+  No sinks on this net
+
+Net - wbs_dat_i[19]
+  No sinks on this net
+
+Net - wbs_dat_i[1]
+  No sinks on this net
+
+Net - wbs_dat_i[20]
+  No sinks on this net
+
+Net - wbs_dat_i[21]
+  No sinks on this net
+
+Net - wbs_dat_i[22]
+  No sinks on this net
+
+Net - wbs_dat_i[23]
+  No sinks on this net
+
+Net - wbs_dat_i[24]
+  No sinks on this net
+
+Net - wbs_dat_i[25]
+  No sinks on this net
+
+Net - wbs_dat_i[26]
+  No sinks on this net
+
+Net - wbs_dat_i[27]
+  No sinks on this net
+
+Net - wbs_dat_i[28]
+  No sinks on this net
+
+Net - wbs_dat_i[29]
+  No sinks on this net
+
+Net - wbs_dat_i[2]
+  No sinks on this net
+
+Net - wbs_dat_i[30]
+  No sinks on this net
+
+Net - wbs_dat_i[31]
+  No sinks on this net
+
+Net - wbs_dat_i[3]
+  No sinks on this net
+
+Net - wbs_dat_i[4]
+  No sinks on this net
+
+Net - wbs_dat_i[5]
+  No sinks on this net
+
+Net - wbs_dat_i[6]
+  No sinks on this net
+
+Net - wbs_dat_i[7]
+  No sinks on this net
+
+Net - wbs_dat_i[8]
+  No sinks on this net
+
+Net - wbs_dat_i[9]
+  No sinks on this net
+
+Net - wbs_dat_o[0]
+  No sinks on this net
+
+Net - wbs_dat_o[10]
+  No sinks on this net
+
+Net - wbs_dat_o[11]
+  No sinks on this net
+
+Net - wbs_dat_o[12]
+  No sinks on this net
+
+Net - wbs_dat_o[13]
+  No sinks on this net
+
+Net - wbs_dat_o[14]
+  No sinks on this net
+
+Net - wbs_dat_o[15]
+  No sinks on this net
+
+Net - wbs_dat_o[16]
+  No sinks on this net
+
+Net - wbs_dat_o[17]
+  No sinks on this net
+
+Net - wbs_dat_o[18]
+  No sinks on this net
+
+Net - wbs_dat_o[19]
+  No sinks on this net
+
+Net - wbs_dat_o[1]
+  No sinks on this net
+
+Net - wbs_dat_o[20]
+  No sinks on this net
+
+Net - wbs_dat_o[21]
+  No sinks on this net
+
+Net - wbs_dat_o[22]
+  No sinks on this net
+
+Net - wbs_dat_o[23]
+  No sinks on this net
+
+Net - wbs_dat_o[24]
+  No sinks on this net
+
+Net - wbs_dat_o[25]
+  No sinks on this net
+
+Net - wbs_dat_o[26]
+  No sinks on this net
+
+Net - wbs_dat_o[27]
+  No sinks on this net
+
+Net - wbs_dat_o[28]
+  No sinks on this net
+
+Net - wbs_dat_o[29]
+  No sinks on this net
+
+Net - wbs_dat_o[2]
+  No sinks on this net
+
+Net - wbs_dat_o[30]
+  No sinks on this net
+
+Net - wbs_dat_o[31]
+  No sinks on this net
+
+Net - wbs_dat_o[3]
+  No sinks on this net
+
+Net - wbs_dat_o[4]
+  No sinks on this net
+
+Net - wbs_dat_o[5]
+  No sinks on this net
+
+Net - wbs_dat_o[6]
+  No sinks on this net
+
+Net - wbs_dat_o[7]
+  No sinks on this net
+
+Net - wbs_dat_o[8]
+  No sinks on this net
+
+Net - wbs_dat_o[9]
+  No sinks on this net
+
+Net - wbs_sel_i[0]
+  No sinks on this net
+
+Net - wbs_sel_i[1]
+  No sinks on this net
+
+Net - wbs_sel_i[2]
+  No sinks on this net
+
+Net - wbs_sel_i[3]
+  No sinks on this net
+
+Net - wbs_stb_i
+  No sinks on this net
+
+Net - wbs_we_i
+  No sinks on this net
+Number of pins violated: 0
+Number of nets violated: 0
+Total number of unspecial nets: 636
