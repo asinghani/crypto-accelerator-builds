@@ -1,115 +1,51 @@
-/*
- * SPDX-FileCopyrightText: 2020 Efabless Corporation
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *      http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- * SPDX-License-Identifier: Apache-2.0
- */
-
 #include "../../defs.h"
+#include "../../stub.c"
+#include "printio.h"
 
-// --------------------------------------------------------
+void main() {
+    unsigned int s = 0;
+    for(int i = 0; i < 10000; i++) s += i;
+    printstr("test\n");
+    printstr((char*)0x30000050);
+    printstr("\n");
 
-/*
- *	GPIO Test
- *		Tests PU and PD on the lower 8 pins while being driven from outside
- *		Tests Writing to the upper 8 pins
- *		Tests reading from the lower 8 pins
- */
+    // Load key as 114849718896073566083416993308083054187
+    *((volatile uint32_t*) 0x30000040) = 1449607251;
+    *((volatile uint32_t*) 0x30000040) = 1734159223;
+    *((volatile uint32_t*) 0x30000040) = 1713582630;
+    *((volatile uint32_t*) 0x30000040) = 908945003;
 
-void main()
-{
-	int i;
+    // Update key
+    *((volatile uint32_t*) 0x3000000C) = 1;
+    printstr("key\n");
+    while((*((volatile uint32_t*) 0x30000000) & 0x3) != 0x3);
 
-	/* Set data out to zero */
-	reg_mprj_datal = 0;
+    // Set IV to 94605682877008349257125771496548550738
+    *((volatile uint32_t*) 0x30000000) = 0;
+    *((volatile uint32_t*) 0x30000010) = 1194091594;
+    *((volatile uint32_t*) 0x30000010) = 577847158;
+    *((volatile uint32_t*) 0x30000010) = 1245724226;
+    *((volatile uint32_t*) 0x30000010) = 1512654930;
+    *((volatile uint32_t*) 0x30000008) = 1;
+    printstr("iv\n");
+    while((*((volatile uint32_t*) 0x30000000) & 0x4) != 0x4);
+    *((volatile uint32_t*) 0x30000000) = 8;
 
-	/* Lower 8 pins are input and upper 8 pins are output */
-	reg_mprj_io_31 = GPIO_MODE_MGMT_STD_OUTPUT;
-	reg_mprj_io_30 = GPIO_MODE_MGMT_STD_OUTPUT;
-	reg_mprj_io_29 = GPIO_MODE_MGMT_STD_OUTPUT;
-	reg_mprj_io_28 = GPIO_MODE_MGMT_STD_OUTPUT;
-	reg_mprj_io_27 = GPIO_MODE_MGMT_STD_OUTPUT;
-	reg_mprj_io_26 = GPIO_MODE_MGMT_STD_OUTPUT;
-	reg_mprj_io_25 = GPIO_MODE_MGMT_STD_OUTPUT;
-	reg_mprj_io_24 = GPIO_MODE_MGMT_STD_OUTPUT;
+    // Encrypt 54758945827980741386470298169332301409
+    *((volatile uint32_t*) 0x30000010) = 691155065;
+    *((volatile uint32_t*) 0x30000010) = 845884219;
+    *((volatile uint32_t*) 0x30000010) = 1382968177;
+    *((volatile uint32_t*) 0x30000010) = 1333362273;
+    *((volatile uint32_t*) 0x30000004) = 1;
+    printstr("enc\n");
+    while((*((volatile uint32_t*) 0x30000000) & 0x4) != 0x4);
 
-	reg_mprj_io_23 = GPIO_MODE_MGMT_STD_INPUT_NOPULL;
-	reg_mprj_io_22 = GPIO_MODE_MGMT_STD_INPUT_NOPULL;
-	reg_mprj_io_21 = GPIO_MODE_MGMT_STD_INPUT_NOPULL;
-	reg_mprj_io_20 = GPIO_MODE_MGMT_STD_INPUT_NOPULL;
-	reg_mprj_io_19 = GPIO_MODE_MGMT_STD_INPUT_NOPULL;
-	reg_mprj_io_18 = GPIO_MODE_MGMT_STD_INPUT_NOPULL;
-	reg_mprj_io_17 = GPIO_MODE_MGMT_STD_INPUT_NOPULL;
-	reg_mprj_io_16 = GPIO_MODE_MGMT_STD_INPUT_NOPULL;
+    // Read back result
+    printhex(*((volatile uint32_t*) 0x30000030), true); // should be 2f93dcae
+    printhex(*((volatile uint32_t*) 0x30000034), true); // should be dbcedead
+    printhex(*((volatile uint32_t*) 0x30000038), true); // should be 545145d7
+    printhex(*((volatile uint32_t*) 0x3000003C), true); // should be aeb28360
 
-	/* Apply configuration */
-	reg_mprj_xfer = 1;
-	while (reg_mprj_xfer == 1);
-
-	// change the pull up and pull down (checked by the TB)
-	reg_mprj_datal = 0xa0000000;
-
-	reg_mprj_io_23 = GPIO_MODE_MGMT_STD_INPUT_PULLDOWN;
-	reg_mprj_io_22 = GPIO_MODE_MGMT_STD_INPUT_PULLDOWN;
-	reg_mprj_io_21 = GPIO_MODE_MGMT_STD_INPUT_PULLDOWN;
-	reg_mprj_io_20 = GPIO_MODE_MGMT_STD_INPUT_PULLDOWN;
-
-	reg_mprj_io_19 = GPIO_MODE_MGMT_STD_INPUT_PULLUP;
-	reg_mprj_io_18 = GPIO_MODE_MGMT_STD_INPUT_PULLUP;
-	reg_mprj_io_17 = GPIO_MODE_MGMT_STD_INPUT_PULLUP;
-	reg_mprj_io_16 = GPIO_MODE_MGMT_STD_INPUT_PULLUP;
-
-	/* Apply configuration */
-	reg_mprj_xfer = 1;
-	while (reg_mprj_xfer == 1);
-
-	reg_mprj_datal = 0x0b000000;
-
-	reg_mprj_io_23 = GPIO_MODE_MGMT_STD_INPUT_PULLUP;
-	reg_mprj_io_22 = GPIO_MODE_MGMT_STD_INPUT_PULLUP;
-	reg_mprj_io_21 = GPIO_MODE_MGMT_STD_INPUT_PULLUP;
-	reg_mprj_io_20 = GPIO_MODE_MGMT_STD_INPUT_PULLUP;
-
-	reg_mprj_io_19 = GPIO_MODE_MGMT_STD_INPUT_PULLDOWN;
-	reg_mprj_io_18 = GPIO_MODE_MGMT_STD_INPUT_PULLDOWN;
-	reg_mprj_io_17 = GPIO_MODE_MGMT_STD_INPUT_PULLDOWN;
-	reg_mprj_io_16 = GPIO_MODE_MGMT_STD_INPUT_PULLDOWN;
-
-	/* Apply configuration */
-	reg_mprj_xfer = 1;
-	while (reg_mprj_xfer == 1);
-
-	reg_mprj_io_23 = GPIO_MODE_MGMT_STD_INPUT_PULLDOWN;
-	reg_mprj_io_22 = GPIO_MODE_MGMT_STD_INPUT_PULLDOWN;
-	reg_mprj_io_21 = GPIO_MODE_MGMT_STD_INPUT_PULLDOWN;
-	reg_mprj_io_20 = GPIO_MODE_MGMT_STD_INPUT_PULLDOWN;
-
-	reg_mprj_io_19 = GPIO_MODE_MGMT_STD_INPUT_PULLUP;
-	reg_mprj_io_18 = GPIO_MODE_MGMT_STD_INPUT_PULLUP;
-	reg_mprj_io_17 = GPIO_MODE_MGMT_STD_INPUT_PULLUP;
-	reg_mprj_io_16 = GPIO_MODE_MGMT_STD_INPUT_PULLUP;
-
-	/* Apply configuration */
-	reg_mprj_xfer = 1;
-	while (reg_mprj_xfer == 1);
-
-	// read the lower 8 pins, add 1 then output the result
-	// checked by the TB
-	reg_mprj_datal = 0xab000000;
-
-	while (1){
-		int x = (reg_mprj_datal & 0xff0000) >> 16;
-		reg_mprj_datal = (x+1) << 24;
-	}
+    endtest();
 }
 
