@@ -1,0 +1,1 @@
+../../crypto-accelerator-chip/openlane/accelerator_top/config.tcl
