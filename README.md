@@ -1,5 +1,5 @@
 <!---
-# SPDX-FileCopyrightText: 2020 Efabless Corporation
+# SPDX-FileCopyrightText: 2020 Anish Singhani
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -15,7 +15,22 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 -->
-# CIIC Harness  
+# Crypto Accelerator Chip
+
+**Caravel builds at [asinghani/crypto-accelerator-builds](https://github.com/asinghani/crypto-accelerator-builds)**
+
+Build configs and RTL at [asinghani/crypto-accelerator-chip](https://github.com/asinghani/crypto-accelerator-chip)
+
+Accelerator RTL is at [asinghani/crypto-accelerator](https://github.com/asinghani/crypto-accelerator)
+
+AES128 accelerator on SKY130 process node.
+
+Accelerator accessible over wishbone bus from RISC-V SoC.
+
+
+
+
+# Original Caravel documentation:
 
 A template SoC for Google SKY130 free shuttles. It is still WIP. The current SoC architecture is given below.
 
@@ -38,7 +53,7 @@ make uncompress
 Then you need to install the open_pdks prerequisite:
  - [Magic VLSI Layout Tool](http://opencircuitdesign.com/magic/index.html) is needed to run open_pdks -- version >= 8.3.60*
 
- > \* Note: You can avoid the need for the magic prerequisite by using the openlane docker to do the installation step in open_pdks. This could be done by cloning [openlane](https://github.com/efabless/openlane/tree/master) and following the instructions given there to use the Makefile.
+ > \* Note: You can avoid the need for the magic prerequisite by using the openlane docker to do the installation step in open_pdks. This could be done by cloning [openlane](https://github.com/efabless/openlane/tree/master) and running this [script](https://github.com/efabless/openlane/blob/master/travisCI/travisBuild.sh) in the openlane root directrory.
 
 Install the required version of the PDK by running the following commands:
 
@@ -51,7 +66,7 @@ Then, you can learn more about the caravel chip by watching these video:
 - Caravel User Project Features -- https://youtu.be/zJhnmilXGPo
 - Aboard Caravel -- How to put your design on Caravel? -- https://youtu.be/9QV8SDelURk
 - Things to Clarify About Caravel -- What versions to use with Caravel? -- https://youtu.be/-LZ522mxXMw
-    - You could only use openlane:rc6
+    - You could only use openlane:rc5
     - Make sure you have the commit hashes provided here inside the [Makefile](./Makefile)
 ## Aboard Caravel:
 
@@ -61,7 +76,7 @@ If you will use OpenLANE to harden your design, go through the instructions in t
 
 You must copy your synthesized gate-level-netlist for `user_project_wrapper` to `verilog/gl/` and overwrite `user_project_wrapper.v`. Otherwise, you can point to it in [info.yaml](info.yaml).
 
-> Note: If you're using openlane to harden your design, this should happen automatically.
+> Note: If you're using openlane to harden your design, you should find the synthesized gate-level-netlist here: `openlane/user_project_wrapper/runs/user_project_wrapper/results/synthesis/user_project_wrapper.synthesis.v`.
 
 Then, you will need to put your design aboard the Caravel chip. Make sure you have the following:
 
@@ -77,7 +92,7 @@ export PDK_ROOT=<The place where the installed pdk resides. The same PDK_ROOT us
 make
 ```
 
-This should merge the GDSes using magic and you'll end up with your version of `./gds/caravel.gds`. You should expect ~90 magic DRC violations with the current "development" state of caravel.
+This should merge the GDSes using magic and you'll end up with your version of `./gds/caravel.gds`. You should expect ~100 magic DRC violations with the current "development" state of caravel.
 
 ## Running Make using OpenLANE Magic
 
@@ -86,7 +101,7 @@ To use the magic installed inside Openlane to complete the final GDS streaming o
 ```bash
 export PDK_ROOT=<The location where the pdk is installed>
 export OPENLANE_ROOT=<the absolute path to the openlane directory cloned or to be cloned>
-export IMAGE_NAME=<the openlane image name installed on your machine. Preferably openlane:rc6>
+export IMAGE_NAME=<the openlane image name installed on your machine. Preferably openlane:rc5>
 export CARAVEL_PATH=$(pwd)
 ```
 
@@ -103,12 +118,7 @@ make
 exit
 ```
 
-This should merge the GDSes using magic and you'll end up with your version of `./gds/caravel.gds`. You should expect ~90 magic DRC violations with the current "development" state of caravel.
-
-
-## IMPORTANT:
-
-Please make sure to run `make compress` before commiting anything to your repository. Avoid having 2 versions of the gds/user_project_wrapper.gds or gds/caravel.gds one compressed and the other not compressed.
+This should merge the GDSes using magic and you'll end up with your version of `./gds/caravel.gds`. You should expect ~100 magic DRC violations with the current "development" state of caravel.
 
 ## Required Directory Structure
 
@@ -146,4 +156,4 @@ The firmware running on the Management Area SoC, configures the I/O pads used by
 3. Configure the User Project I/O pads as o/p. Use the Chip LA to control the clock source and reset signals and observe the counter value for five clock cylcles:  [LA_Test2](verilog/dv/caravel/user_proj_example/la_test2).
 
 [0]: openlane/README.md
-[1]: mpw-one-b.md
+[1]: mpw-one-a.md
