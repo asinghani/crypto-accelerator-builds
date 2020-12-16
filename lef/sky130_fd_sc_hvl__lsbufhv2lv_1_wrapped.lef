@@ -1,0 +1,125 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO sky130_fd_sc_hvl__lsbufhv2lv_1_wrapped
+  CLASS BLOCK ;
+  FOREIGN sky130_fd_sc_hvl__lsbufhv2lv_1_wrapped ;
+  ORIGIN 0.000 0.000 ;
+  SIZE 25.000 BY 25.000 ;
+  PIN A
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 21.220 21.000 21.500 25.000 ;
+    END
+  END A
+  PIN X
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 2.980 0.000 3.260 4.000 ;
+    END
+  END X
+  PIN VPWR
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER met4 ;
+        RECT 20.035 -0.255 21.635 24.675 ;
+    END
+  END VPWR
+  PIN VPWR
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER met4 ;
+        RECT 11.700 -0.255 13.300 24.675 ;
+    END
+  END VPWR
+  PIN VPWR
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER met4 ;
+        RECT 3.365 -0.255 4.965 24.675 ;
+    END
+  END VPWR
+  PIN VPWR
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER met5 ;
+        RECT 0.000 19.780 24.960 21.380 ;
+    END
+  END VPWR
+  PIN VPWR
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER met5 ;
+        RECT 0.000 11.445 24.960 13.045 ;
+    END
+  END VPWR
+  PIN VPWR
+    DIRECTION INOUT ;
+    USE POWER ;
+    PORT
+      LAYER met5 ;
+        RECT 0.000 3.110 24.960 4.710 ;
+    END
+  END VPWR
+  PIN VGND
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER met4 ;
+        RECT 15.865 -0.255 17.465 24.675 ;
+    END
+  END VGND
+  PIN VGND
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER met4 ;
+        RECT 7.535 -0.255 9.135 24.675 ;
+    END
+  END VGND
+  PIN VGND
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER met5 ;
+        RECT 0.000 15.610 24.960 17.210 ;
+    END
+  END VGND
+  PIN VGND
+    DIRECTION INOUT ;
+    USE GROUND ;
+    PORT
+      LAYER met5 ;
+        RECT 0.000 7.280 24.960 8.880 ;
+    END
+  END VGND
+  OBS
+      LAYER li1 ;
+        RECT 0.000 0.000 24.960 20.435 ;
+      LAYER met1 ;
+        RECT 0.000 0.000 24.960 24.675 ;
+      LAYER met2 ;
+        RECT 2.990 20.720 20.940 24.675 ;
+        RECT 21.780 20.720 21.980 24.675 ;
+        RECT 2.990 4.280 21.980 20.720 ;
+        RECT 3.540 0.000 21.980 4.280 ;
+      LAYER met3 ;
+        RECT 3.365 0.000 22.005 24.585 ;
+      LAYER met4 ;
+        RECT 9.535 0.000 11.300 24.675 ;
+        RECT 13.700 0.000 15.465 24.675 ;
+        RECT 17.865 0.000 19.635 24.675 ;
+  END
+END sky130_fd_sc_hvl__lsbufhv2lv_1_wrapped
+END LIBRARY
+
