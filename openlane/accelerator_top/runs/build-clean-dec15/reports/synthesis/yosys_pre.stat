@@ -1,0 +1,29 @@
+
+15. Printing statistics.
+
+=== accelerator_top ===
+
+   Number of wires:              13973
+   Number of wire bits:          17510
+   Number of public wires:         303
+   Number of public wire bits:    3840
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              16554
+     $_ANDNOT_                     906
+     $_AND_                        140
+     $_DFFE_PP_                   2688
+     $_DFF_P_                      130
+     $_NAND_                        43
+     $_NOR_                        594
+     $_NOT_                        804
+     $_ORNOT_                      112
+     $_OR_                         682
+     $_SDFFE_PP0P_                  47
+     $_SDFFE_PP1P_                   5
+     $_SDFF_PP0_                     5
+     $_XNOR_                      1985
+     $_XOR_                       3205
+     sky130_fd_sc_hd__mux2_1      5208
+

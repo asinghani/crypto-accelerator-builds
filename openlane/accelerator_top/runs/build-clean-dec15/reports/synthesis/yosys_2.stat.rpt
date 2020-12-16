@@ -1,0 +1,39 @@
+
+27. Printing statistics.
+
+=== accelerator_top ===
+
+   Number of wires:              22537
+   Number of wire bits:          23125
+   Number of public wires:        2861
+   Number of public wire bits:    3449
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:              22758
+     sky130_fd_sc_hd__a211o_4       25
+     sky130_fd_sc_hd__a21o_4        29
+     sky130_fd_sc_hd__a21oi_4       20
+     sky130_fd_sc_hd__a22oi_4        3
+     sky130_fd_sc_hd__a2bb2o_4    3949
+     sky130_fd_sc_hd__a32o_4       296
+     sky130_fd_sc_hd__and2_4       373
+     sky130_fd_sc_hd__and3_4         9
+     sky130_fd_sc_hd__and4_4        16
+     sky130_fd_sc_hd__buf_2       1680
+     sky130_fd_sc_hd__conb_1       204
+     sky130_fd_sc_hd__dfxtp_4     2875
+     sky130_fd_sc_hd__inv_2       3369
+     sky130_fd_sc_hd__mux2_1      5208
+     sky130_fd_sc_hd__nand2_4      228
+     sky130_fd_sc_hd__nor2_4       255
+     sky130_fd_sc_hd__o21a_4       171
+     sky130_fd_sc_hd__o21ai_4        5
+     sky130_fd_sc_hd__o22a_4      3189
+     sky130_fd_sc_hd__o32a_4         5
+     sky130_fd_sc_hd__or2_4        762
+     sky130_fd_sc_hd__or3_4         18
+     sky130_fd_sc_hd__or4_4         69
+
+   Chip area for module '\accelerator_top': 310690.476800
+
