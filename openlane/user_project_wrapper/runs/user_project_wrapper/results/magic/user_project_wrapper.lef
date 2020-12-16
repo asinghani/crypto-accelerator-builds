@@ -9,6 +9,7 @@ MACRO user_project_wrapper
   SIZE 2920.000 BY 3520.000 ;
   PIN analog_io[0]
     DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER met3 ;
         RECT 2917.600 28.980 2924.800 30.180 ;
@@ -16,6 +17,7 @@ MACRO user_project_wrapper
   END analog_io[0]
   PIN analog_io[10]
     DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER met3 ;
         RECT 2917.600 2374.980 2924.800 2376.180 ;
@@ -23,6 +25,7 @@ MACRO user_project_wrapper
   END analog_io[10]
   PIN analog_io[11]
     DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER met3 ;
         RECT 2917.600 2609.580 2924.800 2610.780 ;
@@ -30,6 +33,7 @@ MACRO user_project_wrapper
   END analog_io[11]
   PIN analog_io[12]
     DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER met3 ;
         RECT 2917.600 2844.180 2924.800 2845.380 ;
@@ -37,6 +41,7 @@ MACRO user_project_wrapper
   END analog_io[12]
   PIN analog_io[13]
     DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER met3 ;
         RECT 2917.600 3078.780 2924.800 3079.980 ;
@@ -44,6 +49,7 @@ MACRO user_project_wrapper
   END analog_io[13]
   PIN analog_io[14]
     DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER met3 ;
         RECT 2917.600 3313.380 2924.800 3314.580 ;
@@ -51,6 +57,7 @@ MACRO user_project_wrapper
   END analog_io[14]
   PIN analog_io[15]
     DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER met2 ;
         RECT 2879.090 3517.600 2879.650 3524.800 ;
@@ -58,6 +65,7 @@ MACRO user_project_wrapper
   END analog_io[15]
   PIN analog_io[16]
     DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER met2 ;
         RECT 2554.790 3517.600 2555.350 3524.800 ;
@@ -65,6 +73,7 @@ MACRO user_project_wrapper
   END analog_io[16]
   PIN analog_io[17]
     DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER met2 ;
         RECT 2230.490 3517.600 2231.050 3524.800 ;
@@ -72,6 +81,7 @@ MACRO user_project_wrapper
   END analog_io[17]
   PIN analog_io[18]
     DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER met2 ;
         RECT 1905.730 3517.600 1906.290 3524.800 ;
@@ -79,6 +89,7 @@ MACRO user_project_wrapper
   END analog_io[18]
   PIN analog_io[19]
     DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER met2 ;
         RECT 1581.430 3517.600 1581.990 3524.800 ;
@@ -86,6 +97,7 @@ MACRO user_project_wrapper
   END analog_io[19]
   PIN analog_io[1]
     DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER met3 ;
         RECT 2917.600 263.580 2924.800 264.780 ;
@@ -93,6 +105,7 @@ MACRO user_project_wrapper
   END analog_io[1]
   PIN analog_io[20]
     DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER met2 ;
         RECT 1257.130 3517.600 1257.690 3524.800 ;
@@ -100,6 +113,7 @@ MACRO user_project_wrapper
   END analog_io[20]
   PIN analog_io[21]
     DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER met2 ;
         RECT 932.370 3517.600 932.930 3524.800 ;
@@ -107,6 +121,7 @@ MACRO user_project_wrapper
   END analog_io[21]
   PIN analog_io[22]
     DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER met2 ;
         RECT 608.070 3517.600 608.630 3524.800 ;
@@ -114,6 +129,7 @@ MACRO user_project_wrapper
   END analog_io[22]
   PIN analog_io[23]
     DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER met2 ;
         RECT 283.770 3517.600 284.330 3524.800 ;
@@ -121,6 +137,7 @@ MACRO user_project_wrapper
   END analog_io[23]
   PIN analog_io[24]
     DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER met3 ;
         RECT -4.800 3482.700 2.400 3483.900 ;
@@ -128,6 +145,7 @@ MACRO user_project_wrapper
   END analog_io[24]
   PIN analog_io[25]
     DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER met3 ;
         RECT -4.800 3195.060 2.400 3196.260 ;
@@ -135,6 +153,7 @@ MACRO user_project_wrapper
   END analog_io[25]
   PIN analog_io[26]
     DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER met3 ;
         RECT -4.800 2908.100 2.400 2909.300 ;
@@ -142,6 +161,7 @@ MACRO user_project_wrapper
   END analog_io[26]
   PIN analog_io[27]
     DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER met3 ;
         RECT -4.800 2620.460 2.400 2621.660 ;
@@ -149,6 +169,7 @@ MACRO user_project_wrapper
   END analog_io[27]
   PIN analog_io[28]
     DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER met3 ;
         RECT -4.800 2333.500 2.400 2334.700 ;
@@ -156,6 +177,7 @@ MACRO user_project_wrapper
   END analog_io[28]
   PIN analog_io[29]
     DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER met3 ;
         RECT -4.800 2045.860 2.400 2047.060 ;
@@ -163,6 +185,7 @@ MACRO user_project_wrapper
   END analog_io[29]
   PIN analog_io[2]
     DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER met3 ;
         RECT 2917.600 498.180 2924.800 499.380 ;
@@ -170,6 +193,7 @@ MACRO user_project_wrapper
   END analog_io[2]
   PIN analog_io[30]
     DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER met3 ;
         RECT -4.800 1758.900 2.400 1760.100 ;
@@ -177,6 +201,7 @@ MACRO user_project_wrapper
   END analog_io[30]
   PIN analog_io[3]
     DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER met3 ;
         RECT 2917.600 732.780 2924.800 733.980 ;
@@ -184,6 +209,7 @@ MACRO user_project_wrapper
   END analog_io[3]
   PIN analog_io[4]
     DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER met3 ;
         RECT 2917.600 967.380 2924.800 968.580 ;
@@ -191,6 +217,7 @@ MACRO user_project_wrapper
   END analog_io[4]
   PIN analog_io[5]
     DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER met3 ;
         RECT 2917.600 1201.980 2924.800 1203.180 ;
@@ -198,6 +225,7 @@ MACRO user_project_wrapper
   END analog_io[5]
   PIN analog_io[6]
     DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER met3 ;
         RECT 2917.600 1436.580 2924.800 1437.780 ;
@@ -205,6 +233,7 @@ MACRO user_project_wrapper
   END analog_io[6]
   PIN analog_io[7]
     DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER met3 ;
         RECT 2917.600 1671.180 2924.800 1672.380 ;
@@ -212,6 +241,7 @@ MACRO user_project_wrapper
   END analog_io[7]
   PIN analog_io[8]
     DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER met3 ;
         RECT 2917.600 1905.780 2924.800 1906.980 ;
@@ -219,6 +249,7 @@ MACRO user_project_wrapper
   END analog_io[8]
   PIN analog_io[9]
     DIRECTION INOUT ;
+    USE SIGNAL ;
     PORT
       LAYER met3 ;
         RECT 2917.600 2140.380 2924.800 2141.580 ;
@@ -226,6 +257,7 @@ MACRO user_project_wrapper
   END analog_io[9]
   PIN io_in[0]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1959.670 883.560 1959.990 883.620 ;
@@ -271,6 +303,7 @@ MACRO user_project_wrapper
   END io_in[0]
   PIN io_in[10]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 2004.290 2429.200 2004.610 2429.260 ;
@@ -316,6 +349,7 @@ MACRO user_project_wrapper
   END io_in[10]
   PIN io_in[11]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1959.670 1759.400 1959.990 1759.460 ;
@@ -351,6 +385,7 @@ MACRO user_project_wrapper
   END io_in[11]
   PIN io_in[12]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1959.670 1835.220 1959.990 1835.280 ;
@@ -385,6 +420,7 @@ MACRO user_project_wrapper
   END io_in[12]
   PIN io_in[13]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1959.670 1918.180 1959.990 1918.240 ;
@@ -420,6 +456,7 @@ MACRO user_project_wrapper
   END io_in[13]
   PIN io_in[14]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 2899.450 2063.020 2899.770 2063.080 ;
@@ -467,6 +504,7 @@ MACRO user_project_wrapper
   END io_in[14]
   PIN io_in[15]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1931.610 3501.560 1931.930 3501.620 ;
@@ -499,6 +537,7 @@ MACRO user_project_wrapper
   END io_in[15]
   PIN io_in[16]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1800.510 3502.580 1800.830 3502.640 ;
@@ -531,6 +570,7 @@ MACRO user_project_wrapper
   END io_in[16]
   PIN io_in[17]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1669.410 3503.600 1669.730 3503.660 ;
@@ -554,6 +594,7 @@ MACRO user_project_wrapper
   END io_in[17]
   PIN io_in[18]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1538.310 3501.560 1538.630 3501.620 ;
@@ -577,6 +618,7 @@ MACRO user_project_wrapper
   END io_in[18]
   PIN io_in[19]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1407.210 3501.560 1407.530 3501.620 ;
@@ -600,6 +642,7 @@ MACRO user_project_wrapper
   END io_in[19]
   PIN io_in[1]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1969.790 324.260 1970.110 324.320 ;
@@ -635,6 +678,7 @@ MACRO user_project_wrapper
   END io_in[1]
   PIN io_in[20]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1175.830 3498.500 1176.150 3498.560 ;
@@ -667,6 +711,7 @@ MACRO user_project_wrapper
   END io_in[20]
   PIN io_in[21]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 851.530 3501.220 851.850 3501.280 ;
@@ -699,6 +744,7 @@ MACRO user_project_wrapper
   END io_in[21]
   PIN io_in[22]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 527.230 3498.500 527.550 3498.560 ;
@@ -732,6 +778,7 @@ MACRO user_project_wrapper
   END io_in[22]
   PIN io_in[23]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 202.470 3501.900 202.790 3501.960 ;
@@ -764,6 +811,7 @@ MACRO user_project_wrapper
   END io_in[23]
   PIN io_in[24]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 16.630 3408.740 16.950 3408.800 ;
@@ -809,6 +857,7 @@ MACRO user_project_wrapper
   END io_in[24]
   PIN io_in[25]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 15.250 3119.060 15.570 3119.120 ;
@@ -854,6 +903,7 @@ MACRO user_project_wrapper
   END io_in[25]
   PIN io_in[26]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 20.310 2836.180 20.630 2836.240 ;
@@ -899,6 +949,7 @@ MACRO user_project_wrapper
   END io_in[26]
   PIN io_in[27]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 16.630 2548.880 16.950 2548.940 ;
@@ -944,6 +995,7 @@ MACRO user_project_wrapper
   END io_in[27]
   PIN io_in[28]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 16.630 2257.160 16.950 2257.220 ;
@@ -989,6 +1041,7 @@ MACRO user_project_wrapper
   END io_in[28]
   PIN io_in[29]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 17.090 1566.280 17.410 1566.340 ;
@@ -1024,6 +1077,7 @@ MACRO user_project_wrapper
   END io_in[29]
   PIN io_in[2]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1959.670 1042.000 1959.990 1042.060 ;
@@ -1069,6 +1123,7 @@ MACRO user_project_wrapper
   END io_in[2]
   PIN io_in[30]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 18.470 1483.320 18.790 1483.380 ;
@@ -1104,6 +1159,7 @@ MACRO user_project_wrapper
   END io_in[30]
   PIN io_in[31]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 17.550 1400.700 17.870 1400.760 ;
@@ -1139,6 +1195,7 @@ MACRO user_project_wrapper
   END io_in[31]
   PIN io_in[32]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 17.090 1311.280 17.410 1311.340 ;
@@ -1173,6 +1230,7 @@ MACRO user_project_wrapper
   END io_in[32]
   PIN io_in[33]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 15.710 1041.660 16.030 1041.720 ;
@@ -1208,6 +1266,7 @@ MACRO user_project_wrapper
   END io_in[33]
   PIN io_in[34]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 16.170 827.800 16.490 827.860 ;
@@ -1243,6 +1302,7 @@ MACRO user_project_wrapper
   END io_in[34]
   PIN io_in[35]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 16.630 613.940 16.950 614.000 ;
@@ -1278,6 +1338,7 @@ MACRO user_project_wrapper
   END io_in[35]
   PIN io_in[36]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 15.250 400.080 15.570 400.140 ;
@@ -1313,6 +1374,7 @@ MACRO user_project_wrapper
   END io_in[36]
   PIN io_in[37]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 17.550 179.420 17.870 179.480 ;
@@ -1347,6 +1409,7 @@ MACRO user_project_wrapper
   END io_in[37]
   PIN io_in[3]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1965.650 793.460 1965.970 793.520 ;
@@ -1382,6 +1445,7 @@ MACRO user_project_wrapper
   END io_in[3]
   PIN io_in[4]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1962.890 1028.060 1963.210 1028.120 ;
@@ -1417,6 +1481,7 @@ MACRO user_project_wrapper
   END io_in[4]
   PIN io_in[5]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1959.670 1262.660 1959.990 1262.720 ;
@@ -1452,6 +1517,7 @@ MACRO user_project_wrapper
   END io_in[5]
   PIN io_in[6]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1959.670 1366.020 1959.990 1366.080 ;
@@ -1487,6 +1553,7 @@ MACRO user_project_wrapper
   END io_in[6]
   PIN io_in[7]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1959.670 1441.840 1959.990 1441.900 ;
@@ -1522,6 +1589,7 @@ MACRO user_project_wrapper
   END io_in[7]
   PIN io_in[8]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1959.670 1524.800 1959.990 1524.860 ;
@@ -1557,6 +1625,7 @@ MACRO user_project_wrapper
   END io_in[8]
   PIN io_in[9]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 2899.450 1613.880 2899.770 1613.940 ;
@@ -1602,6 +1671,7 @@ MACRO user_project_wrapper
   END io_in[9]
   PIN io_oeb[0]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1963.350 206.960 1963.670 207.020 ;
@@ -1637,6 +1707,7 @@ MACRO user_project_wrapper
   END io_oeb[0]
   PIN io_oeb[10]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1959.670 1731.860 1959.990 1731.920 ;
@@ -1672,6 +1743,7 @@ MACRO user_project_wrapper
   END io_oeb[10]
   PIN io_oeb[11]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1959.670 1814.480 1959.990 1814.540 ;
@@ -1707,6 +1779,7 @@ MACRO user_project_wrapper
   END io_oeb[11]
   PIN io_oeb[12]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1959.670 1890.640 1959.990 1890.700 ;
@@ -1742,6 +1815,7 @@ MACRO user_project_wrapper
   END io_oeb[12]
   PIN io_oeb[13]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1959.670 1973.260 1959.990 1973.320 ;
@@ -1777,6 +1851,7 @@ MACRO user_project_wrapper
   END io_oeb[13]
   PIN io_oeb[14]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1969.790 3484.900 1970.110 3484.960 ;
@@ -1822,6 +1897,7 @@ MACRO user_project_wrapper
   END io_oeb[14]
   PIN io_oeb[15]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1841.910 3502.240 1842.230 3502.300 ;
@@ -1845,6 +1921,7 @@ MACRO user_project_wrapper
   END io_oeb[15]
   PIN io_oeb[16]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1710.810 3503.260 1711.130 3503.320 ;
@@ -1868,6 +1945,7 @@ MACRO user_project_wrapper
   END io_oeb[16]
   PIN io_oeb[17]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1579.710 3504.280 1580.030 3504.340 ;
@@ -1891,6 +1969,7 @@ MACRO user_project_wrapper
   END io_oeb[17]
   PIN io_oeb[18]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1448.610 3502.240 1448.930 3502.300 ;
@@ -1913,6 +1992,7 @@ MACRO user_project_wrapper
   END io_oeb[18]
   PIN io_oeb[19]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1324.410 3498.500 1324.730 3498.560 ;
@@ -1945,6 +2025,7 @@ MACRO user_project_wrapper
   END io_oeb[19]
   PIN io_oeb[1]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1964.270 441.560 1964.590 441.620 ;
@@ -1980,6 +2061,7 @@ MACRO user_project_wrapper
   END io_oeb[1]
   PIN io_oeb[20]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1013.910 2073.900 1014.230 2073.960 ;
@@ -2002,6 +2084,7 @@ MACRO user_project_wrapper
   END io_oeb[20]
   PIN io_oeb[21]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 689.225 3429.325 689.395 3477.435 ;
@@ -2340,6 +2423,7 @@ MACRO user_project_wrapper
   END io_oeb[21]
   PIN io_oeb[22]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 362.625 3422.865 362.795 3470.635 ;
@@ -2710,6 +2794,7 @@ MACRO user_project_wrapper
   END io_oeb[22]
   PIN io_oeb[23]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 40.625 3429.325 40.795 3477.435 ;
@@ -3022,6 +3107,7 @@ MACRO user_project_wrapper
   END io_oeb[23]
   PIN io_oeb[24]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 17.550 2049.080 17.870 2049.140 ;
@@ -3057,6 +3143,7 @@ MACRO user_project_wrapper
   END io_oeb[24]
   PIN io_oeb[25]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 18.470 1966.460 18.790 1966.520 ;
@@ -3092,6 +3179,7 @@ MACRO user_project_wrapper
   END io_oeb[25]
   PIN io_oeb[26]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 19.390 1876.700 19.710 1876.760 ;
@@ -3127,6 +3215,7 @@ MACRO user_project_wrapper
   END io_oeb[26]
   PIN io_oeb[27]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 20.310 1793.740 20.630 1793.800 ;
@@ -3162,6 +3251,7 @@ MACRO user_project_wrapper
   END io_oeb[27]
   PIN io_oeb[28]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 16.630 1711.120 16.950 1711.180 ;
@@ -3197,6 +3287,7 @@ MACRO user_project_wrapper
   END io_oeb[28]
   PIN io_oeb[29]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 18.010 1621.360 18.330 1621.420 ;
@@ -3231,6 +3322,7 @@ MACRO user_project_wrapper
   END io_oeb[29]
   PIN io_oeb[2]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1965.190 676.160 1965.510 676.220 ;
@@ -3266,6 +3358,7 @@ MACRO user_project_wrapper
   END io_oeb[2]
   PIN io_oeb[30]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 15.250 1538.740 15.570 1538.800 ;
@@ -3301,6 +3394,7 @@ MACRO user_project_wrapper
   END io_oeb[30]
   PIN io_oeb[31]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 17.090 1449.320 17.410 1449.380 ;
@@ -3336,6 +3430,7 @@ MACRO user_project_wrapper
   END io_oeb[31]
   PIN io_oeb[32]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 17.550 1117.820 17.870 1117.880 ;
@@ -3371,6 +3466,7 @@ MACRO user_project_wrapper
   END io_oeb[32]
   PIN io_oeb[33]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 15.250 903.960 15.570 904.020 ;
@@ -3406,6 +3502,7 @@ MACRO user_project_wrapper
   END io_oeb[33]
   PIN io_oeb[34]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 16.630 682.960 16.950 683.020 ;
@@ -3441,6 +3538,7 @@ MACRO user_project_wrapper
   END io_oeb[34]
   PIN io_oeb[35]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 18.010 469.100 18.330 469.160 ;
@@ -3476,6 +3574,7 @@ MACRO user_project_wrapper
   END io_oeb[35]
   PIN io_oeb[36]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 15.250 255.240 15.570 255.300 ;
@@ -3511,6 +3610,7 @@ MACRO user_project_wrapper
   END io_oeb[36]
   PIN io_oeb[37]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 17.090 41.380 17.410 41.440 ;
@@ -3548,6 +3648,7 @@ MACRO user_project_wrapper
   END io_oeb[37]
   PIN io_oeb[3]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1962.430 910.760 1962.750 910.820 ;
@@ -3583,6 +3684,7 @@ MACRO user_project_wrapper
   END io_oeb[3]
   PIN io_oeb[4]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1963.810 1145.360 1964.130 1145.420 ;
@@ -3618,6 +3720,7 @@ MACRO user_project_wrapper
   END io_oeb[4]
   PIN io_oeb[5]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1962.890 1373.500 1963.210 1373.560 ;
@@ -3653,6 +3756,7 @@ MACRO user_project_wrapper
   END io_oeb[5]
   PIN io_oeb[6]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1963.810 1608.100 1964.130 1608.160 ;
@@ -3688,6 +3792,7 @@ MACRO user_project_wrapper
   END io_oeb[6]
   PIN io_oeb[7]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1962.890 1842.700 1963.210 1842.760 ;
@@ -3723,6 +3828,7 @@ MACRO user_project_wrapper
   END io_oeb[7]
   PIN io_oeb[8]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1964.270 2077.300 1964.590 2077.360 ;
@@ -3758,6 +3864,7 @@ MACRO user_project_wrapper
   END io_oeb[8]
   PIN io_oeb[9]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1976.690 2311.900 1977.010 2311.960 ;
@@ -3803,6 +3910,7 @@ MACRO user_project_wrapper
   END io_oeb[9]
   PIN io_out[0]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1962.890 151.540 1963.210 151.600 ;
@@ -3838,6 +3946,7 @@ MACRO user_project_wrapper
   END io_out[0]
   PIN io_out[10]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1963.810 2491.080 1964.130 2491.140 ;
@@ -3873,6 +3982,7 @@ MACRO user_project_wrapper
   END io_out[10]
   PIN io_out[11]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1983.590 2725.680 1983.910 2725.740 ;
@@ -3918,6 +4028,7 @@ MACRO user_project_wrapper
   END io_out[11]
   PIN io_out[12]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1963.350 2960.280 1963.670 2960.340 ;
@@ -3953,6 +4064,7 @@ MACRO user_project_wrapper
   END io_out[12]
   PIN io_out[13]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1990.490 3194.880 1990.810 3194.940 ;
@@ -3998,6 +4110,7 @@ MACRO user_project_wrapper
   END io_out[13]
   PIN io_out[14]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1962.890 3429.480 1963.210 3429.540 ;
@@ -4033,6 +4146,7 @@ MACRO user_project_wrapper
   END io_out[14]
   PIN io_out[15]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1883.310 3501.900 1883.630 3501.960 ;
@@ -4055,6 +4169,7 @@ MACRO user_project_wrapper
   END io_out[15]
   PIN io_out[16]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1759.110 3502.920 1759.430 3502.980 ;
@@ -4087,6 +4202,7 @@ MACRO user_project_wrapper
   END io_out[16]
   PIN io_out[17]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1628.010 3503.940 1628.330 3504.000 ;
@@ -4119,6 +4235,7 @@ MACRO user_project_wrapper
   END io_out[17]
   PIN io_out[18]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1496.910 3501.900 1497.230 3501.960 ;
@@ -4151,6 +4268,7 @@ MACRO user_project_wrapper
   END io_out[18]
   PIN io_out[19]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1365.810 3501.900 1366.130 3501.960 ;
@@ -4183,6 +4301,7 @@ MACRO user_project_wrapper
   END io_out[19]
   PIN io_out[1]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1963.810 386.140 1964.130 386.200 ;
@@ -4218,6 +4337,7 @@ MACRO user_project_wrapper
   END io_out[1]
   PIN io_out[20]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1095.405 3429.325 1095.575 3477.435 ;
@@ -4586,6 +4706,7 @@ MACRO user_project_wrapper
   END io_out[20]
   PIN io_out[21]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 771.565 3381.045 771.735 3429.155 ;
@@ -4865,6 +4986,7 @@ MACRO user_project_wrapper
   END io_out[21]
   PIN io_out[22]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 445.810 3498.500 446.130 3498.560 ;
@@ -4897,6 +5019,7 @@ MACRO user_project_wrapper
   END io_out[22]
   PIN io_out[23]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 121.510 3498.500 121.830 3498.560 ;
@@ -4929,6 +5052,7 @@ MACRO user_project_wrapper
   END io_out[23]
   PIN io_out[24]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 17.090 2021.540 17.410 2021.600 ;
@@ -4964,6 +5088,7 @@ MACRO user_project_wrapper
   END io_out[24]
   PIN io_out[25]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 18.010 1931.780 18.330 1931.840 ;
@@ -4998,6 +5123,7 @@ MACRO user_project_wrapper
   END io_out[25]
   PIN io_out[26]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 18.930 1849.160 19.250 1849.220 ;
@@ -5033,6 +5159,7 @@ MACRO user_project_wrapper
   END io_out[26]
   PIN io_out[27]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 19.850 1766.200 20.170 1766.260 ;
@@ -5068,6 +5195,7 @@ MACRO user_project_wrapper
   END io_out[27]
   PIN io_out[28]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 16.630 2188.480 16.950 2188.540 ;
@@ -5113,6 +5241,7 @@ MACRO user_project_wrapper
   END io_out[28]
   PIN io_out[29]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 17.550 1593.820 17.870 1593.880 ;
@@ -5147,6 +5276,7 @@ MACRO user_project_wrapper
   END io_out[29]
   PIN io_out[2]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1964.730 620.740 1965.050 620.800 ;
@@ -5182,6 +5312,7 @@ MACRO user_project_wrapper
   END io_out[2]
   PIN io_out[30]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 18.930 1510.860 19.250 1510.920 ;
@@ -5217,6 +5348,7 @@ MACRO user_project_wrapper
   END io_out[30]
   PIN io_out[31]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 14.790 1421.780 15.110 1421.840 ;
@@ -5252,6 +5384,7 @@ MACRO user_project_wrapper
   END io_out[31]
   PIN io_out[32]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 17.550 1338.820 17.870 1338.880 ;
@@ -5287,6 +5420,7 @@ MACRO user_project_wrapper
   END io_out[32]
   PIN io_out[33]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 17.090 1249.060 17.410 1249.120 ;
@@ -5322,6 +5456,7 @@ MACRO user_project_wrapper
   END io_out[33]
   PIN io_out[34]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 18.470 1166.440 18.790 1166.500 ;
@@ -5357,6 +5492,7 @@ MACRO user_project_wrapper
   END io_out[34]
   PIN io_out[35]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 18.010 1083.480 18.330 1083.540 ;
@@ -5392,6 +5528,7 @@ MACRO user_project_wrapper
   END io_out[35]
   PIN io_out[36]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 17.550 1000.860 17.870 1000.920 ;
@@ -5427,6 +5564,7 @@ MACRO user_project_wrapper
   END io_out[36]
   PIN io_out[37]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 17.090 911.100 17.410 911.160 ;
@@ -5462,6 +5600,7 @@ MACRO user_project_wrapper
   END io_out[37]
   PIN io_out[3]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1966.110 855.340 1966.430 855.400 ;
@@ -5497,6 +5636,7 @@ MACRO user_project_wrapper
   END io_out[3]
   PIN io_out[4]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1963.350 1089.940 1963.670 1090.000 ;
@@ -5532,6 +5672,7 @@ MACRO user_project_wrapper
   END io_out[4]
   PIN io_out[5]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1959.670 1318.080 1959.990 1318.140 ;
@@ -5567,6 +5708,7 @@ MACRO user_project_wrapper
   END io_out[5]
   PIN io_out[6]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1964.270 1552.680 1964.590 1552.740 ;
@@ -5602,6 +5744,7 @@ MACRO user_project_wrapper
   END io_out[6]
   PIN io_out[7]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1963.350 1787.280 1963.670 1787.340 ;
@@ -5637,6 +5780,7 @@ MACRO user_project_wrapper
   END io_out[7]
   PIN io_out[8]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1969.790 2021.880 1970.110 2021.940 ;
@@ -5682,6 +5826,7 @@ MACRO user_project_wrapper
   END io_out[8]
   PIN io_out[9]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1997.390 2256.480 1997.710 2256.540 ;
@@ -5727,6 +5872,7 @@ MACRO user_project_wrapper
   END io_out[9]
   PIN la_data_in[0]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 634.410 859.420 634.730 859.480 ;
@@ -5751,6 +5897,7 @@ MACRO user_project_wrapper
   END la_data_in[0]
   PIN la_data_in[100]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1748.070 859.080 1748.390 859.140 ;
@@ -5775,6 +5922,7 @@ MACRO user_project_wrapper
   END la_data_in[100]
   PIN la_data_in[101]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1753.130 845.140 1753.450 845.200 ;
@@ -5810,6 +5958,7 @@ MACRO user_project_wrapper
   END la_data_in[101]
   PIN la_data_in[102]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1760.030 838.340 1760.350 838.400 ;
@@ -5837,6 +5986,7 @@ MACRO user_project_wrapper
   END la_data_in[102]
   PIN la_data_in[103]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1766.930 831.540 1767.250 831.600 ;
@@ -5864,6 +6014,7 @@ MACRO user_project_wrapper
   END la_data_in[103]
   PIN la_data_in[104]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1773.830 863.840 1774.150 863.900 ;
@@ -5898,6 +6049,7 @@ MACRO user_project_wrapper
   END la_data_in[104]
   PIN la_data_in[105]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1785.790 817.600 1786.110 817.660 ;
@@ -5923,6 +6075,7 @@ MACRO user_project_wrapper
   END la_data_in[105]
   PIN la_data_in[106]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1792.690 810.800 1793.010 810.860 ;
@@ -5948,6 +6101,7 @@ MACRO user_project_wrapper
   END la_data_in[106]
   PIN la_data_in[107]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1800.050 803.660 1800.370 803.720 ;
@@ -5973,6 +6127,7 @@ MACRO user_project_wrapper
   END la_data_in[107]
   PIN la_data_in[108]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1806.490 796.860 1806.810 796.920 ;
@@ -5996,6 +6151,7 @@ MACRO user_project_wrapper
   END la_data_in[108]
   PIN la_data_in[109]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1814.310 21.320 1814.630 21.380 ;
@@ -6019,6 +6175,7 @@ MACRO user_project_wrapper
   END la_data_in[109]
   PIN la_data_in[10]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1098.165 669.885 1098.335 717.655 ;
@@ -6184,6 +6341,7 @@ MACRO user_project_wrapper
   END la_data_in[10]
   PIN la_data_in[110]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1821.210 21.660 1821.530 21.720 ;
@@ -6207,6 +6365,7 @@ MACRO user_project_wrapper
   END la_data_in[110]
   PIN la_data_in[111]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1828.110 22.000 1828.430 22.060 ;
@@ -6230,6 +6389,7 @@ MACRO user_project_wrapper
   END la_data_in[111]
   PIN la_data_in[112]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1835.010 22.340 1835.330 22.400 ;
@@ -6253,6 +6413,7 @@ MACRO user_project_wrapper
   END la_data_in[112]
   PIN la_data_in[113]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1841.910 22.680 1842.230 22.740 ;
@@ -6276,6 +6437,7 @@ MACRO user_project_wrapper
   END la_data_in[113]
   PIN la_data_in[114]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1848.810 23.020 1849.130 23.080 ;
@@ -6298,6 +6460,7 @@ MACRO user_project_wrapper
   END la_data_in[114]
   PIN la_data_in[115]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1855.710 23.700 1856.030 23.760 ;
@@ -6320,6 +6483,7 @@ MACRO user_project_wrapper
   END la_data_in[115]
   PIN la_data_in[116]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1863.070 864.180 1863.390 864.240 ;
@@ -6352,6 +6516,7 @@ MACRO user_project_wrapper
   END la_data_in[116]
   PIN la_data_in[117]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1870.430 864.520 1870.750 864.580 ;
@@ -6384,6 +6549,7 @@ MACRO user_project_wrapper
   END la_data_in[117]
   PIN la_data_in[118]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1877.330 864.520 1877.650 864.580 ;
@@ -6416,6 +6582,7 @@ MACRO user_project_wrapper
   END la_data_in[118]
   PIN la_data_in[119]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1884.690 864.520 1885.010 864.580 ;
@@ -6448,6 +6615,7 @@ MACRO user_project_wrapper
   END la_data_in[119]
   PIN la_data_in[11]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1105.065 186.405 1105.235 234.515 ;
@@ -6593,6 +6761,7 @@ MACRO user_project_wrapper
   END la_data_in[11]
   PIN la_data_in[120]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1892.050 864.520 1892.370 864.580 ;
@@ -6625,6 +6794,7 @@ MACRO user_project_wrapper
   END la_data_in[120]
   PIN la_data_in[121]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1898.950 862.820 1899.270 862.880 ;
@@ -6657,6 +6827,7 @@ MACRO user_project_wrapper
   END la_data_in[121]
   PIN la_data_in[122]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1906.310 862.820 1906.630 862.880 ;
@@ -6689,6 +6860,7 @@ MACRO user_project_wrapper
   END la_data_in[122]
   PIN la_data_in[123]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1913.210 862.820 1913.530 862.880 ;
@@ -6721,6 +6893,7 @@ MACRO user_project_wrapper
   END la_data_in[123]
   PIN la_data_in[124]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1920.570 862.820 1920.890 862.880 ;
@@ -6753,6 +6926,7 @@ MACRO user_project_wrapper
   END la_data_in[124]
   PIN la_data_in[125]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1927.930 862.820 1928.250 862.880 ;
@@ -6785,6 +6959,7 @@ MACRO user_project_wrapper
   END la_data_in[125]
   PIN la_data_in[126]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1934.830 862.820 1935.150 862.880 ;
@@ -6817,6 +6992,7 @@ MACRO user_project_wrapper
   END la_data_in[126]
   PIN la_data_in[127]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1942.190 862.820 1942.510 862.880 ;
@@ -6849,6 +7025,7 @@ MACRO user_project_wrapper
   END la_data_in[127]
   PIN la_data_in[12]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1111.965 620.925 1112.135 669.375 ;
@@ -6988,6 +7165,7 @@ MACRO user_project_wrapper
   END la_data_in[12]
   PIN la_data_in[13]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1119.325 814.385 1119.495 862.495 ;
@@ -7142,6 +7320,7 @@ MACRO user_project_wrapper
   END la_data_in[13]
   PIN la_data_in[14]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1126.685 758.965 1126.855 807.075 ;
@@ -7275,6 +7454,7 @@ MACRO user_project_wrapper
   END la_data_in[14]
   PIN la_data_in[15]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1133.125 99.705 1133.295 144.755 ;
@@ -7387,6 +7567,7 @@ MACRO user_project_wrapper
   END la_data_in[15]
   PIN la_data_in[16]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1139.030 855.340 1139.350 855.400 ;
@@ -7430,6 +7611,7 @@ MACRO user_project_wrapper
   END la_data_in[16]
   PIN la_data_in[17]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1145.930 855.340 1146.250 855.400 ;
@@ -7473,6 +7655,7 @@ MACRO user_project_wrapper
   END la_data_in[17]
   PIN la_data_in[18]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1152.830 855.000 1153.150 855.060 ;
@@ -7506,6 +7689,7 @@ MACRO user_project_wrapper
   END la_data_in[18]
   PIN la_data_in[19]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 972.510 26.760 972.830 26.820 ;
@@ -7531,6 +7715,7 @@ MACRO user_project_wrapper
   END la_data_in[19]
   PIN la_data_in[1]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 655.110 852.280 655.430 852.340 ;
@@ -7564,6 +7749,7 @@ MACRO user_project_wrapper
   END la_data_in[1]
   PIN la_data_in[20]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 989.990 27.440 990.310 27.500 ;
@@ -7586,6 +7772,7 @@ MACRO user_project_wrapper
   END la_data_in[20]
   PIN la_data_in[21]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1007.470 37.980 1007.790 38.040 ;
@@ -7608,6 +7795,7 @@ MACRO user_project_wrapper
   END la_data_in[21]
   PIN la_data_in[22]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1030.545 6.205 1030.715 17.935 ;
@@ -7653,6 +7841,7 @@ MACRO user_project_wrapper
   END la_data_in[22]
   PIN la_data_in[23]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1100.465 18.445 1100.635 19.975 ;
@@ -7687,6 +7876,7 @@ MACRO user_project_wrapper
   END la_data_in[23]
   PIN la_data_in[24]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1124.385 17.085 1124.555 18.955 ;
@@ -7721,6 +7911,7 @@ MACRO user_project_wrapper
   END la_data_in[24]
   PIN la_data_in[25]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1108.745 865.045 1108.915 868.955 ;
@@ -7762,6 +7953,7 @@ MACRO user_project_wrapper
   END la_data_in[25]
   PIN la_data_in[26]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1216.310 869.280 1216.630 869.340 ;
@@ -7786,6 +7978,7 @@ MACRO user_project_wrapper
   END la_data_in[26]
   PIN la_data_in[27]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1149.225 863.685 1149.395 866.575 ;
@@ -7836,6 +8029,7 @@ MACRO user_project_wrapper
   END la_data_in[27]
   PIN la_data_in[28]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1138.110 864.860 1138.430 864.920 ;
@@ -7868,6 +8062,7 @@ MACRO user_project_wrapper
   END la_data_in[28]
   PIN la_data_in[29]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1197.065 863.345 1197.235 864.535 ;
@@ -7909,6 +8104,7 @@ MACRO user_project_wrapper
   END la_data_in[29]
   PIN la_data_in[2]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 668.910 831.880 669.230 831.940 ;
@@ -7932,6 +8128,7 @@ MACRO user_project_wrapper
   END la_data_in[2]
   PIN la_data_in[30]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1196.605 864.365 1196.775 865.895 ;
@@ -7973,6 +8170,7 @@ MACRO user_project_wrapper
   END la_data_in[30]
   PIN la_data_in[31]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1186.485 282.965 1186.655 331.075 ;
@@ -8054,6 +8252,7 @@ MACRO user_project_wrapper
   END la_data_in[31]
   PIN la_data_in[32]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1207.110 867.580 1207.430 867.640 ;
@@ -8086,6 +8285,7 @@ MACRO user_project_wrapper
   END la_data_in[32]
   PIN la_data_in[33]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1227.810 868.600 1228.130 868.660 ;
@@ -8118,6 +8318,7 @@ MACRO user_project_wrapper
   END la_data_in[33]
   PIN la_data_in[34]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1241.610 867.240 1241.930 867.300 ;
@@ -8142,6 +8343,7 @@ MACRO user_project_wrapper
   END la_data_in[34]
   PIN la_data_in[35]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1272.890 862.820 1273.210 862.880 ;
@@ -8174,6 +8376,7 @@ MACRO user_project_wrapper
   END la_data_in[35]
   PIN la_data_in[36]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1275.265 2.805 1275.435 14.195 ;
@@ -8213,6 +8416,7 @@ MACRO user_project_wrapper
   END la_data_in[36]
   PIN la_data_in[37]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1290.830 20.640 1291.150 20.700 ;
@@ -8238,6 +8442,7 @@ MACRO user_project_wrapper
   END la_data_in[37]
   PIN la_data_in[38]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1303.710 20.300 1304.030 20.360 ;
@@ -8261,6 +8466,7 @@ MACRO user_project_wrapper
   END la_data_in[38]
   PIN la_data_in[39]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1309.690 865.540 1310.010 865.600 ;
@@ -8293,6 +8499,7 @@ MACRO user_project_wrapper
   END la_data_in[39]
   PIN la_data_in[3]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 689.610 845.480 689.930 845.540 ;
@@ -8325,6 +8532,7 @@ MACRO user_project_wrapper
   END la_data_in[3]
   PIN la_data_in[40]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1317.510 14.860 1317.830 14.920 ;
@@ -8348,6 +8556,7 @@ MACRO user_project_wrapper
   END la_data_in[40]
   PIN la_data_in[41]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1324.410 18.600 1324.730 18.660 ;
@@ -8370,6 +8579,7 @@ MACRO user_project_wrapper
   END la_data_in[41]
   PIN la_data_in[42]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1331.310 17.920 1331.630 17.980 ;
@@ -8392,6 +8602,7 @@ MACRO user_project_wrapper
   END la_data_in[42]
   PIN la_data_in[43]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1338.670 865.540 1338.990 865.600 ;
@@ -8426,6 +8637,7 @@ MACRO user_project_wrapper
   END la_data_in[43]
   PIN la_data_in[44]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1346.030 863.840 1346.350 863.900 ;
@@ -8458,6 +8670,7 @@ MACRO user_project_wrapper
   END la_data_in[44]
   PIN la_data_in[45]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1352.930 864.860 1353.250 864.920 ;
@@ -8490,6 +8703,7 @@ MACRO user_project_wrapper
   END la_data_in[45]
   PIN la_data_in[46]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1360.290 864.860 1360.610 864.920 ;
@@ -8524,6 +8738,7 @@ MACRO user_project_wrapper
   END la_data_in[46]
   PIN la_data_in[47]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1367.190 866.560 1367.510 866.620 ;
@@ -8556,6 +8771,7 @@ MACRO user_project_wrapper
   END la_data_in[47]
   PIN la_data_in[48]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1374.550 865.540 1374.870 865.600 ;
@@ -8590,6 +8806,7 @@ MACRO user_project_wrapper
   END la_data_in[48]
   PIN la_data_in[49]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1381.910 863.840 1382.230 863.900 ;
@@ -8632,6 +8849,7 @@ MACRO user_project_wrapper
   END la_data_in[49]
   PIN la_data_in[4]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 710.310 838.680 710.630 838.740 ;
@@ -8664,6 +8882,7 @@ MACRO user_project_wrapper
   END la_data_in[4]
   PIN la_data_in[50]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1388.810 865.540 1389.130 865.600 ;
@@ -8698,6 +8917,7 @@ MACRO user_project_wrapper
   END la_data_in[50]
   PIN la_data_in[51]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1396.170 864.520 1396.490 864.580 ;
@@ -8740,6 +8960,7 @@ MACRO user_project_wrapper
   END la_data_in[51]
   PIN la_data_in[52]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1403.530 865.540 1403.850 865.600 ;
@@ -8774,6 +8995,7 @@ MACRO user_project_wrapper
   END la_data_in[52]
   PIN la_data_in[53]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1413.190 65.520 1413.510 65.580 ;
@@ -8811,6 +9033,7 @@ MACRO user_project_wrapper
   END la_data_in[53]
   PIN la_data_in[54]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1417.790 863.160 1418.110 863.220 ;
@@ -8843,6 +9066,7 @@ MACRO user_project_wrapper
   END la_data_in[54]
   PIN la_data_in[55]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1426.990 72.320 1427.310 72.380 ;
@@ -8876,6 +9100,7 @@ MACRO user_project_wrapper
   END la_data_in[55]
   PIN la_data_in[56]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1433.890 93.060 1434.210 93.120 ;
@@ -8909,6 +9134,7 @@ MACRO user_project_wrapper
   END la_data_in[56]
   PIN la_data_in[57]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1441.250 51.580 1441.570 51.640 ;
@@ -8934,6 +9160,7 @@ MACRO user_project_wrapper
   END la_data_in[57]
   PIN la_data_in[58]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1447.690 58.720 1448.010 58.780 ;
@@ -8967,6 +9194,7 @@ MACRO user_project_wrapper
   END la_data_in[58]
   PIN la_data_in[59]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1455.050 99.860 1455.370 99.920 ;
@@ -9000,6 +9228,7 @@ MACRO user_project_wrapper
   END la_data_in[59]
   PIN la_data_in[5]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 724.110 824.400 724.430 824.460 ;
@@ -9025,6 +9254,7 @@ MACRO user_project_wrapper
   END la_data_in[5]
   PIN la_data_in[60]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1461.490 107.000 1461.810 107.060 ;
@@ -9058,6 +9288,7 @@ MACRO user_project_wrapper
   END la_data_in[60]
   PIN la_data_in[61]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1468.390 22.680 1468.710 22.740 ;
@@ -9081,6 +9312,7 @@ MACRO user_project_wrapper
   END la_data_in[61]
   PIN la_data_in[62]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1475.750 23.360 1476.070 23.420 ;
@@ -9104,6 +9336,7 @@ MACRO user_project_wrapper
   END la_data_in[62]
   PIN la_data_in[63]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1482.190 27.440 1482.510 27.500 ;
@@ -9126,6 +9359,7 @@ MACRO user_project_wrapper
   END la_data_in[63]
   PIN la_data_in[64]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1489.090 27.100 1489.410 27.160 ;
@@ -9149,6 +9383,7 @@ MACRO user_project_wrapper
   END la_data_in[64]
   PIN la_data_in[65]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1496.450 26.760 1496.770 26.820 ;
@@ -9172,6 +9407,7 @@ MACRO user_project_wrapper
   END la_data_in[65]
   PIN la_data_in[66]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1503.350 26.420 1503.670 26.480 ;
@@ -9195,6 +9431,7 @@ MACRO user_project_wrapper
   END la_data_in[66]
   PIN la_data_in[67]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1511.170 862.820 1511.490 862.880 ;
@@ -9227,6 +9464,7 @@ MACRO user_project_wrapper
   END la_data_in[67]
   PIN la_data_in[68]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1518.070 862.820 1518.390 862.880 ;
@@ -9259,6 +9497,7 @@ MACRO user_project_wrapper
   END la_data_in[68]
   PIN la_data_in[69]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1525.430 862.820 1525.750 862.880 ;
@@ -9291,6 +9530,7 @@ MACRO user_project_wrapper
   END la_data_in[69]
   PIN la_data_in[6]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 744.810 817.940 745.130 818.000 ;
@@ -9326,6 +9566,7 @@ MACRO user_project_wrapper
   END la_data_in[6]
   PIN la_data_in[70]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1532.790 862.820 1533.110 862.880 ;
@@ -9358,6 +9599,7 @@ MACRO user_project_wrapper
   END la_data_in[70]
   PIN la_data_in[71]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1539.690 862.820 1540.010 862.880 ;
@@ -9390,6 +9632,7 @@ MACRO user_project_wrapper
   END la_data_in[71]
   PIN la_data_in[72]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1547.050 862.820 1547.370 862.880 ;
@@ -9422,6 +9665,7 @@ MACRO user_project_wrapper
   END la_data_in[72]
   PIN la_data_in[73]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1553.950 862.820 1554.270 862.880 ;
@@ -9454,6 +9698,7 @@ MACRO user_project_wrapper
   END la_data_in[73]
   PIN la_data_in[74]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1561.310 851.940 1561.630 852.000 ;
@@ -9478,6 +9723,7 @@ MACRO user_project_wrapper
   END la_data_in[74]
   PIN la_data_in[75]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1571.890 783.600 1572.210 783.660 ;
@@ -9505,6 +9751,7 @@ MACRO user_project_wrapper
   END la_data_in[75]
   PIN la_data_in[76]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1575.570 862.820 1575.890 862.880 ;
@@ -9539,6 +9786,7 @@ MACRO user_project_wrapper
   END la_data_in[76]
   PIN la_data_in[77]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1585.690 769.660 1586.010 769.720 ;
@@ -9566,6 +9814,7 @@ MACRO user_project_wrapper
   END la_data_in[77]
   PIN la_data_in[78]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1593.050 762.860 1593.370 762.920 ;
@@ -9593,6 +9842,7 @@ MACRO user_project_wrapper
   END la_data_in[78]
   PIN la_data_in[79]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1599.490 755.720 1599.810 755.780 ;
@@ -9618,6 +9868,7 @@ MACRO user_project_wrapper
   END la_data_in[79]
   PIN la_data_in[7]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 758.610 811.140 758.930 811.200 ;
@@ -9653,6 +9904,7 @@ MACRO user_project_wrapper
   END la_data_in[7]
   PIN la_data_in[80]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1606.850 748.920 1607.170 748.980 ;
@@ -9680,6 +9932,7 @@ MACRO user_project_wrapper
   END la_data_in[80]
   PIN la_data_in[81]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1613.290 742.120 1613.610 742.180 ;
@@ -9705,6 +9958,7 @@ MACRO user_project_wrapper
   END la_data_in[81]
   PIN la_data_in[82]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1620.650 734.980 1620.970 735.040 ;
@@ -9730,6 +9984,7 @@ MACRO user_project_wrapper
   END la_data_in[82]
   PIN la_data_in[83]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1627.550 28.120 1627.870 28.180 ;
@@ -9753,6 +10008,7 @@ MACRO user_project_wrapper
   END la_data_in[83]
   PIN la_data_in[84]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1634.910 28.460 1635.230 28.520 ;
@@ -9776,6 +10032,7 @@ MACRO user_project_wrapper
   END la_data_in[84]
   PIN la_data_in[85]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1641.350 28.800 1641.670 28.860 ;
@@ -9799,6 +10056,7 @@ MACRO user_project_wrapper
   END la_data_in[85]
   PIN la_data_in[86]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1648.710 29.140 1649.030 29.200 ;
@@ -9822,6 +10080,7 @@ MACRO user_project_wrapper
   END la_data_in[86]
   PIN la_data_in[87]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1655.150 29.480 1655.470 29.540 ;
@@ -9845,6 +10104,7 @@ MACRO user_project_wrapper
   END la_data_in[87]
   PIN la_data_in[88]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1662.510 29.820 1662.830 29.880 ;
@@ -9868,6 +10128,7 @@ MACRO user_project_wrapper
   END la_data_in[88]
   PIN la_data_in[89]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1668.950 30.160 1669.270 30.220 ;
@@ -9890,6 +10151,7 @@ MACRO user_project_wrapper
   END la_data_in[89]
   PIN la_data_in[8]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1085.285 482.885 1085.455 497.335 ;
@@ -10049,6 +10311,7 @@ MACRO user_project_wrapper
   END la_data_in[8]
   PIN la_data_in[90]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1676.310 30.500 1676.630 30.560 ;
@@ -10071,6 +10334,7 @@ MACRO user_project_wrapper
   END la_data_in[90]
   PIN la_data_in[91]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1683.670 865.880 1683.990 865.940 ;
@@ -10103,6 +10367,7 @@ MACRO user_project_wrapper
   END la_data_in[91]
   PIN la_data_in[92]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1690.570 865.880 1690.890 865.940 ;
@@ -10135,6 +10400,7 @@ MACRO user_project_wrapper
   END la_data_in[92]
   PIN la_data_in[93]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1697.930 865.880 1698.250 865.940 ;
@@ -10167,6 +10433,7 @@ MACRO user_project_wrapper
   END la_data_in[93]
   PIN la_data_in[94]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1704.830 863.840 1705.150 863.900 ;
@@ -10199,6 +10466,7 @@ MACRO user_project_wrapper
   END la_data_in[94]
   PIN la_data_in[95]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1712.190 865.880 1712.510 865.940 ;
@@ -10231,6 +10499,7 @@ MACRO user_project_wrapper
   END la_data_in[95]
   PIN la_data_in[96]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1719.550 865.880 1719.870 865.940 ;
@@ -10263,6 +10532,7 @@ MACRO user_project_wrapper
   END la_data_in[96]
   PIN la_data_in[97]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1726.450 865.880 1726.770 865.940 ;
@@ -10295,6 +10565,7 @@ MACRO user_project_wrapper
   END la_data_in[97]
   PIN la_data_in[98]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1733.810 865.880 1734.130 865.940 ;
@@ -10327,6 +10598,7 @@ MACRO user_project_wrapper
   END la_data_in[98]
   PIN la_data_in[99]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1741.170 865.880 1741.490 865.940 ;
@@ -10359,6 +10631,7 @@ MACRO user_project_wrapper
   END la_data_in[99]
   PIN la_data_in[9]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1090.270 852.620 1090.590 852.680 ;
@@ -10392,6 +10665,7 @@ MACRO user_project_wrapper
   END la_data_in[9]
   PIN la_data_out[0]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 641.310 796.860 641.630 796.920 ;
@@ -10427,6 +10701,7 @@ MACRO user_project_wrapper
   END la_data_out[0]
   PIN la_data_out[100]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1751.750 31.180 1752.070 31.240 ;
@@ -10450,6 +10725,7 @@ MACRO user_project_wrapper
   END la_data_out[100]
   PIN la_data_out[101]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1759.110 30.840 1759.430 30.900 ;
@@ -10473,6 +10749,7 @@ MACRO user_project_wrapper
   END la_data_out[101]
   PIN la_data_out[102]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1765.550 727.840 1765.870 727.900 ;
@@ -10498,6 +10775,7 @@ MACRO user_project_wrapper
   END la_data_out[102]
   PIN la_data_out[103]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1772.910 72.320 1773.230 72.380 ;
@@ -10531,6 +10809,7 @@ MACRO user_project_wrapper
   END la_data_out[103]
   PIN la_data_out[104]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1779.350 707.100 1779.670 707.160 ;
@@ -10555,6 +10834,7 @@ MACRO user_project_wrapper
   END la_data_out[104]
   PIN la_data_out[105]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1786.250 714.240 1786.570 714.300 ;
@@ -10579,6 +10859,7 @@ MACRO user_project_wrapper
   END la_data_out[105]
   PIN la_data_out[106]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1793.150 721.040 1793.470 721.100 ;
@@ -10604,6 +10885,7 @@ MACRO user_project_wrapper
   END la_data_out[106]
   PIN la_data_out[107]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1800.970 863.840 1801.290 863.900 ;
@@ -10638,6 +10920,7 @@ MACRO user_project_wrapper
   END la_data_out[107]
   PIN la_data_out[108]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1807.870 864.180 1808.190 864.240 ;
@@ -10672,6 +10955,7 @@ MACRO user_project_wrapper
   END la_data_out[108]
   PIN la_data_out[109]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1815.230 864.180 1815.550 864.240 ;
@@ -10706,6 +10990,7 @@ MACRO user_project_wrapper
   END la_data_out[109]
   PIN la_data_out[10]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 817.490 24.720 817.810 24.780 ;
@@ -10728,6 +11013,7 @@ MACRO user_project_wrapper
   END la_data_out[10]
   PIN la_data_out[110]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1822.590 864.180 1822.910 864.240 ;
@@ -10760,6 +11046,7 @@ MACRO user_project_wrapper
   END la_data_out[110]
   PIN la_data_out[111]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1829.490 864.180 1829.810 864.240 ;
@@ -10794,6 +11081,7 @@ MACRO user_project_wrapper
   END la_data_out[111]
   PIN la_data_out[112]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1836.850 864.180 1837.170 864.240 ;
@@ -10826,6 +11114,7 @@ MACRO user_project_wrapper
   END la_data_out[112]
   PIN la_data_out[113]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1843.750 864.180 1844.070 864.240 ;
@@ -10858,6 +11147,7 @@ MACRO user_project_wrapper
   END la_data_out[113]
   PIN la_data_out[114]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1851.110 864.180 1851.430 864.240 ;
@@ -10890,6 +11180,7 @@ MACRO user_project_wrapper
   END la_data_out[114]
   PIN la_data_out[115]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1858.470 864.180 1858.790 864.240 ;
@@ -10922,6 +11213,7 @@ MACRO user_project_wrapper
   END la_data_out[115]
   PIN la_data_out[116]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1865.370 863.840 1865.690 863.900 ;
@@ -10954,6 +11246,7 @@ MACRO user_project_wrapper
   END la_data_out[116]
   PIN la_data_out[117]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1872.730 864.180 1873.050 864.240 ;
@@ -10986,6 +11279,7 @@ MACRO user_project_wrapper
   END la_data_out[117]
   PIN la_data_out[118]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1882.390 41.040 1882.710 41.100 ;
@@ -11011,6 +11305,7 @@ MACRO user_project_wrapper
   END la_data_out[118]
   PIN la_data_out[119]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1889.290 40.700 1889.610 40.760 ;
@@ -11036,6 +11331,7 @@ MACRO user_project_wrapper
   END la_data_out[119]
   PIN la_data_out[11]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 835.430 25.060 835.750 25.120 ;
@@ -11058,6 +11354,7 @@ MACRO user_project_wrapper
   END la_data_out[11]
   PIN la_data_out[120]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1896.190 40.360 1896.510 40.420 ;
@@ -11081,6 +11378,7 @@ MACRO user_project_wrapper
   END la_data_out[120]
   PIN la_data_out[121]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1903.090 40.020 1903.410 40.080 ;
@@ -11104,6 +11402,7 @@ MACRO user_project_wrapper
   END la_data_out[121]
   PIN la_data_out[122]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1909.990 39.680 1910.310 39.740 ;
@@ -11127,6 +11426,7 @@ MACRO user_project_wrapper
   END la_data_out[122]
   PIN la_data_out[123]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1917.350 39.340 1917.670 39.400 ;
@@ -11150,6 +11450,7 @@ MACRO user_project_wrapper
   END la_data_out[123]
   PIN la_data_out[124]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1923.790 39.000 1924.110 39.060 ;
@@ -11173,6 +11474,7 @@ MACRO user_project_wrapper
   END la_data_out[124]
   PIN la_data_out[125]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1930.690 38.660 1931.010 38.720 ;
@@ -11196,6 +11498,7 @@ MACRO user_project_wrapper
   END la_data_out[125]
   PIN la_data_out[126]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1937.590 38.320 1937.910 38.380 ;
@@ -11219,6 +11522,7 @@ MACRO user_project_wrapper
   END la_data_out[126]
   PIN la_data_out[127]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1944.490 37.980 1944.810 38.040 ;
@@ -11241,6 +11545,7 @@ MACRO user_project_wrapper
   END la_data_out[127]
   PIN la_data_out[12]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 852.910 25.400 853.230 25.460 ;
@@ -11264,6 +11569,7 @@ MACRO user_project_wrapper
   END la_data_out[12]
   PIN la_data_out[13]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 870.850 25.740 871.170 25.800 ;
@@ -11287,6 +11593,7 @@ MACRO user_project_wrapper
   END la_data_out[13]
   PIN la_data_out[14]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 888.790 26.080 889.110 26.140 ;
@@ -11310,6 +11617,7 @@ MACRO user_project_wrapper
   END la_data_out[14]
   PIN la_data_out[15]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 906.730 26.420 907.050 26.480 ;
@@ -11333,6 +11641,7 @@ MACRO user_project_wrapper
   END la_data_out[15]
   PIN la_data_out[16]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 923.750 45.120 924.070 45.180 ;
@@ -11358,6 +11667,7 @@ MACRO user_project_wrapper
   END la_data_out[16]
   PIN la_data_out[17]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 944.910 107.000 945.230 107.060 ;
@@ -11391,6 +11701,7 @@ MACRO user_project_wrapper
   END la_data_out[17]
   PIN la_data_out[18]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 960.090 51.920 960.410 51.980 ;
@@ -11414,6 +11725,7 @@ MACRO user_project_wrapper
   END la_data_out[18]
   PIN la_data_out[19]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1007.085 9.265 1007.255 18.275 ;
@@ -11474,6 +11786,7 @@ MACRO user_project_wrapper
   END la_data_out[19]
   PIN la_data_out[1]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 662.010 804.000 662.330 804.060 ;
@@ -11511,6 +11824,7 @@ MACRO user_project_wrapper
   END la_data_out[1]
   PIN la_data_out[20]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1148.765 866.405 1148.935 867.935 ;
@@ -11552,6 +11866,7 @@ MACRO user_project_wrapper
   END la_data_out[20]
   PIN la_data_out[21]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1147.845 863.005 1148.015 866.915 ;
@@ -11585,6 +11900,7 @@ MACRO user_project_wrapper
   END la_data_out[21]
   PIN la_data_out[22]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1147.385 862.665 1147.555 867.935 ;
@@ -11626,6 +11942,7 @@ MACRO user_project_wrapper
   END la_data_out[22]
   PIN la_data_out[23]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1195.225 386.325 1195.395 434.775 ;
@@ -11758,6 +12075,7 @@ MACRO user_project_wrapper
   END la_data_out[23]
   PIN la_data_out[24]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1069.110 868.600 1069.430 868.660 ;
@@ -11782,6 +12100,7 @@ MACRO user_project_wrapper
   END la_data_out[24]
   PIN la_data_out[25]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1089.350 865.540 1089.670 865.600 ;
@@ -11816,6 +12135,7 @@ MACRO user_project_wrapper
   END la_data_out[25]
   PIN la_data_out[26]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1173.145 18.445 1173.315 19.975 ;
@@ -11900,6 +12220,7 @@ MACRO user_project_wrapper
   END la_data_out[26]
   PIN la_data_out[27]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1162.490 863.840 1162.810 863.900 ;
@@ -11934,6 +12255,7 @@ MACRO user_project_wrapper
   END la_data_out[27]
   PIN la_data_out[28]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1145.010 864.180 1145.330 864.240 ;
@@ -11966,6 +12288,7 @@ MACRO user_project_wrapper
   END la_data_out[28]
   PIN la_data_out[29]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1176.290 867.240 1176.610 867.300 ;
@@ -11998,6 +12321,7 @@ MACRO user_project_wrapper
   END la_data_out[29]
   PIN la_data_out[2]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1041.970 855.340 1042.290 855.400 ;
@@ -12033,6 +12357,7 @@ MACRO user_project_wrapper
   END la_data_out[2]
   PIN la_data_out[30]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1179.510 866.560 1179.830 866.620 ;
@@ -12065,6 +12390,7 @@ MACRO user_project_wrapper
   END la_data_out[30]
   PIN la_data_out[31]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1193.385 282.965 1193.555 331.075 ;
@@ -12146,6 +12472,7 @@ MACRO user_project_wrapper
   END la_data_out[31]
   PIN la_data_out[32]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1214.010 868.260 1214.330 868.320 ;
@@ -12178,6 +12505,7 @@ MACRO user_project_wrapper
   END la_data_out[32]
   PIN la_data_out[33]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1231.490 869.280 1231.810 869.340 ;
@@ -12210,6 +12538,7 @@ MACRO user_project_wrapper
   END la_data_out[33]
   PIN la_data_out[34]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1248.510 865.200 1248.830 865.260 ;
@@ -12242,6 +12571,7 @@ MACRO user_project_wrapper
   END la_data_out[34]
   PIN la_data_out[35]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1269.210 863.500 1269.530 863.560 ;
@@ -12274,6 +12604,7 @@ MACRO user_project_wrapper
   END la_data_out[35]
   PIN la_data_out[36]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1283.010 863.840 1283.330 863.900 ;
@@ -12306,6 +12637,7 @@ MACRO user_project_wrapper
   END la_data_out[36]
   PIN la_data_out[37]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1298.190 2.960 1298.510 3.020 ;
@@ -12329,6 +12661,7 @@ MACRO user_project_wrapper
   END la_data_out[37]
   PIN la_data_out[38]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1305.090 862.820 1305.410 862.880 ;
@@ -12361,6 +12694,7 @@ MACRO user_project_wrapper
   END la_data_out[38]
   PIN la_data_out[39]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1312.450 866.220 1312.770 866.280 ;
@@ -12385,6 +12719,7 @@ MACRO user_project_wrapper
   END la_data_out[39]
   PIN la_data_out[3]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1049.330 837.320 1049.650 837.380 ;
@@ -12428,6 +12763,7 @@ MACRO user_project_wrapper
   END la_data_out[3]
   PIN la_data_out[40]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1319.350 865.880 1319.670 865.940 ;
@@ -12460,6 +12796,7 @@ MACRO user_project_wrapper
   END la_data_out[40]
   PIN la_data_out[41]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1326.710 863.840 1327.030 863.900 ;
@@ -12492,6 +12829,7 @@ MACRO user_project_wrapper
   END la_data_out[41]
   PIN la_data_out[42]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1334.070 863.840 1334.390 863.900 ;
@@ -12524,6 +12862,7 @@ MACRO user_project_wrapper
   END la_data_out[42]
   PIN la_data_out[43]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1340.970 863.840 1341.290 863.900 ;
@@ -12558,6 +12897,7 @@ MACRO user_project_wrapper
   END la_data_out[43]
   PIN la_data_out[44]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1351.550 20.640 1351.870 20.700 ;
@@ -12583,6 +12923,7 @@ MACRO user_project_wrapper
   END la_data_out[44]
   PIN la_data_out[45]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1358.450 19.960 1358.770 20.020 ;
@@ -12608,6 +12949,7 @@ MACRO user_project_wrapper
   END la_data_out[45]
   PIN la_data_out[46]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1365.350 19.280 1365.670 19.340 ;
@@ -12633,6 +12975,7 @@ MACRO user_project_wrapper
   END la_data_out[46]
   PIN la_data_out[47]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1372.250 37.980 1372.570 38.040 ;
@@ -12658,6 +13001,7 @@ MACRO user_project_wrapper
   END la_data_out[47]
   PIN la_data_out[48]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1376.850 863.160 1377.170 863.220 ;
@@ -12690,6 +13034,7 @@ MACRO user_project_wrapper
   END la_data_out[48]
   PIN la_data_out[49]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1386.050 31.180 1386.370 31.240 ;
@@ -12713,6 +13058,7 @@ MACRO user_project_wrapper
   END la_data_out[49]
   PIN la_data_out[4]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1056.230 855.340 1056.550 855.400 ;
@@ -12748,6 +13094,7 @@ MACRO user_project_wrapper
   END la_data_out[4]
   PIN la_data_out[50]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1392.950 65.860 1393.270 65.920 ;
@@ -12783,6 +13130,7 @@ MACRO user_project_wrapper
   END la_data_out[50]
   PIN la_data_out[51]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1399.390 755.380 1399.710 755.440 ;
@@ -12816,6 +13164,7 @@ MACRO user_project_wrapper
   END la_data_out[51]
   PIN la_data_out[52]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1497.445 866.405 1497.615 867.595 ;
@@ -12866,6 +13215,7 @@ MACRO user_project_wrapper
   END la_data_out[52]
   PIN la_data_out[53]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1413.650 14.860 1413.970 14.920 ;
@@ -12889,6 +13239,7 @@ MACRO user_project_wrapper
   END la_data_out[53]
   PIN la_data_out[54]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1420.550 15.200 1420.870 15.260 ;
@@ -12912,6 +13263,7 @@ MACRO user_project_wrapper
   END la_data_out[54]
   PIN la_data_out[55]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1427.910 16.220 1428.230 16.280 ;
@@ -12937,6 +13289,7 @@ MACRO user_project_wrapper
   END la_data_out[55]
   PIN la_data_out[56]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1434.350 16.900 1434.670 16.960 ;
@@ -12959,6 +13312,7 @@ MACRO user_project_wrapper
   END la_data_out[56]
   PIN la_data_out[57]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1497.445 865.045 1497.615 865.895 ;
@@ -13005,6 +13359,7 @@ MACRO user_project_wrapper
   END la_data_out[57]
   PIN la_data_out[58]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1448.150 21.320 1448.470 21.380 ;
@@ -13028,6 +13383,7 @@ MACRO user_project_wrapper
   END la_data_out[58]
   PIN la_data_out[59]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1455.970 863.160 1456.290 863.220 ;
@@ -13060,6 +13416,7 @@ MACRO user_project_wrapper
   END la_data_out[59]
   PIN la_data_out[5]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1063.130 839.700 1063.450 839.760 ;
@@ -13103,6 +13460,7 @@ MACRO user_project_wrapper
   END la_data_out[5]
   PIN la_data_out[60]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1463.330 863.160 1463.650 863.220 ;
@@ -13135,6 +13493,7 @@ MACRO user_project_wrapper
   END la_data_out[60]
   PIN la_data_out[61]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1470.230 862.820 1470.550 862.880 ;
@@ -13167,6 +13526,7 @@ MACRO user_project_wrapper
   END la_data_out[61]
   PIN la_data_out[62]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1477.590 863.160 1477.910 863.220 ;
@@ -13199,6 +13559,7 @@ MACRO user_project_wrapper
   END la_data_out[62]
   PIN la_data_out[63]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1484.950 863.160 1485.270 863.220 ;
@@ -13231,6 +13592,7 @@ MACRO user_project_wrapper
   END la_data_out[63]
   PIN la_data_out[64]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1491.850 862.820 1492.170 862.880 ;
@@ -13263,6 +13625,7 @@ MACRO user_project_wrapper
   END la_data_out[64]
   PIN la_data_out[65]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1499.210 863.160 1499.530 863.220 ;
@@ -13295,6 +13658,7 @@ MACRO user_project_wrapper
   END la_data_out[65]
   PIN la_data_out[66]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1506.110 862.820 1506.430 862.880 ;
@@ -13327,6 +13691,7 @@ MACRO user_project_wrapper
   END la_data_out[66]
   PIN la_data_out[67]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1513.470 863.160 1513.790 863.220 ;
@@ -13359,6 +13724,7 @@ MACRO user_project_wrapper
   END la_data_out[67]
   PIN la_data_out[68]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1523.590 39.680 1523.910 39.740 ;
@@ -13384,6 +13750,7 @@ MACRO user_project_wrapper
   END la_data_out[68]
   PIN la_data_out[69]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1527.730 863.160 1528.050 863.220 ;
@@ -13416,6 +13783,7 @@ MACRO user_project_wrapper
   END la_data_out[69]
   PIN la_data_out[6]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1070.030 855.340 1070.350 855.400 ;
@@ -13459,6 +13827,7 @@ MACRO user_project_wrapper
   END la_data_out[6]
   PIN la_data_out[70]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1535.090 863.160 1535.410 863.220 ;
@@ -13491,6 +13860,7 @@ MACRO user_project_wrapper
   END la_data_out[70]
   PIN la_data_out[71]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1544.290 38.660 1544.610 38.720 ;
@@ -13514,6 +13884,7 @@ MACRO user_project_wrapper
   END la_data_out[71]
   PIN la_data_out[72]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1551.650 38.320 1551.970 38.380 ;
@@ -13539,6 +13910,7 @@ MACRO user_project_wrapper
   END la_data_out[72]
   PIN la_data_out[73]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1558.090 37.980 1558.410 38.040 ;
@@ -13562,6 +13934,7 @@ MACRO user_project_wrapper
   END la_data_out[73]
   PIN la_data_out[74]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1565.910 35.260 1566.230 35.320 ;
@@ -13585,6 +13958,7 @@ MACRO user_project_wrapper
   END la_data_out[74]
   PIN la_data_out[75]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1572.350 35.600 1572.670 35.660 ;
@@ -13608,6 +13982,7 @@ MACRO user_project_wrapper
   END la_data_out[75]
   PIN la_data_out[76]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1579.710 42.400 1580.030 42.460 ;
@@ -13631,6 +14006,7 @@ MACRO user_project_wrapper
   END la_data_out[76]
   PIN la_data_out[77]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1586.150 42.740 1586.470 42.800 ;
@@ -13654,6 +14030,7 @@ MACRO user_project_wrapper
   END la_data_out[77]
   PIN la_data_out[78]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1593.510 43.080 1593.830 43.140 ;
@@ -13677,6 +14054,7 @@ MACRO user_project_wrapper
   END la_data_out[78]
   PIN la_data_out[79]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1599.950 43.420 1600.270 43.480 ;
@@ -13700,6 +14078,7 @@ MACRO user_project_wrapper
   END la_data_out[79]
   PIN la_data_out[7]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1072.790 865.200 1073.110 865.260 ;
@@ -13734,6 +14113,7 @@ MACRO user_project_wrapper
   END la_data_out[7]
   PIN la_data_out[80]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1607.310 43.760 1607.630 43.820 ;
@@ -13757,6 +14137,7 @@ MACRO user_project_wrapper
   END la_data_out[80]
   PIN la_data_out[81]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1613.750 44.100 1614.070 44.160 ;
@@ -13780,6 +14161,7 @@ MACRO user_project_wrapper
   END la_data_out[81]
   PIN la_data_out[82]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1621.110 44.440 1621.430 44.500 ;
@@ -13802,6 +14184,7 @@ MACRO user_project_wrapper
   END la_data_out[82]
   PIN la_data_out[83]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1628.470 866.220 1628.790 866.280 ;
@@ -13834,6 +14217,7 @@ MACRO user_project_wrapper
   END la_data_out[83]
   PIN la_data_out[84]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1635.370 863.160 1635.690 863.220 ;
@@ -13866,6 +14250,7 @@ MACRO user_project_wrapper
   END la_data_out[84]
   PIN la_data_out[85]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1642.730 865.880 1643.050 865.940 ;
@@ -13898,6 +14283,7 @@ MACRO user_project_wrapper
   END la_data_out[85]
   PIN la_data_out[86]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1650.090 865.880 1650.410 865.940 ;
@@ -13930,6 +14316,7 @@ MACRO user_project_wrapper
   END la_data_out[86]
   PIN la_data_out[87]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1656.990 865.880 1657.310 865.940 ;
@@ -13962,6 +14349,7 @@ MACRO user_project_wrapper
   END la_data_out[87]
   PIN la_data_out[88]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1664.350 865.880 1664.670 865.940 ;
@@ -13994,6 +14382,7 @@ MACRO user_project_wrapper
   END la_data_out[88]
   PIN la_data_out[89]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1671.710 863.160 1672.030 863.220 ;
@@ -14026,6 +14415,7 @@ MACRO user_project_wrapper
   END la_data_out[89]
   PIN la_data_out[8]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1079.690 862.820 1080.010 862.880 ;
@@ -14068,6 +14458,7 @@ MACRO user_project_wrapper
   END la_data_out[8]
   PIN la_data_out[90]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1678.610 865.880 1678.930 865.940 ;
@@ -14100,6 +14491,7 @@ MACRO user_project_wrapper
   END la_data_out[90]
   PIN la_data_out[91]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1685.970 866.220 1686.290 866.280 ;
@@ -14132,6 +14524,7 @@ MACRO user_project_wrapper
   END la_data_out[91]
   PIN la_data_out[92]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1692.870 866.220 1693.190 866.280 ;
@@ -14164,6 +14557,7 @@ MACRO user_project_wrapper
   END la_data_out[92]
   PIN la_data_out[93]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1700.230 866.220 1700.550 866.280 ;
@@ -14196,6 +14590,7 @@ MACRO user_project_wrapper
   END la_data_out[93]
   PIN la_data_out[94]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1709.890 686.360 1710.210 686.420 ;
@@ -14223,6 +14618,7 @@ MACRO user_project_wrapper
   END la_data_out[94]
   PIN la_data_out[95]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1717.250 665.960 1717.570 666.020 ;
@@ -14250,6 +14646,7 @@ MACRO user_project_wrapper
   END la_data_out[95]
   PIN la_data_out[96]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1723.690 679.560 1724.010 679.620 ;
@@ -14275,6 +14672,7 @@ MACRO user_project_wrapper
   END la_data_out[96]
   PIN la_data_out[97]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1731.050 652.020 1731.370 652.080 ;
@@ -14300,6 +14698,7 @@ MACRO user_project_wrapper
   END la_data_out[97]
   PIN la_data_out[98]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1737.490 658.820 1737.810 658.880 ;
@@ -14325,6 +14724,7 @@ MACRO user_project_wrapper
   END la_data_out[98]
   PIN la_data_out[99]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1744.850 638.080 1745.170 638.140 ;
@@ -14350,6 +14750,7 @@ MACRO user_project_wrapper
   END la_data_out[99]
   PIN la_data_out[9]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1091.725 572.645 1091.895 596.955 ;
@@ -14507,6 +14908,7 @@ MACRO user_project_wrapper
   END la_data_out[9]
   PIN la_oen[0]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1030.085 772.905 1030.255 821.015 ;
@@ -14690,6 +15092,7 @@ MACRO user_project_wrapper
   END la_oen[0]
   PIN la_oen[100]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1753.130 865.880 1753.450 865.940 ;
@@ -14724,6 +15127,7 @@ MACRO user_project_wrapper
   END la_oen[100]
   PIN la_oen[101]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1760.030 865.880 1760.350 865.940 ;
@@ -14758,6 +15162,7 @@ MACRO user_project_wrapper
   END la_oen[101]
   PIN la_oen[102]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1767.390 863.840 1767.710 863.900 ;
@@ -14792,6 +15197,7 @@ MACRO user_project_wrapper
   END la_oen[102]
   PIN la_oen[103]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1774.290 864.180 1774.610 864.240 ;
@@ -14826,6 +15232,7 @@ MACRO user_project_wrapper
   END la_oen[103]
   PIN la_oen[104]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1781.650 864.180 1781.970 864.240 ;
@@ -14860,6 +15267,7 @@ MACRO user_project_wrapper
   END la_oen[104]
   PIN la_oen[105]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1789.010 864.180 1789.330 864.240 ;
@@ -14902,6 +15310,7 @@ MACRO user_project_wrapper
   END la_oen[105]
   PIN la_oen[106]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1795.910 864.180 1796.230 864.240 ;
@@ -14936,6 +15345,7 @@ MACRO user_project_wrapper
   END la_oen[106]
   PIN la_oen[107]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1803.270 864.180 1803.590 864.240 ;
@@ -14970,6 +15380,7 @@ MACRO user_project_wrapper
   END la_oen[107]
   PIN la_oen[108]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1813.390 769.320 1813.710 769.380 ;
@@ -14997,6 +15408,7 @@ MACRO user_project_wrapper
   END la_oen[108]
   PIN la_oen[109]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1820.750 624.480 1821.070 624.540 ;
@@ -15024,6 +15436,7 @@ MACRO user_project_wrapper
   END la_oen[109]
   PIN la_oen[10]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 823.470 28.460 823.790 28.520 ;
@@ -15047,6 +15460,7 @@ MACRO user_project_wrapper
   END la_oen[10]
   PIN la_oen[110]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1827.650 107.000 1827.970 107.060 ;
@@ -15082,6 +15496,7 @@ MACRO user_project_wrapper
   END la_oen[110]
   PIN la_oen[111]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1834.090 762.520 1834.410 762.580 ;
@@ -15115,6 +15530,7 @@ MACRO user_project_wrapper
   END la_oen[111]
   PIN la_oen[112]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1840.990 755.380 1841.310 755.440 ;
@@ -15140,6 +15556,7 @@ MACRO user_project_wrapper
   END la_oen[112]
   PIN la_oen[113]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1847.890 748.580 1848.210 748.640 ;
@@ -15173,6 +15590,7 @@ MACRO user_project_wrapper
   END la_oen[113]
   PIN la_oen[114]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1854.790 741.780 1855.110 741.840 ;
@@ -15200,6 +15618,7 @@ MACRO user_project_wrapper
   END la_oen[114]
   PIN la_oen[115]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1862.150 631.280 1862.470 631.340 ;
@@ -15233,6 +15652,7 @@ MACRO user_project_wrapper
   END la_oen[115]
   PIN la_oen[116]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1868.590 734.640 1868.910 734.700 ;
@@ -15266,6 +15686,7 @@ MACRO user_project_wrapper
   END la_oen[116]
   PIN la_oen[117]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1876.410 19.280 1876.730 19.340 ;
@@ -15289,6 +15710,7 @@ MACRO user_project_wrapper
   END la_oen[117]
   PIN la_oen[118]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1883.310 18.940 1883.630 19.000 ;
@@ -15312,6 +15734,7 @@ MACRO user_project_wrapper
   END la_oen[118]
   PIN la_oen[119]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1890.210 18.600 1890.530 18.660 ;
@@ -15335,6 +15758,7 @@ MACRO user_project_wrapper
   END la_oen[119]
   PIN la_oen[11]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 840.950 28.120 841.270 28.180 ;
@@ -15358,6 +15782,7 @@ MACRO user_project_wrapper
   END la_oen[11]
   PIN la_oen[120]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1897.110 18.260 1897.430 18.320 ;
@@ -15381,6 +15806,7 @@ MACRO user_project_wrapper
   END la_oen[120]
   PIN la_oen[121]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1904.010 17.920 1904.330 17.980 ;
@@ -15403,6 +15829,7 @@ MACRO user_project_wrapper
   END la_oen[121]
   PIN la_oen[122]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met2 ;
         RECT 1910.830 875.500 1911.110 879.000 ;
@@ -15425,6 +15852,7 @@ MACRO user_project_wrapper
   END la_oen[122]
   PIN la_oen[123]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1918.270 863.160 1918.590 863.220 ;
@@ -15457,6 +15885,7 @@ MACRO user_project_wrapper
   END la_oen[123]
   PIN la_oen[124]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1925.170 863.160 1925.490 863.220 ;
@@ -15491,6 +15920,7 @@ MACRO user_project_wrapper
   END la_oen[124]
   PIN la_oen[125]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1932.530 863.160 1932.850 863.220 ;
@@ -15525,6 +15955,7 @@ MACRO user_project_wrapper
   END la_oen[125]
   PIN la_oen[126]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1939.890 863.160 1940.210 863.220 ;
@@ -15559,6 +15990,7 @@ MACRO user_project_wrapper
   END la_oen[126]
   PIN la_oen[127]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1946.790 863.160 1947.110 863.220 ;
@@ -15591,6 +16023,7 @@ MACRO user_project_wrapper
   END la_oen[127]
   PIN la_oen[12]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 858.890 31.520 859.210 31.580 ;
@@ -15616,6 +16049,7 @@ MACRO user_project_wrapper
   END la_oen[12]
   PIN la_oen[13]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 876.830 31.860 877.150 31.920 ;
@@ -15641,6 +16075,7 @@ MACRO user_project_wrapper
   END la_oen[13]
   PIN la_oen[14]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 894.770 32.200 895.090 32.260 ;
@@ -15666,6 +16101,7 @@ MACRO user_project_wrapper
   END la_oen[14]
   PIN la_oen[15]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1140.485 531.505 1140.655 579.615 ;
@@ -15764,6 +16200,7 @@ MACRO user_project_wrapper
   END la_oen[15]
   PIN la_oen[16]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 931.110 134.540 931.430 134.600 ;
@@ -15791,6 +16228,7 @@ MACRO user_project_wrapper
   END la_oen[16]
   PIN la_oen[17]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1111.045 15.045 1111.215 29.155 ;
@@ -15839,6 +16277,7 @@ MACRO user_project_wrapper
   END la_oen[17]
   PIN la_oen[18]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 972.050 865.880 972.370 865.940 ;
@@ -15871,6 +16310,7 @@ MACRO user_project_wrapper
   END la_oen[18]
   PIN la_oen[19]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1146.925 864.365 1147.095 866.235 ;
@@ -15912,6 +16352,7 @@ MACRO user_project_wrapper
   END la_oen[19]
   PIN la_oen[1]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1036.525 641.325 1036.695 717.655 ;
@@ -16093,6 +16534,7 @@ MACRO user_project_wrapper
   END la_oen[1]
   PIN la_oen[20]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1007.010 867.240 1007.330 867.300 ;
@@ -16127,6 +16569,7 @@ MACRO user_project_wrapper
   END la_oen[20]
   PIN la_oen[21]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1148.305 866.065 1148.475 867.595 ;
@@ -16160,6 +16603,7 @@ MACRO user_project_wrapper
   END la_oen[21]
   PIN la_oen[22]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1187.330 855.340 1187.650 855.400 ;
@@ -16193,6 +16637,7 @@ MACRO user_project_wrapper
   END la_oen[22]
   PIN la_oen[23]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1100.465 868.105 1100.635 869.295 ;
@@ -16224,6 +16669,7 @@ MACRO user_project_wrapper
   END la_oen[23]
   PIN la_oen[24]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1202.585 781.405 1202.755 821.015 ;
@@ -16354,6 +16800,7 @@ MACRO user_project_wrapper
   END la_oen[24]
   PIN la_oen[25]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1173.605 19.805 1173.775 20.655 ;
@@ -16392,6 +16839,7 @@ MACRO user_project_wrapper
   END la_oen[25]
   PIN la_oen[26]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1221.370 20.640 1221.690 20.700 ;
@@ -16419,6 +16867,7 @@ MACRO user_project_wrapper
   END la_oen[26]
   PIN la_oen[27]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1126.610 16.900 1126.930 16.960 ;
@@ -16442,6 +16891,7 @@ MACRO user_project_wrapper
   END la_oen[27]
   PIN la_oen[28]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1235.630 16.560 1235.950 16.620 ;
@@ -16466,6 +16916,7 @@ MACRO user_project_wrapper
   END la_oen[28]
   PIN la_oen[29]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1217.690 862.820 1218.010 862.880 ;
@@ -16500,6 +16951,7 @@ MACRO user_project_wrapper
   END la_oen[29]
   PIN la_oen[2]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1050.325 641.325 1050.495 676.175 ;
@@ -16647,6 +17099,7 @@ MACRO user_project_wrapper
   END la_oen[2]
   PIN la_oen[30]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1215.005 16.065 1215.175 17.255 ;
@@ -16679,6 +17132,7 @@ MACRO user_project_wrapper
   END la_oen[30]
   PIN la_oen[31]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1256.790 18.260 1257.110 18.320 ;
@@ -16706,6 +17160,7 @@ MACRO user_project_wrapper
   END la_oen[31]
   PIN la_oen[32]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1224.590 867.920 1224.910 867.980 ;
@@ -16738,6 +17193,7 @@ MACRO user_project_wrapper
   END la_oen[32]
   PIN la_oen[33]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1234.710 868.940 1235.030 869.000 ;
@@ -16762,6 +17218,7 @@ MACRO user_project_wrapper
   END la_oen[33]
   PIN la_oen[34]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1255.410 865.880 1255.730 865.940 ;
@@ -16794,6 +17251,7 @@ MACRO user_project_wrapper
   END la_oen[34]
   PIN la_oen[35]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1284.465 338.045 1284.635 386.155 ;
@@ -17056,6 +17514,7 @@ MACRO user_project_wrapper
   END la_oen[35]
   PIN la_oen[36]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1287.150 20.640 1287.470 20.700 ;
@@ -17081,6 +17540,7 @@ MACRO user_project_wrapper
   END la_oen[36]
   PIN la_oen[37]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1300.490 862.820 1300.810 862.880 ;
@@ -17105,6 +17565,7 @@ MACRO user_project_wrapper
   END la_oen[37]
   PIN la_oen[38]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1307.390 863.160 1307.710 863.220 ;
@@ -17137,6 +17598,7 @@ MACRO user_project_wrapper
   END la_oen[38]
   PIN la_oen[39]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1314.750 863.160 1315.070 863.220 ;
@@ -17169,6 +17631,7 @@ MACRO user_project_wrapper
   END la_oen[39]
   PIN la_oen[3]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 698.350 30.160 698.670 30.220 ;
@@ -17192,6 +17655,7 @@ MACRO user_project_wrapper
   END la_oen[3]
   PIN la_oen[40]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1323.950 18.940 1324.270 19.000 ;
@@ -17215,6 +17679,7 @@ MACRO user_project_wrapper
   END la_oen[40]
   PIN la_oen[41]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1329.010 863.160 1329.330 863.220 ;
@@ -17247,6 +17712,7 @@ MACRO user_project_wrapper
   END la_oen[41]
   PIN la_oen[42]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1337.750 17.240 1338.070 17.300 ;
@@ -17270,6 +17736,7 @@ MACRO user_project_wrapper
   END la_oen[42]
   PIN la_oen[43]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1378.305 16.745 1378.475 18.275 ;
@@ -17306,6 +17773,7 @@ MACRO user_project_wrapper
   END la_oen[43]
   PIN la_oen[44]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1352.010 20.300 1352.330 20.360 ;
@@ -17329,6 +17797,7 @@ MACRO user_project_wrapper
   END la_oen[44]
   PIN la_oen[45]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1358.910 19.620 1359.230 19.680 ;
@@ -17352,6 +17821,7 @@ MACRO user_project_wrapper
   END la_oen[45]
   PIN la_oen[46]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1365.810 18.940 1366.130 19.000 ;
@@ -17375,6 +17845,7 @@ MACRO user_project_wrapper
   END la_oen[46]
   PIN la_oen[47]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1372.710 18.600 1373.030 18.660 ;
@@ -17398,6 +17869,7 @@ MACRO user_project_wrapper
   END la_oen[47]
   PIN la_oen[48]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1379.610 18.260 1379.930 18.320 ;
@@ -17421,6 +17893,7 @@ MACRO user_project_wrapper
   END la_oen[48]
   PIN la_oen[49]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1386.510 17.920 1386.830 17.980 ;
@@ -17443,6 +17916,7 @@ MACRO user_project_wrapper
   END la_oen[49]
   PIN la_oen[4]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 716.290 29.820 716.610 29.880 ;
@@ -17466,6 +17940,7 @@ MACRO user_project_wrapper
   END la_oen[4]
   PIN la_oen[50]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1393.870 863.160 1394.190 863.220 ;
@@ -17498,6 +17973,7 @@ MACRO user_project_wrapper
   END la_oen[50]
   PIN la_oen[51]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1400.770 863.160 1401.090 863.220 ;
@@ -17530,6 +18006,7 @@ MACRO user_project_wrapper
   END la_oen[51]
   PIN la_oen[52]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1408.130 865.540 1408.450 865.600 ;
@@ -17562,6 +18039,7 @@ MACRO user_project_wrapper
   END la_oen[52]
   PIN la_oen[53]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1415.490 862.820 1415.810 862.880 ;
@@ -17594,6 +18072,7 @@ MACRO user_project_wrapper
   END la_oen[53]
   PIN la_oen[54]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1422.390 862.820 1422.710 862.880 ;
@@ -17626,6 +18105,7 @@ MACRO user_project_wrapper
   END la_oen[54]
   PIN la_oen[55]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1599.565 14.705 1599.735 15.895 ;
@@ -17667,6 +18147,7 @@ MACRO user_project_wrapper
   END la_oen[55]
   PIN la_oen[56]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1436.650 862.820 1436.970 862.880 ;
@@ -17701,6 +18182,7 @@ MACRO user_project_wrapper
   END la_oen[56]
   PIN la_oen[57]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1444.010 862.820 1444.330 862.880 ;
@@ -17733,6 +18215,7 @@ MACRO user_project_wrapper
   END la_oen[57]
   PIN la_oen[58]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1451.370 862.820 1451.690 862.880 ;
@@ -17765,6 +18248,7 @@ MACRO user_project_wrapper
   END la_oen[58]
   PIN la_oen[59]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1458.270 862.820 1458.590 862.880 ;
@@ -17797,6 +18281,7 @@ MACRO user_project_wrapper
   END la_oen[59]
   PIN la_oen[5]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 734.230 29.480 734.550 29.540 ;
@@ -17820,6 +18305,7 @@ MACRO user_project_wrapper
   END la_oen[5]
   PIN la_oen[60]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1465.630 862.820 1465.950 862.880 ;
@@ -17852,6 +18338,7 @@ MACRO user_project_wrapper
   END la_oen[60]
   PIN la_oen[61]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1472.530 863.160 1472.850 863.220 ;
@@ -17884,6 +18371,7 @@ MACRO user_project_wrapper
   END la_oen[61]
   PIN la_oen[62]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1479.890 862.820 1480.210 862.880 ;
@@ -17916,6 +18404,7 @@ MACRO user_project_wrapper
   END la_oen[62]
   PIN la_oen[63]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1524.125 18.445 1531.655 18.615 ;
@@ -17960,6 +18449,7 @@ MACRO user_project_wrapper
   END la_oen[63]
   PIN la_oen[64]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1494.150 863.160 1494.470 863.220 ;
@@ -17994,6 +18484,7 @@ MACRO user_project_wrapper
   END la_oen[64]
   PIN la_oen[65]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1501.510 862.820 1501.830 862.880 ;
@@ -18028,6 +18519,7 @@ MACRO user_project_wrapper
   END la_oen[65]
   PIN la_oen[66]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met2 ;
         RECT 1508.790 875.570 1509.070 879.000 ;
@@ -18051,6 +18543,7 @@ MACRO user_project_wrapper
   END la_oen[66]
   PIN la_oen[67]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met2 ;
         RECT 1515.690 875.570 1515.970 879.000 ;
@@ -18074,6 +18567,7 @@ MACRO user_project_wrapper
   END la_oen[67]
   PIN la_oen[68]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1530.565 17.765 1531.655 17.935 ;
@@ -18106,6 +18600,7 @@ MACRO user_project_wrapper
   END la_oen[68]
   PIN la_oen[69]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met2 ;
         RECT 1529.950 875.570 1530.230 879.000 ;
@@ -18129,6 +18624,7 @@ MACRO user_project_wrapper
   END la_oen[69]
   PIN la_oen[6]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1076.470 835.280 1076.790 835.340 ;
@@ -18162,6 +18658,7 @@ MACRO user_project_wrapper
   END la_oen[6]
   PIN la_oen[70]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1537.390 864.520 1537.710 864.580 ;
@@ -18302,6 +18799,7 @@ MACRO user_project_wrapper
   END la_oen[70]
   PIN la_oen[71]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1545.210 17.580 1545.530 17.640 ;
@@ -18325,6 +18823,7 @@ MACRO user_project_wrapper
   END la_oen[71]
   PIN la_oen[72]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1926.165 786.505 1926.335 821.015 ;
@@ -18526,6 +19025,7 @@ MACRO user_project_wrapper
   END la_oen[72]
   PIN la_oen[73]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1559.010 17.240 1559.330 17.300 ;
@@ -18548,6 +19048,7 @@ MACRO user_project_wrapper
   END la_oen[73]
   PIN la_oen[74]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1566.370 862.820 1566.690 862.880 ;
@@ -18582,6 +19083,7 @@ MACRO user_project_wrapper
   END la_oen[74]
   PIN la_oen[75]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1573.270 865.200 1573.590 865.260 ;
@@ -18606,6 +19108,7 @@ MACRO user_project_wrapper
   END la_oen[75]
   PIN la_oen[76]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1600.025 15.045 1602.955 15.215 ;
@@ -18659,6 +19162,7 @@ MACRO user_project_wrapper
   END la_oen[76]
   PIN la_oen[77]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1587.530 866.220 1587.850 866.280 ;
@@ -18685,6 +19189,7 @@ MACRO user_project_wrapper
   END la_oen[77]
   PIN la_oen[78]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1594.890 862.820 1595.210 862.880 ;
@@ -18719,6 +19224,7 @@ MACRO user_project_wrapper
   END la_oen[78]
   PIN la_oen[79]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1602.250 869.280 1602.570 869.340 ;
@@ -18743,6 +19249,7 @@ MACRO user_project_wrapper
   END la_oen[79]
   PIN la_oen[7]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 769.650 28.800 769.970 28.860 ;
@@ -18766,6 +19273,7 @@ MACRO user_project_wrapper
   END la_oen[7]
   PIN la_oen[80]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1609.150 863.840 1609.470 863.900 ;
@@ -18800,6 +19308,7 @@ MACRO user_project_wrapper
   END la_oen[80]
   PIN la_oen[81]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1616.510 868.940 1616.830 869.000 ;
@@ -18832,6 +19341,7 @@ MACRO user_project_wrapper
   END la_oen[81]
   PIN la_oen[82]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1623.410 866.220 1623.730 866.280 ;
@@ -18866,6 +19376,7 @@ MACRO user_project_wrapper
   END la_oen[82]
   PIN la_oen[83]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1630.770 868.600 1631.090 868.660 ;
@@ -18890,6 +19401,7 @@ MACRO user_project_wrapper
   END la_oen[83]
   PIN la_oen[84]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1638.130 865.880 1638.450 865.940 ;
@@ -18922,6 +19434,7 @@ MACRO user_project_wrapper
   END la_oen[84]
   PIN la_oen[85]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1645.030 868.260 1645.350 868.320 ;
@@ -18946,6 +19459,7 @@ MACRO user_project_wrapper
   END la_oen[85]
   PIN la_oen[86]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1652.390 866.220 1652.710 866.280 ;
@@ -18978,6 +19492,7 @@ MACRO user_project_wrapper
   END la_oen[86]
   PIN la_oen[87]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1659.750 867.920 1660.070 867.980 ;
@@ -19002,6 +19517,7 @@ MACRO user_project_wrapper
   END la_oen[87]
   PIN la_oen[88]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1666.650 866.220 1666.970 866.280 ;
@@ -19034,6 +19550,7 @@ MACRO user_project_wrapper
   END la_oen[88]
   PIN la_oen[89]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1674.010 867.580 1674.330 867.640 ;
@@ -19058,6 +19575,7 @@ MACRO user_project_wrapper
   END la_oen[89]
   PIN la_oen[8]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 787.590 30.840 787.910 30.900 ;
@@ -19081,6 +19599,7 @@ MACRO user_project_wrapper
   END la_oen[8]
   PIN la_oen[90]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1683.210 16.900 1683.530 16.960 ;
@@ -19104,6 +19623,7 @@ MACRO user_project_wrapper
   END la_oen[90]
   PIN la_oen[91]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1688.270 867.240 1688.590 867.300 ;
@@ -19128,6 +19648,7 @@ MACRO user_project_wrapper
   END la_oen[91]
   PIN la_oen[92]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1697.010 20.640 1697.330 20.700 ;
@@ -19151,6 +19672,7 @@ MACRO user_project_wrapper
   END la_oen[92]
   PIN la_oen[93]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1702.530 866.900 1702.850 866.960 ;
@@ -19183,6 +19705,7 @@ MACRO user_project_wrapper
   END la_oen[93]
   PIN la_oen[94]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1710.810 20.300 1711.130 20.360 ;
@@ -19206,6 +19729,7 @@ MACRO user_project_wrapper
   END la_oen[94]
   PIN la_oen[95]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1717.250 866.560 1717.570 866.620 ;
@@ -19230,6 +19754,7 @@ MACRO user_project_wrapper
   END la_oen[95]
   PIN la_oen[96]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1724.610 19.960 1724.930 20.020 ;
@@ -19253,6 +19778,7 @@ MACRO user_project_wrapper
   END la_oen[96]
   PIN la_oen[97]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1772.985 864.025 1773.155 866.235 ;
@@ -19288,6 +19814,7 @@ MACRO user_project_wrapper
   END la_oen[97]
   PIN la_oen[98]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1738.410 19.620 1738.730 19.680 ;
@@ -19310,6 +19837,7 @@ MACRO user_project_wrapper
   END la_oen[98]
   PIN la_oen[99]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1745.770 866.220 1746.090 866.280 ;
@@ -19336,6 +19864,7 @@ MACRO user_project_wrapper
   END la_oen[99]
   PIN la_oen[9]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 805.530 31.180 805.850 31.240 ;
@@ -19359,6 +19888,7 @@ MACRO user_project_wrapper
   END la_oen[9]
   PIN user_clock2
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met2 ;
         RECT 2916.810 -4.800 2917.370 2.400 ;
@@ -19366,6 +19896,7 @@ MACRO user_project_wrapper
   END user_clock2
   PIN wb_clk_i
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 2.830 24.040 3.150 24.100 ;
@@ -19389,6 +19920,7 @@ MACRO user_project_wrapper
   END wb_clk_i
   PIN wb_rst_i
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 772.870 855.340 773.190 855.400 ;
@@ -19422,6 +19954,7 @@ MACRO user_project_wrapper
   END wb_rst_i
   PIN wbs_ack_o
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 14.330 24.380 14.650 24.440 ;
@@ -19445,6 +19978,7 @@ MACRO user_project_wrapper
   END wbs_ack_o
   PIN wbs_adr_i[0]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 788.125 620.925 788.295 669.375 ;
@@ -19586,6 +20120,7 @@ MACRO user_project_wrapper
   END wbs_adr_i[0]
   PIN wbs_adr_i[10]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 240.650 27.100 240.970 27.160 ;
@@ -19609,6 +20144,7 @@ MACRO user_project_wrapper
   END wbs_adr_i[10]
   PIN wbs_adr_i[11]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 876.370 855.000 876.690 855.060 ;
@@ -19642,6 +20178,7 @@ MACRO user_project_wrapper
   END wbs_adr_i[11]
   PIN wbs_adr_i[12]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 883.270 855.340 883.590 855.400 ;
@@ -19675,6 +20212,7 @@ MACRO user_project_wrapper
   END wbs_adr_i[12]
   PIN wbs_adr_i[13]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 890.170 855.340 890.490 855.400 ;
@@ -19708,6 +20246,7 @@ MACRO user_project_wrapper
   END wbs_adr_i[13]
   PIN wbs_adr_i[14]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 897.070 855.340 897.390 855.400 ;
@@ -19741,6 +20280,7 @@ MACRO user_project_wrapper
   END wbs_adr_i[14]
   PIN wbs_adr_i[15]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 329.890 22.680 330.210 22.740 ;
@@ -19766,6 +20306,7 @@ MACRO user_project_wrapper
   END wbs_adr_i[15]
   PIN wbs_adr_i[16]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 347.370 22.340 347.690 22.400 ;
@@ -19791,6 +20332,7 @@ MACRO user_project_wrapper
   END wbs_adr_i[16]
   PIN wbs_adr_i[17]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 365.310 22.000 365.630 22.060 ;
@@ -19816,6 +20358,7 @@ MACRO user_project_wrapper
   END wbs_adr_i[17]
   PIN wbs_adr_i[18]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 925.665 554.965 925.835 572.475 ;
@@ -19979,6 +20522,7 @@ MACRO user_project_wrapper
   END wbs_adr_i[18]
   PIN wbs_adr_i[19]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 932.030 855.340 932.350 855.400 ;
@@ -20012,6 +20556,7 @@ MACRO user_project_wrapper
   END wbs_adr_i[19]
   PIN wbs_adr_i[1]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 794.030 841.740 794.350 841.800 ;
@@ -20045,6 +20590,7 @@ MACRO user_project_wrapper
   END wbs_adr_i[1]
   PIN wbs_adr_i[20]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 938.930 855.340 939.250 855.400 ;
@@ -20078,6 +20624,7 @@ MACRO user_project_wrapper
   END wbs_adr_i[20]
   PIN wbs_adr_i[21]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 945.830 855.000 946.150 855.060 ;
@@ -20111,6 +20658,7 @@ MACRO user_project_wrapper
   END wbs_adr_i[21]
   PIN wbs_adr_i[22]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 952.730 855.340 953.050 855.400 ;
@@ -20144,6 +20692,7 @@ MACRO user_project_wrapper
   END wbs_adr_i[22]
   PIN wbs_adr_i[23]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 959.630 855.340 959.950 855.400 ;
@@ -20177,6 +20726,7 @@ MACRO user_project_wrapper
   END wbs_adr_i[23]
   PIN wbs_adr_i[24]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 966.530 855.340 966.850 855.400 ;
@@ -20210,6 +20760,7 @@ MACRO user_project_wrapper
   END wbs_adr_i[24]
   PIN wbs_adr_i[25]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 973.430 855.340 973.750 855.400 ;
@@ -20243,6 +20794,7 @@ MACRO user_project_wrapper
   END wbs_adr_i[25]
   PIN wbs_adr_i[26]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 525.850 36.960 526.170 37.020 ;
@@ -20266,6 +20818,7 @@ MACRO user_project_wrapper
   END wbs_adr_i[26]
   PIN wbs_adr_i[27]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 994.590 787.480 994.910 787.740 ;
@@ -20297,6 +20850,7 @@ MACRO user_project_wrapper
   END wbs_adr_i[27]
   PIN wbs_adr_i[28]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 561.730 36.280 562.050 36.340 ;
@@ -20319,6 +20873,7 @@ MACRO user_project_wrapper
   END wbs_adr_i[28]
   PIN wbs_adr_i[29]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1007.470 835.280 1007.790 835.340 ;
@@ -20360,6 +20915,7 @@ MACRO user_project_wrapper
   END wbs_adr_i[29]
   PIN wbs_adr_i[2]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 86.090 25.740 86.410 25.800 ;
@@ -20383,6 +20939,7 @@ MACRO user_project_wrapper
   END wbs_adr_i[2]
   PIN wbs_adr_i[30]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 597.150 35.600 597.470 35.660 ;
@@ -20405,6 +20962,7 @@ MACRO user_project_wrapper
   END wbs_adr_i[30]
   PIN wbs_adr_i[31]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 615.090 35.260 615.410 35.320 ;
@@ -20428,6 +20986,7 @@ MACRO user_project_wrapper
   END wbs_adr_i[31]
   PIN wbs_adr_i[3]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 817.565 814.385 817.735 862.495 ;
@@ -20633,6 +21192,7 @@ MACRO user_project_wrapper
   END wbs_adr_i[3]
   PIN wbs_adr_i[4]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 133.470 26.420 133.790 26.480 ;
@@ -20655,6 +21215,7 @@ MACRO user_project_wrapper
   END wbs_adr_i[4]
   PIN wbs_adr_i[5]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 151.410 26.760 151.730 26.820 ;
@@ -20677,6 +21238,7 @@ MACRO user_project_wrapper
   END wbs_adr_i[5]
   PIN wbs_adr_i[6]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 169.350 31.520 169.670 31.580 ;
@@ -20700,6 +21262,7 @@ MACRO user_project_wrapper
   END wbs_adr_i[6]
   PIN wbs_adr_i[7]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 186.830 31.860 187.150 31.920 ;
@@ -20723,6 +21286,7 @@ MACRO user_project_wrapper
   END wbs_adr_i[7]
   PIN wbs_adr_i[8]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 204.770 32.200 205.090 32.260 ;
@@ -20746,6 +21310,7 @@ MACRO user_project_wrapper
   END wbs_adr_i[8]
   PIN wbs_adr_i[9]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 222.710 32.540 223.030 32.600 ;
@@ -20769,6 +21334,7 @@ MACRO user_project_wrapper
   END wbs_adr_i[9]
   PIN wbs_cyc_i
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 20.310 30.840 20.630 30.900 ;
@@ -20794,6 +21360,7 @@ MACRO user_project_wrapper
   END wbs_cyc_i
   PIN wbs_dat_i[0]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 787.130 841.740 787.450 841.800 ;
@@ -20827,6 +21394,7 @@ MACRO user_project_wrapper
   END wbs_dat_i[0]
   PIN wbs_dat_i[10]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 870.925 476.085 871.095 524.195 ;
@@ -20978,6 +21546,7 @@ MACRO user_project_wrapper
   END wbs_dat_i[10]
   PIN wbs_dat_i[11]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 876.830 855.340 877.150 855.400 ;
@@ -21011,6 +21580,7 @@ MACRO user_project_wrapper
   END wbs_dat_i[11]
   PIN wbs_dat_i[12]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 883.730 855.000 884.050 855.060 ;
@@ -21044,6 +21614,7 @@ MACRO user_project_wrapper
   END wbs_dat_i[12]
   PIN wbs_dat_i[13]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 890.630 838.340 890.950 838.400 ;
@@ -21077,6 +21648,7 @@ MACRO user_project_wrapper
   END wbs_dat_i[13]
   PIN wbs_dat_i[14]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 897.530 855.000 897.850 855.060 ;
@@ -21110,6 +21682,7 @@ MACRO user_project_wrapper
   END wbs_dat_i[14]
   PIN wbs_dat_i[15]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 905.885 724.965 906.055 814.215 ;
@@ -21354,6 +21927,7 @@ MACRO user_project_wrapper
   END wbs_dat_i[15]
   PIN wbs_dat_i[16]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 912.325 517.905 912.495 524.535 ;
@@ -21513,6 +22087,7 @@ MACRO user_project_wrapper
   END wbs_dat_i[16]
   PIN wbs_dat_i[17]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 919.225 621.265 919.395 717.655 ;
@@ -21710,6 +22285,7 @@ MACRO user_project_wrapper
   END wbs_dat_i[17]
   PIN wbs_dat_i[18]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 389.230 40.700 389.550 40.760 ;
@@ -21733,6 +22309,7 @@ MACRO user_project_wrapper
   END wbs_dat_i[18]
   PIN wbs_dat_i[19]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 940.385 846.345 940.555 869.975 ;
@@ -21785,6 +22362,7 @@ MACRO user_project_wrapper
   END wbs_dat_i[19]
   PIN wbs_dat_i[1]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 68.150 51.580 68.470 51.640 ;
@@ -21808,6 +22386,7 @@ MACRO user_project_wrapper
   END wbs_dat_i[1]
   PIN wbs_dat_i[20]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 427.410 762.520 427.730 762.580 ;
@@ -21841,6 +22420,7 @@ MACRO user_project_wrapper
   END wbs_dat_i[20]
   PIN wbs_dat_i[21]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 448.110 755.380 448.430 755.440 ;
@@ -21873,6 +22453,7 @@ MACRO user_project_wrapper
   END wbs_dat_i[21]
   PIN wbs_dat_i[22]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 461.910 748.580 462.230 748.640 ;
@@ -21897,6 +22478,7 @@ MACRO user_project_wrapper
   END wbs_dat_i[22]
   PIN wbs_dat_i[23]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 482.610 845.140 482.930 845.200 ;
@@ -21929,6 +22511,7 @@ MACRO user_project_wrapper
   END wbs_dat_i[23]
   PIN wbs_dat_i[24]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 496.410 741.780 496.730 741.840 ;
@@ -21952,6 +22535,7 @@ MACRO user_project_wrapper
   END wbs_dat_i[24]
   PIN wbs_dat_i[25]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 517.110 734.640 517.430 734.700 ;
@@ -21985,6 +22569,7 @@ MACRO user_project_wrapper
   END wbs_dat_i[25]
   PIN wbs_dat_i[26]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 537.810 727.840 538.130 727.900 ;
@@ -22018,6 +22603,7 @@ MACRO user_project_wrapper
   END wbs_dat_i[26]
   PIN wbs_dat_i[27]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 551.610 721.040 551.930 721.100 ;
@@ -22066,6 +22652,7 @@ MACRO user_project_wrapper
   END wbs_dat_i[27]
   PIN wbs_dat_i[28]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 572.310 859.080 572.630 859.140 ;
@@ -22098,6 +22685,7 @@ MACRO user_project_wrapper
   END wbs_dat_i[28]
   PIN wbs_dat_i[29]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1007.470 797.200 1007.790 797.260 ;
@@ -22133,6 +22721,7 @@ MACRO user_project_wrapper
   END wbs_dat_i[29]
   PIN wbs_dat_i[2]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 106.790 810.800 107.110 810.860 ;
@@ -22168,6 +22757,7 @@ MACRO user_project_wrapper
   END wbs_dat_i[2]
   PIN wbs_dat_i[30]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1014.830 855.340 1015.150 855.400 ;
@@ -22211,6 +22801,7 @@ MACRO user_project_wrapper
   END wbs_dat_i[30]
   PIN wbs_dat_i[31]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 627.510 700.300 627.830 700.360 ;
@@ -22246,6 +22837,7 @@ MACRO user_project_wrapper
   END wbs_dat_i[31]
   PIN wbs_dat_i[3]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 116.910 58.720 117.230 58.780 ;
@@ -22271,6 +22863,7 @@ MACRO user_project_wrapper
   END wbs_dat_i[3]
   PIN wbs_dat_i[4]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 155.090 817.600 155.410 817.660 ;
@@ -22304,6 +22897,7 @@ MACRO user_project_wrapper
   END wbs_dat_i[4]
   PIN wbs_dat_i[5]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 161.990 838.340 162.310 838.400 ;
@@ -22336,6 +22930,7 @@ MACRO user_project_wrapper
   END wbs_dat_i[5]
   PIN wbs_dat_i[6]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 182.690 851.940 183.010 852.000 ;
@@ -22368,6 +22963,7 @@ MACRO user_project_wrapper
   END wbs_dat_i[6]
   PIN wbs_dat_i[7]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 192.810 831.540 193.130 831.600 ;
@@ -22393,6 +22989,7 @@ MACRO user_project_wrapper
   END wbs_dat_i[7]
   PIN wbs_dat_i[8]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 213.510 776.120 213.830 776.180 ;
@@ -22428,6 +23025,7 @@ MACRO user_project_wrapper
   END wbs_dat_i[8]
   PIN wbs_dat_i[9]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 862.110 821.000 862.430 821.060 ;
@@ -22485,6 +23083,7 @@ MACRO user_project_wrapper
   END wbs_dat_i[9]
   PIN wbs_dat_o[0]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 58.490 790.060 58.810 790.120 ;
@@ -22518,6 +23117,7 @@ MACRO user_project_wrapper
   END wbs_dat_o[0]
   PIN wbs_dat_o[10]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 254.910 783.260 255.230 783.320 ;
@@ -22551,6 +23151,7 @@ MACRO user_project_wrapper
   END wbs_dat_o[10]
   PIN wbs_dat_o[11]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 275.610 803.660 275.930 803.720 ;
@@ -22584,6 +23185,7 @@ MACRO user_project_wrapper
   END wbs_dat_o[11]
   PIN wbs_dat_o[12]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 289.410 686.360 289.730 686.420 ;
@@ -22609,6 +23211,7 @@ MACRO user_project_wrapper
   END wbs_dat_o[12]
   PIN wbs_dat_o[13]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 898.065 672.605 898.235 717.655 ;
@@ -22675,6 +23278,7 @@ MACRO user_project_wrapper
   END wbs_dat_o[13]
   PIN wbs_dat_o[14]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 835.045 18.105 835.215 18.955 ;
@@ -22716,6 +23320,7 @@ MACRO user_project_wrapper
   END wbs_dat_o[14]
   PIN wbs_dat_o[15]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 852.985 18.105 853.155 19.295 ;
@@ -22748,6 +23353,7 @@ MACRO user_project_wrapper
   END wbs_dat_o[15]
   PIN wbs_dat_o[16]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 359.330 19.620 359.650 19.680 ;
@@ -22773,6 +23379,7 @@ MACRO user_project_wrapper
   END wbs_dat_o[16]
   PIN wbs_dat_o[17]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 377.270 19.960 377.590 20.020 ;
@@ -22798,6 +23405,7 @@ MACRO user_project_wrapper
   END wbs_dat_o[17]
   PIN wbs_dat_o[18]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 424.265 16.745 424.435 20.315 ;
@@ -22842,6 +23450,7 @@ MACRO user_project_wrapper
   END wbs_dat_o[18]
   PIN wbs_dat_o[19]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 423.805 15.725 423.975 20.315 ;
@@ -22891,6 +23500,7 @@ MACRO user_project_wrapper
   END wbs_dat_o[19]
   PIN wbs_dat_o[1]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 92.990 866.220 93.310 866.280 ;
@@ -22923,6 +23533,7 @@ MACRO user_project_wrapper
   END wbs_dat_o[1]
   PIN wbs_dat_o[20]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 945.370 855.340 945.690 855.400 ;
@@ -22958,6 +23569,7 @@ MACRO user_project_wrapper
   END wbs_dat_o[20]
   PIN wbs_dat_o[21]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 449.490 16.560 449.810 16.620 ;
@@ -22983,6 +23595,7 @@ MACRO user_project_wrapper
   END wbs_dat_o[21]
   PIN wbs_dat_o[22]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 466.510 16.220 466.830 16.280 ;
@@ -23006,6 +23619,7 @@ MACRO user_project_wrapper
   END wbs_dat_o[22]
   PIN wbs_dat_o[23]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 967.525 241.485 967.695 289.595 ;
@@ -23136,6 +23750,7 @@ MACRO user_project_wrapper
   END wbs_dat_o[23]
   PIN wbs_dat_o[24]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 972.970 839.360 973.290 839.420 ;
@@ -23169,6 +23784,7 @@ MACRO user_project_wrapper
   END wbs_dat_o[24]
   PIN wbs_dat_o[25]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 980.865 579.785 981.035 627.895 ;
@@ -23252,6 +23868,7 @@ MACRO user_project_wrapper
   END wbs_dat_o[25]
   PIN wbs_dat_o[26]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 988.225 579.785 988.395 627.895 ;
@@ -23323,6 +23940,7 @@ MACRO user_project_wrapper
   END wbs_dat_o[26]
   PIN wbs_dat_o[27]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 558.510 867.920 558.830 867.980 ;
@@ -23355,6 +23973,7 @@ MACRO user_project_wrapper
   END wbs_dat_o[27]
   PIN wbs_dat_o[28]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 1002.025 48.365 1002.195 96.475 ;
@@ -23452,6 +24071,7 @@ MACRO user_project_wrapper
   END wbs_dat_o[28]
   PIN wbs_dat_o[29]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 593.010 868.260 593.330 868.320 ;
@@ -23476,6 +24096,7 @@ MACRO user_project_wrapper
   END wbs_dat_o[29]
   PIN wbs_dat_o[2]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met2 ;
         RECT 814.190 875.500 814.470 879.000 ;
@@ -23498,6 +24119,7 @@ MACRO user_project_wrapper
   END wbs_dat_o[2]
   PIN wbs_dat_o[30]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 613.710 868.600 614.030 868.660 ;
@@ -23530,6 +24152,7 @@ MACRO user_project_wrapper
   END wbs_dat_o[30]
   PIN wbs_dat_o[31]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 1021.270 855.340 1021.590 855.400 ;
@@ -23573,6 +24196,7 @@ MACRO user_project_wrapper
   END wbs_dat_o[31]
   PIN wbs_dat_o[3]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 141.290 866.560 141.610 866.620 ;
@@ -23605,6 +24229,7 @@ MACRO user_project_wrapper
   END wbs_dat_o[3]
   PIN wbs_dat_o[4]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 810.205 16.915 810.375 17.255 ;
@@ -23648,6 +24273,7 @@ MACRO user_project_wrapper
   END wbs_dat_o[4]
   PIN wbs_dat_o[5]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 175.790 867.580 176.110 867.640 ;
@@ -23680,6 +24306,7 @@ MACRO user_project_wrapper
   END wbs_dat_o[5]
   PIN wbs_dat_o[6]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 214.045 16.405 214.215 17.595 ;
@@ -23828,6 +24455,7 @@ MACRO user_project_wrapper
   END wbs_dat_o[6]
   PIN wbs_dat_o[7]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 848.770 855.340 849.090 855.400 ;
@@ -23861,6 +24489,7 @@ MACRO user_project_wrapper
   END wbs_dat_o[7]
   PIN wbs_dat_o[8]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 810.665 17.085 810.835 18.275 ;
@@ -23903,6 +24532,7 @@ MACRO user_project_wrapper
   END wbs_dat_o[8]
   PIN wbs_dat_o[9]
     DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 234.670 18.600 234.990 18.660 ;
@@ -23925,6 +24555,7 @@ MACRO user_project_wrapper
   END wbs_dat_o[9]
   PIN wbs_sel_i[0]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 795.025 654.925 795.195 717.655 ;
@@ -24137,6 +24768,7 @@ MACRO user_project_wrapper
   END wbs_sel_i[0]
   PIN wbs_sel_i[1]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 99.890 866.900 100.210 866.960 ;
@@ -24169,6 +24801,7 @@ MACRO user_project_wrapper
   END wbs_sel_i[1]
   PIN wbs_sel_i[2]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met2 ;
         RECT 816.490 875.570 816.770 879.000 ;
@@ -24192,6 +24825,7 @@ MACRO user_project_wrapper
   END wbs_sel_i[2]
   PIN wbs_sel_i[3]
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 148.190 867.240 148.510 867.300 ;
@@ -24224,6 +24858,7 @@ MACRO user_project_wrapper
   END wbs_sel_i[3]
   PIN wbs_stb_i
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER li1 ;
         RECT 782.145 61.965 782.315 96.475 ;
@@ -24340,6 +24975,7 @@ MACRO user_project_wrapper
   END wbs_stb_i
   PIN wbs_we_i
     DIRECTION INPUT ;
+    USE SIGNAL ;
     PORT
       LAYER met1 ;
         RECT 51.590 865.880 51.910 865.940 ;
@@ -24371,7 +25007,8 @@ MACRO user_project_wrapper
     END
   END wbs_we_i
   PIN vccd1
-    DIRECTION INPUT ;
+    DIRECTION INOUT ;
+    USE POWER ;
     PORT
       LAYER met4 ;
         RECT -9.980 -4.620 -6.980 3524.300 ;
@@ -25930,7 +26567,8 @@ MACRO user_project_wrapper
     END
   END vccd1
   PIN vssd1
-    DIRECTION INPUT ;
+    DIRECTION INOUT ;
+    USE GROUND ;
     PORT
       LAYER met4 ;
         RECT -14.680 -9.320 -11.680 3529.000 ;
@@ -27328,7 +27966,8 @@ MACRO user_project_wrapper
     END
   END vssd1
   PIN vccd2
-    DIRECTION INPUT ;
+    DIRECTION INOUT ;
+    USE POWER ;
     PORT
       LAYER met4 ;
         RECT -19.380 -14.020 -16.380 3533.700 ;
@@ -28887,7 +29526,8 @@ MACRO user_project_wrapper
     END
   END vccd2
   PIN vssd2
-    DIRECTION INPUT ;
+    DIRECTION INOUT ;
+    USE GROUND ;
     PORT
       LAYER met4 ;
         RECT -24.080 -18.720 -21.080 3538.400 ;
@@ -30285,7 +30925,8 @@ MACRO user_project_wrapper
     END
   END vssd2
   PIN vdda1
-    DIRECTION INPUT ;
+    DIRECTION INOUT ;
+    USE POWER ;
     PORT
       LAYER met4 ;
         RECT -28.780 -23.420 -25.780 3543.100 ;
@@ -31755,7 +32396,8 @@ MACRO user_project_wrapper
     END
   END vdda1
   PIN vssa1
-    DIRECTION INPUT ;
+    DIRECTION INOUT ;
+    USE GROUND ;
     PORT
       LAYER met4 ;
         RECT -33.480 -28.120 -30.480 3547.800 ;
@@ -33153,7 +33795,8 @@ MACRO user_project_wrapper
     END
   END vssa1
   PIN vdda2
-    DIRECTION INPUT ;
+    DIRECTION INOUT ;
+    USE POWER ;
     PORT
       LAYER met4 ;
         RECT -38.180 -32.820 -35.180 3552.500 ;
@@ -34596,7 +35239,8 @@ MACRO user_project_wrapper
     END
   END vdda2
   PIN vssa2
-    DIRECTION INPUT ;
+    DIRECTION INOUT ;
+    USE GROUND ;
     PORT
       LAYER met4 ;
         RECT -42.880 -37.520 -39.880 3557.200 ;

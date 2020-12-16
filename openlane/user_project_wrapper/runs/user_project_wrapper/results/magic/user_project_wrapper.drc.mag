@@ -1,7 +1,7 @@
 magic
 tech sky130A
 magscale 1 2
-timestamp 1608101797
+timestamp 1608150357
 << checkpaint >>
 rect -12508 -11438 596432 715374
 << locali >>
@@ -60162,7 +60162,7 @@ rect 533604 -7506 534204 -7504
 rect 569604 -7506 570204 -7504
 rect 591900 -7506 592500 -7504
 use accelerator_top  mprj
-timestamp 1608101797
+timestamp 1608150357
 transform 1 0 155000 0 1 175000
 box 0 0 234658 236802
 << labels >>
@@ -61438,22 +61438,748 @@ rlabel metal2 s 5234 -960 5346 480 4 wbs_stb_i
 port 635 nsew
 rlabel metal2 s 6430 -960 6542 480 4 wbs_we_i
 port 636 nsew
-rlabel metal5 s -1996 -924 585920 -324 4 vccd1
+rlabel metal4 s 576804 -1864 577404 705800 4 vccd1
 port 637 nsew
-rlabel metal5 s -2936 -1864 586860 -1264 4 vssd1
+rlabel metal4 s 540804 -1864 541404 705800 4 vccd1.extra1
 port 638 nsew
-rlabel metal5 s -3876 -2804 587800 -2204 4 vccd2
+rlabel metal4 s 504804 -1864 505404 705800 4 vccd1.extra2
 port 639 nsew
-rlabel metal5 s -4816 -3744 588740 -3144 4 vssd2
+rlabel metal4 s 468804 -1864 469404 705800 4 vccd1.extra3
 port 640 nsew
-rlabel metal5 s -5756 -4684 589680 -4084 4 vdda1
+rlabel metal4 s 432804 -1864 433404 705800 4 vccd1.extra4
 port 641 nsew
-rlabel metal5 s -6696 -5624 590620 -5024 4 vssa1
+rlabel metal4 s 396804 -1864 397404 705800 4 vccd1.extra5
 port 642 nsew
-rlabel metal5 s -7636 -6564 591560 -5964 4 vdda2
+rlabel metal4 s 360804 411802 361404 705800 4 vccd1.extra6
 port 643 nsew
-rlabel metal5 s -8576 -7504 592500 -6904 4 vssa2
+rlabel metal4 s 324804 411802 325404 705800 4 vccd1.extra7
 port 644 nsew
+rlabel metal4 s 288804 411802 289404 705800 4 vccd1.extra8
+port 645 nsew
+rlabel metal4 s 252804 411802 253404 705800 4 vccd1.extra9
+port 646 nsew
+rlabel metal4 s 216804 411802 217404 705800 4 vccd1.extra10
+port 647 nsew
+rlabel metal4 s 180804 411802 181404 705800 4 vccd1.extra11
+port 648 nsew
+rlabel metal4 s 144804 -1864 145404 705800 4 vccd1.extra12
+port 649 nsew
+rlabel metal4 s 108804 -1864 109404 705800 4 vccd1.extra13
+port 650 nsew
+rlabel metal4 s 72804 -1864 73404 705800 4 vccd1.extra14
+port 651 nsew
+rlabel metal4 s 36804 -1864 37404 705800 4 vccd1.extra15
+port 652 nsew
+rlabel metal4 s 804 -1864 1404 705800 4 vccd1.extra16
+port 653 nsew
+rlabel metal4 s 585320 -924 585920 704860 4 vccd1.extra17
+port 654 nsew
+rlabel metal4 s -1996 -924 -1396 704860 4 vccd1.extra18
+port 655 nsew
+rlabel metal4 s 360804 -1864 361404 175000 4 vccd1.extra19
+port 656 nsew
+rlabel metal4 s 324804 -1864 325404 175000 4 vccd1.extra20
+port 657 nsew
+rlabel metal4 s 288804 -1864 289404 175000 4 vccd1.extra21
+port 658 nsew
+rlabel metal4 s 252804 -1864 253404 175000 4 vccd1.extra22
+port 659 nsew
+rlabel metal4 s 216804 -1864 217404 175000 4 vccd1.extra23
+port 660 nsew
+rlabel metal4 s 180804 -1864 181404 175000 4 vccd1.extra24
+port 661 nsew
+rlabel metal5 s -1996 704260 585920 704860 4 vccd1.extra25
+port 662 nsew
+rlabel metal5 s -2936 685876 586860 686476 4 vccd1.extra26
+port 663 nsew
+rlabel metal5 s -2936 649876 586860 650476 4 vccd1.extra27
+port 664 nsew
+rlabel metal5 s -2936 613876 586860 614476 4 vccd1.extra28
+port 665 nsew
+rlabel metal5 s -2936 577876 586860 578476 4 vccd1.extra29
+port 666 nsew
+rlabel metal5 s -2936 541876 586860 542476 4 vccd1.extra30
+port 667 nsew
+rlabel metal5 s -2936 505876 586860 506476 4 vccd1.extra31
+port 668 nsew
+rlabel metal5 s -2936 469876 586860 470476 4 vccd1.extra32
+port 669 nsew
+rlabel metal5 s -2936 433876 586860 434476 4 vccd1.extra33
+port 670 nsew
+rlabel metal5 s -2936 397876 586860 398476 4 vccd1.extra34
+port 671 nsew
+rlabel metal5 s -2936 361876 586860 362476 4 vccd1.extra35
+port 672 nsew
+rlabel metal5 s -2936 325876 586860 326476 4 vccd1.extra36
+port 673 nsew
+rlabel metal5 s -2936 289876 586860 290476 4 vccd1.extra37
+port 674 nsew
+rlabel metal5 s -2936 253876 586860 254476 4 vccd1.extra38
+port 675 nsew
+rlabel metal5 s -2936 217876 586860 218476 4 vccd1.extra39
+port 676 nsew
+rlabel metal5 s -2936 181876 586860 182476 4 vccd1.extra40
+port 677 nsew
+rlabel metal5 s -2936 145876 586860 146476 4 vccd1.extra41
+port 678 nsew
+rlabel metal5 s -2936 109876 586860 110476 4 vccd1.extra42
+port 679 nsew
+rlabel metal5 s -2936 73876 586860 74476 4 vccd1.extra43
+port 680 nsew
+rlabel metal5 s -2936 37876 586860 38476 4 vccd1.extra44
+port 681 nsew
+rlabel metal5 s -2936 1876 586860 2476 4 vccd1.extra45
+port 682 nsew
+rlabel metal5 s -1996 -924 585920 -324 4 vccd1.extra46
+port 683 nsew
+rlabel metal4 s 586260 -1864 586860 705800 4 vssd1
+port 684 nsew
+rlabel metal4 s 558804 -1864 559404 705800 4 vssd1.extra1
+port 685 nsew
+rlabel metal4 s 522804 -1864 523404 705800 4 vssd1.extra2
+port 686 nsew
+rlabel metal4 s 486804 -1864 487404 705800 4 vssd1.extra3
+port 687 nsew
+rlabel metal4 s 450804 -1864 451404 705800 4 vssd1.extra4
+port 688 nsew
+rlabel metal4 s 414804 -1864 415404 705800 4 vssd1.extra5
+port 689 nsew
+rlabel metal4 s 378804 411802 379404 705800 4 vssd1.extra6
+port 690 nsew
+rlabel metal4 s 342804 411802 343404 705800 4 vssd1.extra7
+port 691 nsew
+rlabel metal4 s 306804 411802 307404 705800 4 vssd1.extra8
+port 692 nsew
+rlabel metal4 s 270804 411802 271404 705800 4 vssd1.extra9
+port 693 nsew
+rlabel metal4 s 234804 411802 235404 705800 4 vssd1.extra10
+port 694 nsew
+rlabel metal4 s 198804 411802 199404 705800 4 vssd1.extra11
+port 695 nsew
+rlabel metal4 s 162804 411802 163404 705800 4 vssd1.extra12
+port 696 nsew
+rlabel metal4 s 126804 -1864 127404 705800 4 vssd1.extra13
+port 697 nsew
+rlabel metal4 s 90804 -1864 91404 705800 4 vssd1.extra14
+port 698 nsew
+rlabel metal4 s 54804 -1864 55404 705800 4 vssd1.extra15
+port 699 nsew
+rlabel metal4 s 18804 -1864 19404 705800 4 vssd1.extra16
+port 700 nsew
+rlabel metal4 s -2936 -1864 -2336 705800 4 vssd1.extra17
+port 701 nsew
+rlabel metal4 s 378804 -1864 379404 175000 4 vssd1.extra18
+port 702 nsew
+rlabel metal4 s 342804 -1864 343404 175000 4 vssd1.extra19
+port 703 nsew
+rlabel metal4 s 306804 -1864 307404 175000 4 vssd1.extra20
+port 704 nsew
+rlabel metal4 s 270804 -1864 271404 175000 4 vssd1.extra21
+port 705 nsew
+rlabel metal4 s 234804 -1864 235404 175000 4 vssd1.extra22
+port 706 nsew
+rlabel metal4 s 198804 -1864 199404 175000 4 vssd1.extra23
+port 707 nsew
+rlabel metal4 s 162804 -1864 163404 175000 4 vssd1.extra24
+port 708 nsew
+rlabel metal5 s -2936 705200 586860 705800 4 vssd1.extra25
+port 709 nsew
+rlabel metal5 s -2936 667876 586860 668476 4 vssd1.extra26
+port 710 nsew
+rlabel metal5 s -2936 631876 586860 632476 4 vssd1.extra27
+port 711 nsew
+rlabel metal5 s -2936 595876 586860 596476 4 vssd1.extra28
+port 712 nsew
+rlabel metal5 s -2936 559876 586860 560476 4 vssd1.extra29
+port 713 nsew
+rlabel metal5 s -2936 523876 586860 524476 4 vssd1.extra30
+port 714 nsew
+rlabel metal5 s -2936 487876 586860 488476 4 vssd1.extra31
+port 715 nsew
+rlabel metal5 s -2936 451876 586860 452476 4 vssd1.extra32
+port 716 nsew
+rlabel metal5 s -2936 415876 586860 416476 4 vssd1.extra33
+port 717 nsew
+rlabel metal5 s -2936 379876 586860 380476 4 vssd1.extra34
+port 718 nsew
+rlabel metal5 s -2936 343876 586860 344476 4 vssd1.extra35
+port 719 nsew
+rlabel metal5 s -2936 307876 586860 308476 4 vssd1.extra36
+port 720 nsew
+rlabel metal5 s -2936 271876 586860 272476 4 vssd1.extra37
+port 721 nsew
+rlabel metal5 s -2936 235876 586860 236476 4 vssd1.extra38
+port 722 nsew
+rlabel metal5 s -2936 199876 586860 200476 4 vssd1.extra39
+port 723 nsew
+rlabel metal5 s -2936 163876 586860 164476 4 vssd1.extra40
+port 724 nsew
+rlabel metal5 s -2936 127876 586860 128476 4 vssd1.extra41
+port 725 nsew
+rlabel metal5 s -2936 91876 586860 92476 4 vssd1.extra42
+port 726 nsew
+rlabel metal5 s -2936 55876 586860 56476 4 vssd1.extra43
+port 727 nsew
+rlabel metal5 s -2936 19876 586860 20476 4 vssd1.extra44
+port 728 nsew
+rlabel metal5 s -2936 -1864 586860 -1264 4 vssd1.extra45
+port 729 nsew
+rlabel metal4 s 580404 -3744 581004 707680 4 vccd2
+port 730 nsew
+rlabel metal4 s 544404 -3744 545004 707680 4 vccd2.extra1
+port 731 nsew
+rlabel metal4 s 508404 -3744 509004 707680 4 vccd2.extra2
+port 732 nsew
+rlabel metal4 s 472404 -3744 473004 707680 4 vccd2.extra3
+port 733 nsew
+rlabel metal4 s 436404 -3744 437004 707680 4 vccd2.extra4
+port 734 nsew
+rlabel metal4 s 400404 -3744 401004 707680 4 vccd2.extra5
+port 735 nsew
+rlabel metal4 s 364404 411802 365004 707680 4 vccd2.extra6
+port 736 nsew
+rlabel metal4 s 328404 411802 329004 707680 4 vccd2.extra7
+port 737 nsew
+rlabel metal4 s 292404 411802 293004 707680 4 vccd2.extra8
+port 738 nsew
+rlabel metal4 s 256404 411802 257004 707680 4 vccd2.extra9
+port 739 nsew
+rlabel metal4 s 220404 411802 221004 707680 4 vccd2.extra10
+port 740 nsew
+rlabel metal4 s 184404 411802 185004 707680 4 vccd2.extra11
+port 741 nsew
+rlabel metal4 s 148404 -3744 149004 707680 4 vccd2.extra12
+port 742 nsew
+rlabel metal4 s 112404 -3744 113004 707680 4 vccd2.extra13
+port 743 nsew
+rlabel metal4 s 76404 -3744 77004 707680 4 vccd2.extra14
+port 744 nsew
+rlabel metal4 s 40404 -3744 41004 707680 4 vccd2.extra15
+port 745 nsew
+rlabel metal4 s 4404 -3744 5004 707680 4 vccd2.extra16
+port 746 nsew
+rlabel metal4 s 587200 -2804 587800 706740 4 vccd2.extra17
+port 747 nsew
+rlabel metal4 s -3876 -2804 -3276 706740 4 vccd2.extra18
+port 748 nsew
+rlabel metal4 s 364404 -3744 365004 175000 4 vccd2.extra19
+port 749 nsew
+rlabel metal4 s 328404 -3744 329004 175000 4 vccd2.extra20
+port 750 nsew
+rlabel metal4 s 292404 -3744 293004 175000 4 vccd2.extra21
+port 751 nsew
+rlabel metal4 s 256404 -3744 257004 175000 4 vccd2.extra22
+port 752 nsew
+rlabel metal4 s 220404 -3744 221004 175000 4 vccd2.extra23
+port 753 nsew
+rlabel metal4 s 184404 -3744 185004 175000 4 vccd2.extra24
+port 754 nsew
+rlabel metal5 s -3876 706140 587800 706740 4 vccd2.extra25
+port 755 nsew
+rlabel metal5 s -4816 689476 588740 690076 4 vccd2.extra26
+port 756 nsew
+rlabel metal5 s -4816 653476 588740 654076 4 vccd2.extra27
+port 757 nsew
+rlabel metal5 s -4816 617476 588740 618076 4 vccd2.extra28
+port 758 nsew
+rlabel metal5 s -4816 581476 588740 582076 4 vccd2.extra29
+port 759 nsew
+rlabel metal5 s -4816 545476 588740 546076 4 vccd2.extra30
+port 760 nsew
+rlabel metal5 s -4816 509476 588740 510076 4 vccd2.extra31
+port 761 nsew
+rlabel metal5 s -4816 473476 588740 474076 4 vccd2.extra32
+port 762 nsew
+rlabel metal5 s -4816 437476 588740 438076 4 vccd2.extra33
+port 763 nsew
+rlabel metal5 s -4816 401476 588740 402076 4 vccd2.extra34
+port 764 nsew
+rlabel metal5 s -4816 365476 588740 366076 4 vccd2.extra35
+port 765 nsew
+rlabel metal5 s -4816 329476 588740 330076 4 vccd2.extra36
+port 766 nsew
+rlabel metal5 s -4816 293476 588740 294076 4 vccd2.extra37
+port 767 nsew
+rlabel metal5 s -4816 257476 588740 258076 4 vccd2.extra38
+port 768 nsew
+rlabel metal5 s -4816 221476 588740 222076 4 vccd2.extra39
+port 769 nsew
+rlabel metal5 s -4816 185476 588740 186076 4 vccd2.extra40
+port 770 nsew
+rlabel metal5 s -4816 149476 588740 150076 4 vccd2.extra41
+port 771 nsew
+rlabel metal5 s -4816 113476 588740 114076 4 vccd2.extra42
+port 772 nsew
+rlabel metal5 s -4816 77476 588740 78076 4 vccd2.extra43
+port 773 nsew
+rlabel metal5 s -4816 41476 588740 42076 4 vccd2.extra44
+port 774 nsew
+rlabel metal5 s -4816 5476 588740 6076 4 vccd2.extra45
+port 775 nsew
+rlabel metal5 s -3876 -2804 587800 -2204 4 vccd2.extra46
+port 776 nsew
+rlabel metal4 s 588140 -3744 588740 707680 4 vssd2
+port 777 nsew
+rlabel metal4 s 562404 -3744 563004 707680 4 vssd2.extra1
+port 778 nsew
+rlabel metal4 s 526404 -3744 527004 707680 4 vssd2.extra2
+port 779 nsew
+rlabel metal4 s 490404 -3744 491004 707680 4 vssd2.extra3
+port 780 nsew
+rlabel metal4 s 454404 -3744 455004 707680 4 vssd2.extra4
+port 781 nsew
+rlabel metal4 s 418404 -3744 419004 707680 4 vssd2.extra5
+port 782 nsew
+rlabel metal4 s 382404 411802 383004 707680 4 vssd2.extra6
+port 783 nsew
+rlabel metal4 s 346404 411802 347004 707680 4 vssd2.extra7
+port 784 nsew
+rlabel metal4 s 310404 411802 311004 707680 4 vssd2.extra8
+port 785 nsew
+rlabel metal4 s 274404 411802 275004 707680 4 vssd2.extra9
+port 786 nsew
+rlabel metal4 s 238404 411802 239004 707680 4 vssd2.extra10
+port 787 nsew
+rlabel metal4 s 202404 411802 203004 707680 4 vssd2.extra11
+port 788 nsew
+rlabel metal4 s 166404 411802 167004 707680 4 vssd2.extra12
+port 789 nsew
+rlabel metal4 s 130404 -3744 131004 707680 4 vssd2.extra13
+port 790 nsew
+rlabel metal4 s 94404 -3744 95004 707680 4 vssd2.extra14
+port 791 nsew
+rlabel metal4 s 58404 -3744 59004 707680 4 vssd2.extra15
+port 792 nsew
+rlabel metal4 s 22404 -3744 23004 707680 4 vssd2.extra16
+port 793 nsew
+rlabel metal4 s -4816 -3744 -4216 707680 4 vssd2.extra17
+port 794 nsew
+rlabel metal4 s 382404 -3744 383004 175000 4 vssd2.extra18
+port 795 nsew
+rlabel metal4 s 346404 -3744 347004 175000 4 vssd2.extra19
+port 796 nsew
+rlabel metal4 s 310404 -3744 311004 175000 4 vssd2.extra20
+port 797 nsew
+rlabel metal4 s 274404 -3744 275004 175000 4 vssd2.extra21
+port 798 nsew
+rlabel metal4 s 238404 -3744 239004 175000 4 vssd2.extra22
+port 799 nsew
+rlabel metal4 s 202404 -3744 203004 175000 4 vssd2.extra23
+port 800 nsew
+rlabel metal4 s 166404 -3744 167004 175000 4 vssd2.extra24
+port 801 nsew
+rlabel metal5 s -4816 707080 588740 707680 4 vssd2.extra25
+port 802 nsew
+rlabel metal5 s -4816 671476 588740 672076 4 vssd2.extra26
+port 803 nsew
+rlabel metal5 s -4816 635476 588740 636076 4 vssd2.extra27
+port 804 nsew
+rlabel metal5 s -4816 599476 588740 600076 4 vssd2.extra28
+port 805 nsew
+rlabel metal5 s -4816 563476 588740 564076 4 vssd2.extra29
+port 806 nsew
+rlabel metal5 s -4816 527476 588740 528076 4 vssd2.extra30
+port 807 nsew
+rlabel metal5 s -4816 491476 588740 492076 4 vssd2.extra31
+port 808 nsew
+rlabel metal5 s -4816 455476 588740 456076 4 vssd2.extra32
+port 809 nsew
+rlabel metal5 s -4816 419476 588740 420076 4 vssd2.extra33
+port 810 nsew
+rlabel metal5 s -4816 383476 588740 384076 4 vssd2.extra34
+port 811 nsew
+rlabel metal5 s -4816 347476 588740 348076 4 vssd2.extra35
+port 812 nsew
+rlabel metal5 s -4816 311476 588740 312076 4 vssd2.extra36
+port 813 nsew
+rlabel metal5 s -4816 275476 588740 276076 4 vssd2.extra37
+port 814 nsew
+rlabel metal5 s -4816 239476 588740 240076 4 vssd2.extra38
+port 815 nsew
+rlabel metal5 s -4816 203476 588740 204076 4 vssd2.extra39
+port 816 nsew
+rlabel metal5 s -4816 167476 588740 168076 4 vssd2.extra40
+port 817 nsew
+rlabel metal5 s -4816 131476 588740 132076 4 vssd2.extra41
+port 818 nsew
+rlabel metal5 s -4816 95476 588740 96076 4 vssd2.extra42
+port 819 nsew
+rlabel metal5 s -4816 59476 588740 60076 4 vssd2.extra43
+port 820 nsew
+rlabel metal5 s -4816 23476 588740 24076 4 vssd2.extra44
+port 821 nsew
+rlabel metal5 s -4816 -3744 588740 -3144 4 vssd2.extra45
+port 822 nsew
+rlabel metal4 s 548004 -5624 548604 709560 4 vdda1
+port 823 nsew
+rlabel metal4 s 512004 -5624 512604 709560 4 vdda1.extra1
+port 824 nsew
+rlabel metal4 s 476004 -5624 476604 709560 4 vdda1.extra2
+port 825 nsew
+rlabel metal4 s 440004 -5624 440604 709560 4 vdda1.extra3
+port 826 nsew
+rlabel metal4 s 404004 -5624 404604 709560 4 vdda1.extra4
+port 827 nsew
+rlabel metal4 s 368004 411802 368604 709560 4 vdda1.extra5
+port 828 nsew
+rlabel metal4 s 332004 411802 332604 709560 4 vdda1.extra6
+port 829 nsew
+rlabel metal4 s 296004 411802 296604 709560 4 vdda1.extra7
+port 830 nsew
+rlabel metal4 s 260004 411802 260604 709560 4 vdda1.extra8
+port 831 nsew
+rlabel metal4 s 224004 411802 224604 709560 4 vdda1.extra9
+port 832 nsew
+rlabel metal4 s 188004 411802 188604 709560 4 vdda1.extra10
+port 833 nsew
+rlabel metal4 s 152004 -5624 152604 709560 4 vdda1.extra11
+port 834 nsew
+rlabel metal4 s 116004 -5624 116604 709560 4 vdda1.extra12
+port 835 nsew
+rlabel metal4 s 80004 -5624 80604 709560 4 vdda1.extra13
+port 836 nsew
+rlabel metal4 s 44004 -5624 44604 709560 4 vdda1.extra14
+port 837 nsew
+rlabel metal4 s 8004 -5624 8604 709560 4 vdda1.extra15
+port 838 nsew
+rlabel metal4 s 589080 -4684 589680 708620 4 vdda1.extra16
+port 839 nsew
+rlabel metal4 s -5756 -4684 -5156 708620 4 vdda1.extra17
+port 840 nsew
+rlabel metal4 s 368004 -5624 368604 175000 4 vdda1.extra18
+port 841 nsew
+rlabel metal4 s 332004 -5624 332604 175000 4 vdda1.extra19
+port 842 nsew
+rlabel metal4 s 296004 -5624 296604 175000 4 vdda1.extra20
+port 843 nsew
+rlabel metal4 s 260004 -5624 260604 175000 4 vdda1.extra21
+port 844 nsew
+rlabel metal4 s 224004 -5624 224604 175000 4 vdda1.extra22
+port 845 nsew
+rlabel metal4 s 188004 -5624 188604 175000 4 vdda1.extra23
+port 846 nsew
+rlabel metal5 s -5756 708020 589680 708620 4 vdda1.extra24
+port 847 nsew
+rlabel metal5 s -6696 693076 590620 693676 4 vdda1.extra25
+port 848 nsew
+rlabel metal5 s -6696 657076 590620 657676 4 vdda1.extra26
+port 849 nsew
+rlabel metal5 s -6696 621076 590620 621676 4 vdda1.extra27
+port 850 nsew
+rlabel metal5 s -6696 585076 590620 585676 4 vdda1.extra28
+port 851 nsew
+rlabel metal5 s -6696 549076 590620 549676 4 vdda1.extra29
+port 852 nsew
+rlabel metal5 s -6696 513076 590620 513676 4 vdda1.extra30
+port 853 nsew
+rlabel metal5 s -6696 477076 590620 477676 4 vdda1.extra31
+port 854 nsew
+rlabel metal5 s -6696 441076 590620 441676 4 vdda1.extra32
+port 855 nsew
+rlabel metal5 s -6696 405076 590620 405676 4 vdda1.extra33
+port 856 nsew
+rlabel metal5 s -6696 369076 590620 369676 4 vdda1.extra34
+port 857 nsew
+rlabel metal5 s -6696 333076 590620 333676 4 vdda1.extra35
+port 858 nsew
+rlabel metal5 s -6696 297076 590620 297676 4 vdda1.extra36
+port 859 nsew
+rlabel metal5 s -6696 261076 590620 261676 4 vdda1.extra37
+port 860 nsew
+rlabel metal5 s -6696 225076 590620 225676 4 vdda1.extra38
+port 861 nsew
+rlabel metal5 s -6696 189076 590620 189676 4 vdda1.extra39
+port 862 nsew
+rlabel metal5 s -6696 153076 590620 153676 4 vdda1.extra40
+port 863 nsew
+rlabel metal5 s -6696 117076 590620 117676 4 vdda1.extra41
+port 864 nsew
+rlabel metal5 s -6696 81076 590620 81676 4 vdda1.extra42
+port 865 nsew
+rlabel metal5 s -6696 45076 590620 45676 4 vdda1.extra43
+port 866 nsew
+rlabel metal5 s -6696 9076 590620 9676 4 vdda1.extra44
+port 867 nsew
+rlabel metal5 s -5756 -4684 589680 -4084 4 vdda1.extra45
+port 868 nsew
+rlabel metal4 s 590020 -5624 590620 709560 4 vssa1
+port 869 nsew
+rlabel metal4 s 566004 -5624 566604 709560 4 vssa1.extra1
+port 870 nsew
+rlabel metal4 s 530004 -5624 530604 709560 4 vssa1.extra2
+port 871 nsew
+rlabel metal4 s 494004 -5624 494604 709560 4 vssa1.extra3
+port 872 nsew
+rlabel metal4 s 458004 -5624 458604 709560 4 vssa1.extra4
+port 873 nsew
+rlabel metal4 s 422004 -5624 422604 709560 4 vssa1.extra5
+port 874 nsew
+rlabel metal4 s 386004 411802 386604 709560 4 vssa1.extra6
+port 875 nsew
+rlabel metal4 s 350004 411802 350604 709560 4 vssa1.extra7
+port 876 nsew
+rlabel metal4 s 314004 411802 314604 709560 4 vssa1.extra8
+port 877 nsew
+rlabel metal4 s 278004 411802 278604 709560 4 vssa1.extra9
+port 878 nsew
+rlabel metal4 s 242004 411802 242604 709560 4 vssa1.extra10
+port 879 nsew
+rlabel metal4 s 206004 411802 206604 709560 4 vssa1.extra11
+port 880 nsew
+rlabel metal4 s 170004 411802 170604 709560 4 vssa1.extra12
+port 881 nsew
+rlabel metal4 s 134004 -5624 134604 709560 4 vssa1.extra13
+port 882 nsew
+rlabel metal4 s 98004 -5624 98604 709560 4 vssa1.extra14
+port 883 nsew
+rlabel metal4 s 62004 -5624 62604 709560 4 vssa1.extra15
+port 884 nsew
+rlabel metal4 s 26004 -5624 26604 709560 4 vssa1.extra16
+port 885 nsew
+rlabel metal4 s -6696 -5624 -6096 709560 4 vssa1.extra17
+port 886 nsew
+rlabel metal4 s 386004 -5624 386604 175000 4 vssa1.extra18
+port 887 nsew
+rlabel metal4 s 350004 -5624 350604 175000 4 vssa1.extra19
+port 888 nsew
+rlabel metal4 s 314004 -5624 314604 175000 4 vssa1.extra20
+port 889 nsew
+rlabel metal4 s 278004 -5624 278604 175000 4 vssa1.extra21
+port 890 nsew
+rlabel metal4 s 242004 -5624 242604 175000 4 vssa1.extra22
+port 891 nsew
+rlabel metal4 s 206004 -5624 206604 175000 4 vssa1.extra23
+port 892 nsew
+rlabel metal4 s 170004 -5624 170604 175000 4 vssa1.extra24
+port 893 nsew
+rlabel metal5 s -6696 708960 590620 709560 4 vssa1.extra25
+port 894 nsew
+rlabel metal5 s -6696 675076 590620 675676 4 vssa1.extra26
+port 895 nsew
+rlabel metal5 s -6696 639076 590620 639676 4 vssa1.extra27
+port 896 nsew
+rlabel metal5 s -6696 603076 590620 603676 4 vssa1.extra28
+port 897 nsew
+rlabel metal5 s -6696 567076 590620 567676 4 vssa1.extra29
+port 898 nsew
+rlabel metal5 s -6696 531076 590620 531676 4 vssa1.extra30
+port 899 nsew
+rlabel metal5 s -6696 495076 590620 495676 4 vssa1.extra31
+port 900 nsew
+rlabel metal5 s -6696 459076 590620 459676 4 vssa1.extra32
+port 901 nsew
+rlabel metal5 s -6696 423076 590620 423676 4 vssa1.extra33
+port 902 nsew
+rlabel metal5 s -6696 387076 590620 387676 4 vssa1.extra34
+port 903 nsew
+rlabel metal5 s -6696 351076 590620 351676 4 vssa1.extra35
+port 904 nsew
+rlabel metal5 s -6696 315076 590620 315676 4 vssa1.extra36
+port 905 nsew
+rlabel metal5 s -6696 279076 590620 279676 4 vssa1.extra37
+port 906 nsew
+rlabel metal5 s -6696 243076 590620 243676 4 vssa1.extra38
+port 907 nsew
+rlabel metal5 s -6696 207076 590620 207676 4 vssa1.extra39
+port 908 nsew
+rlabel metal5 s -6696 171076 590620 171676 4 vssa1.extra40
+port 909 nsew
+rlabel metal5 s -6696 135076 590620 135676 4 vssa1.extra41
+port 910 nsew
+rlabel metal5 s -6696 99076 590620 99676 4 vssa1.extra42
+port 911 nsew
+rlabel metal5 s -6696 63076 590620 63676 4 vssa1.extra43
+port 912 nsew
+rlabel metal5 s -6696 27076 590620 27676 4 vssa1.extra44
+port 913 nsew
+rlabel metal5 s -6696 -5624 590620 -5024 4 vssa1.extra45
+port 914 nsew
+rlabel metal4 s 551604 -7504 552204 711440 4 vdda2
+port 915 nsew
+rlabel metal4 s 515604 -7504 516204 711440 4 vdda2.extra1
+port 916 nsew
+rlabel metal4 s 479604 -7504 480204 711440 4 vdda2.extra2
+port 917 nsew
+rlabel metal4 s 443604 -7504 444204 711440 4 vdda2.extra3
+port 918 nsew
+rlabel metal4 s 407604 -7504 408204 711440 4 vdda2.extra4
+port 919 nsew
+rlabel metal4 s 371604 411802 372204 711440 4 vdda2.extra5
+port 920 nsew
+rlabel metal4 s 335604 411802 336204 711440 4 vdda2.extra6
+port 921 nsew
+rlabel metal4 s 299604 411802 300204 711440 4 vdda2.extra7
+port 922 nsew
+rlabel metal4 s 263604 411802 264204 711440 4 vdda2.extra8
+port 923 nsew
+rlabel metal4 s 227604 411802 228204 711440 4 vdda2.extra9
+port 924 nsew
+rlabel metal4 s 191604 411802 192204 711440 4 vdda2.extra10
+port 925 nsew
+rlabel metal4 s 155604 411802 156204 711440 4 vdda2.extra11
+port 926 nsew
+rlabel metal4 s 119604 -7504 120204 711440 4 vdda2.extra12
+port 927 nsew
+rlabel metal4 s 83604 -7504 84204 711440 4 vdda2.extra13
+port 928 nsew
+rlabel metal4 s 47604 -7504 48204 711440 4 vdda2.extra14
+port 929 nsew
+rlabel metal4 s 11604 -7504 12204 711440 4 vdda2.extra15
+port 930 nsew
+rlabel metal4 s 590960 -6564 591560 710500 4 vdda2.extra16
+port 931 nsew
+rlabel metal4 s -7636 -6564 -7036 710500 4 vdda2.extra17
+port 932 nsew
+rlabel metal4 s 371604 -7504 372204 175000 4 vdda2.extra18
+port 933 nsew
+rlabel metal4 s 335604 -7504 336204 175000 4 vdda2.extra19
+port 934 nsew
+rlabel metal4 s 299604 -7504 300204 175000 4 vdda2.extra20
+port 935 nsew
+rlabel metal4 s 263604 -7504 264204 175000 4 vdda2.extra21
+port 936 nsew
+rlabel metal4 s 227604 -7504 228204 175000 4 vdda2.extra22
+port 937 nsew
+rlabel metal4 s 191604 -7504 192204 175000 4 vdda2.extra23
+port 938 nsew
+rlabel metal4 s 155604 -7504 156204 175000 4 vdda2.extra24
+port 939 nsew
+rlabel metal5 s -7636 709900 591560 710500 4 vdda2.extra25
+port 940 nsew
+rlabel metal5 s -8576 696676 592500 697276 4 vdda2.extra26
+port 941 nsew
+rlabel metal5 s -8576 660676 592500 661276 4 vdda2.extra27
+port 942 nsew
+rlabel metal5 s -8576 624676 592500 625276 4 vdda2.extra28
+port 943 nsew
+rlabel metal5 s -8576 588676 592500 589276 4 vdda2.extra29
+port 944 nsew
+rlabel metal5 s -8576 552676 592500 553276 4 vdda2.extra30
+port 945 nsew
+rlabel metal5 s -8576 516676 592500 517276 4 vdda2.extra31
+port 946 nsew
+rlabel metal5 s -8576 480676 592500 481276 4 vdda2.extra32
+port 947 nsew
+rlabel metal5 s -8576 444676 592500 445276 4 vdda2.extra33
+port 948 nsew
+rlabel metal5 s -8576 408676 592500 409276 4 vdda2.extra34
+port 949 nsew
+rlabel metal5 s -8576 372676 592500 373276 4 vdda2.extra35
+port 950 nsew
+rlabel metal5 s -8576 336676 592500 337276 4 vdda2.extra36
+port 951 nsew
+rlabel metal5 s -8576 300676 592500 301276 4 vdda2.extra37
+port 952 nsew
+rlabel metal5 s -8576 264676 592500 265276 4 vdda2.extra38
+port 953 nsew
+rlabel metal5 s -8576 228676 592500 229276 4 vdda2.extra39
+port 954 nsew
+rlabel metal5 s -8576 192676 592500 193276 4 vdda2.extra40
+port 955 nsew
+rlabel metal5 s -8576 156676 592500 157276 4 vdda2.extra41
+port 956 nsew
+rlabel metal5 s -8576 120676 592500 121276 4 vdda2.extra42
+port 957 nsew
+rlabel metal5 s -8576 84676 592500 85276 4 vdda2.extra43
+port 958 nsew
+rlabel metal5 s -8576 48676 592500 49276 4 vdda2.extra44
+port 959 nsew
+rlabel metal5 s -8576 12676 592500 13276 4 vdda2.extra45
+port 960 nsew
+rlabel metal5 s -7636 -6564 591560 -5964 4 vdda2.extra46
+port 961 nsew
+rlabel metal4 s 591900 -7504 592500 711440 4 vssa2
+port 962 nsew
+rlabel metal4 s 569604 -7504 570204 711440 4 vssa2.extra1
+port 963 nsew
+rlabel metal4 s 533604 -7504 534204 711440 4 vssa2.extra2
+port 964 nsew
+rlabel metal4 s 497604 -7504 498204 711440 4 vssa2.extra3
+port 965 nsew
+rlabel metal4 s 461604 -7504 462204 711440 4 vssa2.extra4
+port 966 nsew
+rlabel metal4 s 425604 -7504 426204 711440 4 vssa2.extra5
+port 967 nsew
+rlabel metal4 s 389604 411802 390204 711440 4 vssa2.extra6
+port 968 nsew
+rlabel metal4 s 353604 411802 354204 711440 4 vssa2.extra7
+port 969 nsew
+rlabel metal4 s 317604 411802 318204 711440 4 vssa2.extra8
+port 970 nsew
+rlabel metal4 s 281604 411802 282204 711440 4 vssa2.extra9
+port 971 nsew
+rlabel metal4 s 245604 411802 246204 711440 4 vssa2.extra10
+port 972 nsew
+rlabel metal4 s 209604 411802 210204 711440 4 vssa2.extra11
+port 973 nsew
+rlabel metal4 s 173604 411802 174204 711440 4 vssa2.extra12
+port 974 nsew
+rlabel metal4 s 137604 -7504 138204 711440 4 vssa2.extra13
+port 975 nsew
+rlabel metal4 s 101604 -7504 102204 711440 4 vssa2.extra14
+port 976 nsew
+rlabel metal4 s 65604 -7504 66204 711440 4 vssa2.extra15
+port 977 nsew
+rlabel metal4 s 29604 -7504 30204 711440 4 vssa2.extra16
+port 978 nsew
+rlabel metal4 s -8576 -7504 -7976 711440 4 vssa2.extra17
+port 979 nsew
+rlabel metal4 s 389604 -7504 390204 175000 4 vssa2.extra18
+port 980 nsew
+rlabel metal4 s 353604 -7504 354204 175000 4 vssa2.extra19
+port 981 nsew
+rlabel metal4 s 317604 -7504 318204 175000 4 vssa2.extra20
+port 982 nsew
+rlabel metal4 s 281604 -7504 282204 175000 4 vssa2.extra21
+port 983 nsew
+rlabel metal4 s 245604 -7504 246204 175000 4 vssa2.extra22
+port 984 nsew
+rlabel metal4 s 209604 -7504 210204 175000 4 vssa2.extra23
+port 985 nsew
+rlabel metal4 s 173604 -7504 174204 175000 4 vssa2.extra24
+port 986 nsew
+rlabel metal5 s -8576 710840 592500 711440 4 vssa2.extra25
+port 987 nsew
+rlabel metal5 s -8576 678676 592500 679276 4 vssa2.extra26
+port 988 nsew
+rlabel metal5 s -8576 642676 592500 643276 4 vssa2.extra27
+port 989 nsew
+rlabel metal5 s -8576 606676 592500 607276 4 vssa2.extra28
+port 990 nsew
+rlabel metal5 s -8576 570676 592500 571276 4 vssa2.extra29
+port 991 nsew
+rlabel metal5 s -8576 534676 592500 535276 4 vssa2.extra30
+port 992 nsew
+rlabel metal5 s -8576 498676 592500 499276 4 vssa2.extra31
+port 993 nsew
+rlabel metal5 s -8576 462676 592500 463276 4 vssa2.extra32
+port 994 nsew
+rlabel metal5 s -8576 426676 592500 427276 4 vssa2.extra33
+port 995 nsew
+rlabel metal5 s -8576 390676 592500 391276 4 vssa2.extra34
+port 996 nsew
+rlabel metal5 s -8576 354676 592500 355276 4 vssa2.extra35
+port 997 nsew
+rlabel metal5 s -8576 318676 592500 319276 4 vssa2.extra36
+port 998 nsew
+rlabel metal5 s -8576 282676 592500 283276 4 vssa2.extra37
+port 999 nsew
+rlabel metal5 s -8576 246676 592500 247276 4 vssa2.extra38
+port 1000 nsew
+rlabel metal5 s -8576 210676 592500 211276 4 vssa2.extra39
+port 1001 nsew
+rlabel metal5 s -8576 174676 592500 175276 4 vssa2.extra40
+port 1002 nsew
+rlabel metal5 s -8576 138676 592500 139276 4 vssa2.extra41
+port 1003 nsew
+rlabel metal5 s -8576 102676 592500 103276 4 vssa2.extra42
+port 1004 nsew
+rlabel metal5 s -8576 66676 592500 67276 4 vssa2.extra43
+port 1005 nsew
+rlabel metal5 s -8576 30676 592500 31276 4 vssa2.extra44
+port 1006 nsew
+rlabel metal5 s -8576 -7504 592500 -6904 4 vssa2.extra45
+port 1007 nsew
 << properties >>
 string FIXED_BBOX 0 0 584000 704000
 << end >>

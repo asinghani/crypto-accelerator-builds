@@ -1,0 +1,22 @@
+Design Name: user_project_wrapper
+Run Directory: /project/openlane/user_project_wrapper2/runs/user_project_wrapper2
+----------------------------------------
+
+Magic DRC Summary:
+Source: /project/openlane/user_project_wrapper2/runs/user_project_wrapper2/logs/magic/magic.drc
+Violation Message "N-well spacing < 1.27um (nwell.2a) "found 132 Times.
+Violation Message "All nwells must contain metal-connected N+ taps (nwell.4) "found 371 Times.
+Total Magic DRC violations is 503
+----------------------------------------
+
+LVS Summary:
+Source: /project/openlane/user_project_wrapper2/runs/user_project_wrapper2/results/lvs/user_project_wrapper.lvs_parsed.log
+    net count difference = 1100
+    unmatched nets = 3
+Total errors = 1104
+----------------------------------------
+
+Antenna Summary:
+Source: /project/openlane/user_project_wrapper2/runs/user_project_wrapper2/reports/routing/antenna.rpt
+Number of pins violated: 7
+Number of nets violated: 7

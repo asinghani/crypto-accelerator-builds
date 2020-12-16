@@ -38,6 +38,7 @@ ifeq ($(PDK_ROOT),)
 	@echo "Please export PDK_ROOT"
 	@exit 1
 endif
+	@bash setup.sh
 	@echo "###############################################"
 	@sleep 1
 

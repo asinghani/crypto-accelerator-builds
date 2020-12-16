@@ -14,6 +14,7 @@ extract no capacitance
 extract no coupling
 extract no resistance
 extract no adjust
+extract unique
 # extract warn all
 extract
 

@@ -1,18 +1,381 @@
-timestamp 1608101245
+timestamp 1608149817
 version 8.3
 tech sky130A
 style ngspice()
 scale 1000 1 500000
 resistclasses 2200000 3050000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29 5
 use accelerator_top mprj 1 0 155000 0 1 175000
-port "vccd1" 636 -1996 -924 585920 -324 m5
-port "vssd1" 637 -2936 -1864 586860 -1264 m5
-port "vccd2" 638 -3876 -2804 587800 -2204 m5
-port "vssd2" 639 -4816 -3744 588740 -3144 m5
-port "vdda1" 640 -5756 -4684 589680 -4084 m5
-port "vssa1" 641 -6696 -5624 590620 -5024 m5
-port "vdda2" 642 -7636 -6564 591560 -5964 m5
-port "vssa2" 643 -8576 -7504 592500 -6904 m5
+port "vccd1.extra46" 682 -1996 -924 585920 -324 m5
+port "vccd1.extra45" 681 -2936 1876 586860 2476 m5
+port "vccd1.extra44" 680 -2936 37876 586860 38476 m5
+port "vccd1.extra43" 679 -2936 73876 586860 74476 m5
+port "vccd1.extra42" 678 -2936 109876 586860 110476 m5
+port "vccd1.extra41" 677 -2936 145876 586860 146476 m5
+port "vccd1.extra40" 676 -2936 181876 586860 182476 m5
+port "vccd1.extra39" 675 -2936 217876 586860 218476 m5
+port "vccd1.extra38" 674 -2936 253876 586860 254476 m5
+port "vccd1.extra37" 673 -2936 289876 586860 290476 m5
+port "vccd1.extra36" 672 -2936 325876 586860 326476 m5
+port "vccd1.extra35" 671 -2936 361876 586860 362476 m5
+port "vccd1.extra34" 670 -2936 397876 586860 398476 m5
+port "vccd1.extra33" 669 -2936 433876 586860 434476 m5
+port "vccd1.extra32" 668 -2936 469876 586860 470476 m5
+port "vccd1.extra31" 667 -2936 505876 586860 506476 m5
+port "vccd1.extra30" 666 -2936 541876 586860 542476 m5
+port "vccd1.extra29" 665 -2936 577876 586860 578476 m5
+port "vccd1.extra28" 664 -2936 613876 586860 614476 m5
+port "vccd1.extra27" 663 -2936 649876 586860 650476 m5
+port "vccd1.extra26" 662 -2936 685876 586860 686476 m5
+port "vccd1.extra25" 661 -1996 704260 585920 704860 m5
+port "vccd1.extra24" 660 180804 -1864 181404 175000 m4
+port "vccd1.extra23" 659 216804 -1864 217404 175000 m4
+port "vccd1.extra22" 658 252804 -1864 253404 175000 m4
+port "vccd1.extra21" 657 288804 -1864 289404 175000 m4
+port "vccd1.extra20" 656 324804 -1864 325404 175000 m4
+port "vccd1.extra19" 655 360804 -1864 361404 175000 m4
+port "vccd1.extra18" 654 -1996 -924 -1396 704860 m4
+port "vccd1.extra17" 653 585320 -924 585920 704860 m4
+port "vccd1.extra16" 652 804 -1864 1404 705800 m4
+port "vccd1.extra15" 651 36804 -1864 37404 705800 m4
+port "vccd1.extra14" 650 72804 -1864 73404 705800 m4
+port "vccd1.extra13" 649 108804 -1864 109404 705800 m4
+port "vccd1.extra12" 648 144804 -1864 145404 705800 m4
+port "vccd1.extra11" 647 180804 411802 181404 705800 m4
+port "vccd1.extra10" 646 216804 411802 217404 705800 m4
+port "vccd1.extra9" 645 252804 411802 253404 705800 m4
+port "vccd1.extra8" 644 288804 411802 289404 705800 m4
+port "vccd1.extra7" 643 324804 411802 325404 705800 m4
+port "vccd1.extra6" 642 360804 411802 361404 705800 m4
+port "vccd1.extra5" 641 396804 -1864 397404 705800 m4
+port "vccd1.extra4" 640 432804 -1864 433404 705800 m4
+port "vccd1.extra3" 639 468804 -1864 469404 705800 m4
+port "vccd1.extra2" 638 504804 -1864 505404 705800 m4
+port "vccd1.extra1" 637 540804 -1864 541404 705800 m4
+port "vccd1" 636 576804 -1864 577404 705800 m4
+port "vssd1.extra45" 728 -2936 -1864 586860 -1264 m5
+port "vssd1.extra44" 727 -2936 19876 586860 20476 m5
+port "vssd1.extra43" 726 -2936 55876 586860 56476 m5
+port "vssd1.extra42" 725 -2936 91876 586860 92476 m5
+port "vssd1.extra41" 724 -2936 127876 586860 128476 m5
+port "vssd1.extra40" 723 -2936 163876 586860 164476 m5
+port "vssd1.extra39" 722 -2936 199876 586860 200476 m5
+port "vssd1.extra38" 721 -2936 235876 586860 236476 m5
+port "vssd1.extra37" 720 -2936 271876 586860 272476 m5
+port "vssd1.extra36" 719 -2936 307876 586860 308476 m5
+port "vssd1.extra35" 718 -2936 343876 586860 344476 m5
+port "vssd1.extra34" 717 -2936 379876 586860 380476 m5
+port "vssd1.extra33" 716 -2936 415876 586860 416476 m5
+port "vssd1.extra32" 715 -2936 451876 586860 452476 m5
+port "vssd1.extra31" 714 -2936 487876 586860 488476 m5
+port "vssd1.extra30" 713 -2936 523876 586860 524476 m5
+port "vssd1.extra29" 712 -2936 559876 586860 560476 m5
+port "vssd1.extra28" 711 -2936 595876 586860 596476 m5
+port "vssd1.extra27" 710 -2936 631876 586860 632476 m5
+port "vssd1.extra26" 709 -2936 667876 586860 668476 m5
+port "vssd1.extra25" 708 -2936 705200 586860 705800 m5
+port "vssd1.extra24" 707 162804 -1864 163404 175000 m4
+port "vssd1.extra23" 706 198804 -1864 199404 175000 m4
+port "vssd1.extra22" 705 234804 -1864 235404 175000 m4
+port "vssd1.extra21" 704 270804 -1864 271404 175000 m4
+port "vssd1.extra20" 703 306804 -1864 307404 175000 m4
+port "vssd1.extra19" 702 342804 -1864 343404 175000 m4
+port "vssd1.extra18" 701 378804 -1864 379404 175000 m4
+port "vssd1.extra17" 700 -2936 -1864 -2336 705800 m4
+port "vssd1.extra16" 699 18804 -1864 19404 705800 m4
+port "vssd1.extra15" 698 54804 -1864 55404 705800 m4
+port "vssd1.extra14" 697 90804 -1864 91404 705800 m4
+port "vssd1.extra13" 696 126804 -1864 127404 705800 m4
+port "vssd1.extra12" 695 162804 411802 163404 705800 m4
+port "vssd1.extra11" 694 198804 411802 199404 705800 m4
+port "vssd1.extra10" 693 234804 411802 235404 705800 m4
+port "vssd1.extra9" 692 270804 411802 271404 705800 m4
+port "vssd1.extra8" 691 306804 411802 307404 705800 m4
+port "vssd1.extra7" 690 342804 411802 343404 705800 m4
+port "vssd1.extra6" 689 378804 411802 379404 705800 m4
+port "vssd1.extra5" 688 414804 -1864 415404 705800 m4
+port "vssd1.extra4" 687 450804 -1864 451404 705800 m4
+port "vssd1.extra3" 686 486804 -1864 487404 705800 m4
+port "vssd1.extra2" 685 522804 -1864 523404 705800 m4
+port "vssd1.extra1" 684 558804 -1864 559404 705800 m4
+port "vssd1" 683 586260 -1864 586860 705800 m4
+port "vccd2.extra46" 775 -3876 -2804 587800 -2204 m5
+port "vccd2.extra45" 774 -4816 5476 588740 6076 m5
+port "vccd2.extra44" 773 -4816 41476 588740 42076 m5
+port "vccd2.extra43" 772 -4816 77476 588740 78076 m5
+port "vccd2.extra42" 771 -4816 113476 588740 114076 m5
+port "vccd2.extra41" 770 -4816 149476 588740 150076 m5
+port "vccd2.extra40" 769 -4816 185476 588740 186076 m5
+port "vccd2.extra39" 768 -4816 221476 588740 222076 m5
+port "vccd2.extra38" 767 -4816 257476 588740 258076 m5
+port "vccd2.extra37" 766 -4816 293476 588740 294076 m5
+port "vccd2.extra36" 765 -4816 329476 588740 330076 m5
+port "vccd2.extra35" 764 -4816 365476 588740 366076 m5
+port "vccd2.extra34" 763 -4816 401476 588740 402076 m5
+port "vccd2.extra33" 762 -4816 437476 588740 438076 m5
+port "vccd2.extra32" 761 -4816 473476 588740 474076 m5
+port "vccd2.extra31" 760 -4816 509476 588740 510076 m5
+port "vccd2.extra30" 759 -4816 545476 588740 546076 m5
+port "vccd2.extra29" 758 -4816 581476 588740 582076 m5
+port "vccd2.extra28" 757 -4816 617476 588740 618076 m5
+port "vccd2.extra27" 756 -4816 653476 588740 654076 m5
+port "vccd2.extra26" 755 -4816 689476 588740 690076 m5
+port "vccd2.extra25" 754 -3876 706140 587800 706740 m5
+port "vccd2.extra24" 753 184404 -3744 185004 175000 m4
+port "vccd2.extra23" 752 220404 -3744 221004 175000 m4
+port "vccd2.extra22" 751 256404 -3744 257004 175000 m4
+port "vccd2.extra21" 750 292404 -3744 293004 175000 m4
+port "vccd2.extra20" 749 328404 -3744 329004 175000 m4
+port "vccd2.extra19" 748 364404 -3744 365004 175000 m4
+port "vccd2.extra18" 747 -3876 -2804 -3276 706740 m4
+port "vccd2.extra17" 746 587200 -2804 587800 706740 m4
+port "vccd2.extra16" 745 4404 -3744 5004 707680 m4
+port "vccd2.extra15" 744 40404 -3744 41004 707680 m4
+port "vccd2.extra14" 743 76404 -3744 77004 707680 m4
+port "vccd2.extra13" 742 112404 -3744 113004 707680 m4
+port "vccd2.extra12" 741 148404 -3744 149004 707680 m4
+port "vccd2.extra11" 740 184404 411802 185004 707680 m4
+port "vccd2.extra10" 739 220404 411802 221004 707680 m4
+port "vccd2.extra9" 738 256404 411802 257004 707680 m4
+port "vccd2.extra8" 737 292404 411802 293004 707680 m4
+port "vccd2.extra7" 736 328404 411802 329004 707680 m4
+port "vccd2.extra6" 735 364404 411802 365004 707680 m4
+port "vccd2.extra5" 734 400404 -3744 401004 707680 m4
+port "vccd2.extra4" 733 436404 -3744 437004 707680 m4
+port "vccd2.extra3" 732 472404 -3744 473004 707680 m4
+port "vccd2.extra2" 731 508404 -3744 509004 707680 m4
+port "vccd2.extra1" 730 544404 -3744 545004 707680 m4
+port "vccd2" 729 580404 -3744 581004 707680 m4
+port "vssd2.extra45" 821 -4816 -3744 588740 -3144 m5
+port "vssd2.extra44" 820 -4816 23476 588740 24076 m5
+port "vssd2.extra43" 819 -4816 59476 588740 60076 m5
+port "vssd2.extra42" 818 -4816 95476 588740 96076 m5
+port "vssd2.extra41" 817 -4816 131476 588740 132076 m5
+port "vssd2.extra40" 816 -4816 167476 588740 168076 m5
+port "vssd2.extra39" 815 -4816 203476 588740 204076 m5
+port "vssd2.extra38" 814 -4816 239476 588740 240076 m5
+port "vssd2.extra37" 813 -4816 275476 588740 276076 m5
+port "vssd2.extra36" 812 -4816 311476 588740 312076 m5
+port "vssd2.extra35" 811 -4816 347476 588740 348076 m5
+port "vssd2.extra34" 810 -4816 383476 588740 384076 m5
+port "vssd2.extra33" 809 -4816 419476 588740 420076 m5
+port "vssd2.extra32" 808 -4816 455476 588740 456076 m5
+port "vssd2.extra31" 807 -4816 491476 588740 492076 m5
+port "vssd2.extra30" 806 -4816 527476 588740 528076 m5
+port "vssd2.extra29" 805 -4816 563476 588740 564076 m5
+port "vssd2.extra28" 804 -4816 599476 588740 600076 m5
+port "vssd2.extra27" 803 -4816 635476 588740 636076 m5
+port "vssd2.extra26" 802 -4816 671476 588740 672076 m5
+port "vssd2.extra25" 801 -4816 707080 588740 707680 m5
+port "vssd2.extra24" 800 166404 -3744 167004 175000 m4
+port "vssd2.extra23" 799 202404 -3744 203004 175000 m4
+port "vssd2.extra22" 798 238404 -3744 239004 175000 m4
+port "vssd2.extra21" 797 274404 -3744 275004 175000 m4
+port "vssd2.extra20" 796 310404 -3744 311004 175000 m4
+port "vssd2.extra19" 795 346404 -3744 347004 175000 m4
+port "vssd2.extra18" 794 382404 -3744 383004 175000 m4
+port "vssd2.extra17" 793 -4816 -3744 -4216 707680 m4
+port "vssd2.extra16" 792 22404 -3744 23004 707680 m4
+port "vssd2.extra15" 791 58404 -3744 59004 707680 m4
+port "vssd2.extra14" 790 94404 -3744 95004 707680 m4
+port "vssd2.extra13" 789 130404 -3744 131004 707680 m4
+port "vssd2.extra12" 788 166404 411802 167004 707680 m4
+port "vssd2.extra11" 787 202404 411802 203004 707680 m4
+port "vssd2.extra10" 786 238404 411802 239004 707680 m4
+port "vssd2.extra9" 785 274404 411802 275004 707680 m4
+port "vssd2.extra8" 784 310404 411802 311004 707680 m4
+port "vssd2.extra7" 783 346404 411802 347004 707680 m4
+port "vssd2.extra6" 782 382404 411802 383004 707680 m4
+port "vssd2.extra5" 781 418404 -3744 419004 707680 m4
+port "vssd2.extra4" 780 454404 -3744 455004 707680 m4
+port "vssd2.extra3" 779 490404 -3744 491004 707680 m4
+port "vssd2.extra2" 778 526404 -3744 527004 707680 m4
+port "vssd2.extra1" 777 562404 -3744 563004 707680 m4
+port "vssd2" 776 588140 -3744 588740 707680 m4
+port "vdda1.extra45" 867 -5756 -4684 589680 -4084 m5
+port "vdda1.extra44" 866 -6696 9076 590620 9676 m5
+port "vdda1.extra43" 865 -6696 45076 590620 45676 m5
+port "vdda1.extra42" 864 -6696 81076 590620 81676 m5
+port "vdda1.extra41" 863 -6696 117076 590620 117676 m5
+port "vdda1.extra40" 862 -6696 153076 590620 153676 m5
+port "vdda1.extra39" 861 -6696 189076 590620 189676 m5
+port "vdda1.extra38" 860 -6696 225076 590620 225676 m5
+port "vdda1.extra37" 859 -6696 261076 590620 261676 m5
+port "vdda1.extra36" 858 -6696 297076 590620 297676 m5
+port "vdda1.extra35" 857 -6696 333076 590620 333676 m5
+port "vdda1.extra34" 856 -6696 369076 590620 369676 m5
+port "vdda1.extra33" 855 -6696 405076 590620 405676 m5
+port "vdda1.extra32" 854 -6696 441076 590620 441676 m5
+port "vdda1.extra31" 853 -6696 477076 590620 477676 m5
+port "vdda1.extra30" 852 -6696 513076 590620 513676 m5
+port "vdda1.extra29" 851 -6696 549076 590620 549676 m5
+port "vdda1.extra28" 850 -6696 585076 590620 585676 m5
+port "vdda1.extra27" 849 -6696 621076 590620 621676 m5
+port "vdda1.extra26" 848 -6696 657076 590620 657676 m5
+port "vdda1.extra25" 847 -6696 693076 590620 693676 m5
+port "vdda1.extra24" 846 -5756 708020 589680 708620 m5
+port "vdda1.extra23" 845 188004 -5624 188604 175000 m4
+port "vdda1.extra22" 844 224004 -5624 224604 175000 m4
+port "vdda1.extra21" 843 260004 -5624 260604 175000 m4
+port "vdda1.extra20" 842 296004 -5624 296604 175000 m4
+port "vdda1.extra19" 841 332004 -5624 332604 175000 m4
+port "vdda1.extra18" 840 368004 -5624 368604 175000 m4
+port "vdda1.extra17" 839 -5756 -4684 -5156 708620 m4
+port "vdda1.extra16" 838 589080 -4684 589680 708620 m4
+port "vdda1.extra15" 837 8004 -5624 8604 709560 m4
+port "vdda1.extra14" 836 44004 -5624 44604 709560 m4
+port "vdda1.extra13" 835 80004 -5624 80604 709560 m4
+port "vdda1.extra12" 834 116004 -5624 116604 709560 m4
+port "vdda1.extra11" 833 152004 -5624 152604 709560 m4
+port "vdda1.extra10" 832 188004 411802 188604 709560 m4
+port "vdda1.extra9" 831 224004 411802 224604 709560 m4
+port "vdda1.extra8" 830 260004 411802 260604 709560 m4
+port "vdda1.extra7" 829 296004 411802 296604 709560 m4
+port "vdda1.extra6" 828 332004 411802 332604 709560 m4
+port "vdda1.extra5" 827 368004 411802 368604 709560 m4
+port "vdda1.extra4" 826 404004 -5624 404604 709560 m4
+port "vdda1.extra3" 825 440004 -5624 440604 709560 m4
+port "vdda1.extra2" 824 476004 -5624 476604 709560 m4
+port "vdda1.extra1" 823 512004 -5624 512604 709560 m4
+port "vdda1" 822 548004 -5624 548604 709560 m4
+port "vssa1.extra45" 913 -6696 -5624 590620 -5024 m5
+port "vssa1.extra44" 912 -6696 27076 590620 27676 m5
+port "vssa1.extra43" 911 -6696 63076 590620 63676 m5
+port "vssa1.extra42" 910 -6696 99076 590620 99676 m5
+port "vssa1.extra41" 909 -6696 135076 590620 135676 m5
+port "vssa1.extra40" 908 -6696 171076 590620 171676 m5
+port "vssa1.extra39" 907 -6696 207076 590620 207676 m5
+port "vssa1.extra38" 906 -6696 243076 590620 243676 m5
+port "vssa1.extra37" 905 -6696 279076 590620 279676 m5
+port "vssa1.extra36" 904 -6696 315076 590620 315676 m5
+port "vssa1.extra35" 903 -6696 351076 590620 351676 m5
+port "vssa1.extra34" 902 -6696 387076 590620 387676 m5
+port "vssa1.extra33" 901 -6696 423076 590620 423676 m5
+port "vssa1.extra32" 900 -6696 459076 590620 459676 m5
+port "vssa1.extra31" 899 -6696 495076 590620 495676 m5
+port "vssa1.extra30" 898 -6696 531076 590620 531676 m5
+port "vssa1.extra29" 897 -6696 567076 590620 567676 m5
+port "vssa1.extra28" 896 -6696 603076 590620 603676 m5
+port "vssa1.extra27" 895 -6696 639076 590620 639676 m5
+port "vssa1.extra26" 894 -6696 675076 590620 675676 m5
+port "vssa1.extra25" 893 -6696 708960 590620 709560 m5
+port "vssa1.extra24" 892 170004 -5624 170604 175000 m4
+port "vssa1.extra23" 891 206004 -5624 206604 175000 m4
+port "vssa1.extra22" 890 242004 -5624 242604 175000 m4
+port "vssa1.extra21" 889 278004 -5624 278604 175000 m4
+port "vssa1.extra20" 888 314004 -5624 314604 175000 m4
+port "vssa1.extra19" 887 350004 -5624 350604 175000 m4
+port "vssa1.extra18" 886 386004 -5624 386604 175000 m4
+port "vssa1.extra17" 885 -6696 -5624 -6096 709560 m4
+port "vssa1.extra16" 884 26004 -5624 26604 709560 m4
+port "vssa1.extra15" 883 62004 -5624 62604 709560 m4
+port "vssa1.extra14" 882 98004 -5624 98604 709560 m4
+port "vssa1.extra13" 881 134004 -5624 134604 709560 m4
+port "vssa1.extra12" 880 170004 411802 170604 709560 m4
+port "vssa1.extra11" 879 206004 411802 206604 709560 m4
+port "vssa1.extra10" 878 242004 411802 242604 709560 m4
+port "vssa1.extra9" 877 278004 411802 278604 709560 m4
+port "vssa1.extra8" 876 314004 411802 314604 709560 m4
+port "vssa1.extra7" 875 350004 411802 350604 709560 m4
+port "vssa1.extra6" 874 386004 411802 386604 709560 m4
+port "vssa1.extra5" 873 422004 -5624 422604 709560 m4
+port "vssa1.extra4" 872 458004 -5624 458604 709560 m4
+port "vssa1.extra3" 871 494004 -5624 494604 709560 m4
+port "vssa1.extra2" 870 530004 -5624 530604 709560 m4
+port "vssa1.extra1" 869 566004 -5624 566604 709560 m4
+port "vssa1" 868 590020 -5624 590620 709560 m4
+port "vdda2.extra46" 960 -7636 -6564 591560 -5964 m5
+port "vdda2.extra45" 959 -8576 12676 592500 13276 m5
+port "vdda2.extra44" 958 -8576 48676 592500 49276 m5
+port "vdda2.extra43" 957 -8576 84676 592500 85276 m5
+port "vdda2.extra42" 956 -8576 120676 592500 121276 m5
+port "vdda2.extra41" 955 -8576 156676 592500 157276 m5
+port "vdda2.extra40" 954 -8576 192676 592500 193276 m5
+port "vdda2.extra39" 953 -8576 228676 592500 229276 m5
+port "vdda2.extra38" 952 -8576 264676 592500 265276 m5
+port "vdda2.extra37" 951 -8576 300676 592500 301276 m5
+port "vdda2.extra36" 950 -8576 336676 592500 337276 m5
+port "vdda2.extra35" 949 -8576 372676 592500 373276 m5
+port "vdda2.extra34" 948 -8576 408676 592500 409276 m5
+port "vdda2.extra33" 947 -8576 444676 592500 445276 m5
+port "vdda2.extra32" 946 -8576 480676 592500 481276 m5
+port "vdda2.extra31" 945 -8576 516676 592500 517276 m5
+port "vdda2.extra30" 944 -8576 552676 592500 553276 m5
+port "vdda2.extra29" 943 -8576 588676 592500 589276 m5
+port "vdda2.extra28" 942 -8576 624676 592500 625276 m5
+port "vdda2.extra27" 941 -8576 660676 592500 661276 m5
+port "vdda2.extra26" 940 -8576 696676 592500 697276 m5
+port "vdda2.extra25" 939 -7636 709900 591560 710500 m5
+port "vdda2.extra24" 938 155604 -7504 156204 175000 m4
+port "vdda2.extra23" 937 191604 -7504 192204 175000 m4
+port "vdda2.extra22" 936 227604 -7504 228204 175000 m4
+port "vdda2.extra21" 935 263604 -7504 264204 175000 m4
+port "vdda2.extra20" 934 299604 -7504 300204 175000 m4
+port "vdda2.extra19" 933 335604 -7504 336204 175000 m4
+port "vdda2.extra18" 932 371604 -7504 372204 175000 m4
+port "vdda2.extra17" 931 -7636 -6564 -7036 710500 m4
+port "vdda2.extra16" 930 590960 -6564 591560 710500 m4
+port "vdda2.extra15" 929 11604 -7504 12204 711440 m4
+port "vdda2.extra14" 928 47604 -7504 48204 711440 m4
+port "vdda2.extra13" 927 83604 -7504 84204 711440 m4
+port "vdda2.extra12" 926 119604 -7504 120204 711440 m4
+port "vdda2.extra11" 925 155604 411802 156204 711440 m4
+port "vdda2.extra10" 924 191604 411802 192204 711440 m4
+port "vdda2.extra9" 923 227604 411802 228204 711440 m4
+port "vdda2.extra8" 922 263604 411802 264204 711440 m4
+port "vdda2.extra7" 921 299604 411802 300204 711440 m4
+port "vdda2.extra6" 920 335604 411802 336204 711440 m4
+port "vdda2.extra5" 919 371604 411802 372204 711440 m4
+port "vdda2.extra4" 918 407604 -7504 408204 711440 m4
+port "vdda2.extra3" 917 443604 -7504 444204 711440 m4
+port "vdda2.extra2" 916 479604 -7504 480204 711440 m4
+port "vdda2.extra1" 915 515604 -7504 516204 711440 m4
+port "vdda2" 914 551604 -7504 552204 711440 m4
+port "vssa2.extra45" 1006 -8576 -7504 592500 -6904 m5
+port "vssa2.extra44" 1005 -8576 30676 592500 31276 m5
+port "vssa2.extra43" 1004 -8576 66676 592500 67276 m5
+port "vssa2.extra42" 1003 -8576 102676 592500 103276 m5
+port "vssa2.extra41" 1002 -8576 138676 592500 139276 m5
+port "vssa2.extra40" 1001 -8576 174676 592500 175276 m5
+port "vssa2.extra39" 1000 -8576 210676 592500 211276 m5
+port "vssa2.extra38" 999 -8576 246676 592500 247276 m5
+port "vssa2.extra37" 998 -8576 282676 592500 283276 m5
+port "vssa2.extra36" 997 -8576 318676 592500 319276 m5
+port "vssa2.extra35" 996 -8576 354676 592500 355276 m5
+port "vssa2.extra34" 995 -8576 390676 592500 391276 m5
+port "vssa2.extra33" 994 -8576 426676 592500 427276 m5
+port "vssa2.extra32" 993 -8576 462676 592500 463276 m5
+port "vssa2.extra31" 992 -8576 498676 592500 499276 m5
+port "vssa2.extra30" 991 -8576 534676 592500 535276 m5
+port "vssa2.extra29" 990 -8576 570676 592500 571276 m5
+port "vssa2.extra28" 989 -8576 606676 592500 607276 m5
+port "vssa2.extra27" 988 -8576 642676 592500 643276 m5
+port "vssa2.extra26" 987 -8576 678676 592500 679276 m5
+port "vssa2.extra25" 986 -8576 710840 592500 711440 m5
+port "vssa2.extra24" 985 173604 -7504 174204 175000 m4
+port "vssa2.extra23" 984 209604 -7504 210204 175000 m4
+port "vssa2.extra22" 983 245604 -7504 246204 175000 m4
+port "vssa2.extra21" 982 281604 -7504 282204 175000 m4
+port "vssa2.extra20" 981 317604 -7504 318204 175000 m4
+port "vssa2.extra19" 980 353604 -7504 354204 175000 m4
+port "vssa2.extra18" 979 389604 -7504 390204 175000 m4
+port "vssa2.extra17" 978 -8576 -7504 -7976 711440 m4
+port "vssa2.extra16" 977 29604 -7504 30204 711440 m4
+port "vssa2.extra15" 976 65604 -7504 66204 711440 m4
+port "vssa2.extra14" 975 101604 -7504 102204 711440 m4
+port "vssa2.extra13" 974 137604 -7504 138204 711440 m4
+port "vssa2.extra12" 973 173604 411802 174204 711440 m4
+port "vssa2.extra11" 972 209604 411802 210204 711440 m4
+port "vssa2.extra10" 971 245604 411802 246204 711440 m4
+port "vssa2.extra9" 970 281604 411802 282204 711440 m4
+port "vssa2.extra8" 969 317604 411802 318204 711440 m4
+port "vssa2.extra7" 968 353604 411802 354204 711440 m4
+port "vssa2.extra6" 967 389604 411802 390204 711440 m4
+port "vssa2.extra5" 966 425604 -7504 426204 711440 m4
+port "vssa2.extra4" 965 461604 -7504 462204 711440 m4
+port "vssa2.extra3" 964 497604 -7504 498204 711440 m4
+port "vssa2.extra2" 963 533604 -7504 534204 711440 m4
+port "vssa2.extra1" 962 569604 -7504 570204 711440 m4
+port "vssa2" 961 591900 -7504 592500 711440 m4
 port "analog_io[0]" 0 583520 5796 584960 6036 m3
 port "analog_io[1]" 11 583520 52716 584960 52956 m3
 port "analog_io[2]" 22 583520 99636 584960 99876 m3
@@ -649,14 +1012,377 @@ port "io_out[20]" 119 218950 703520 219062 704960 m2
 port "io_oeb[22]" 83 72946 703520 73058 704960 m2
 port "io_oeb[21]" 82 137806 703520 137918 704960 m2
 port "io_oeb[23]" 84 8086 703520 8198 704960 m2
-node "vccd1" 0 0 -1996 -924 m5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-node "vssd1" 0 0 -2936 -1864 m5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-node "vccd2" 0 0 -3876 -2804 m5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-node "vssd2" 0 0 -4816 -3744 m5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-node "vdda1" 0 0 -5756 -4684 m5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-node "vssa1" 0 0 -6696 -5624 m5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-node "vdda2" 0 0 -7636 -6564 m5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
-node "vssa2" 0 0 -8576 -7504 m5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "vccd1.extra46" 0 0 -1996 -924 m5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "vccd1.extra46" "vccd1.extra45"
+equiv "vccd1.extra46" "vccd1.extra44"
+equiv "vccd1.extra46" "vccd1.extra43"
+equiv "vccd1.extra46" "vccd1.extra42"
+equiv "vccd1.extra46" "vccd1.extra41"
+equiv "vccd1.extra46" "vccd1.extra40"
+equiv "vccd1.extra46" "vccd1.extra39"
+equiv "vccd1.extra46" "vccd1.extra38"
+equiv "vccd1.extra46" "vccd1.extra37"
+equiv "vccd1.extra46" "vccd1.extra36"
+equiv "vccd1.extra46" "vccd1.extra35"
+equiv "vccd1.extra46" "vccd1.extra34"
+equiv "vccd1.extra46" "vccd1.extra33"
+equiv "vccd1.extra46" "vccd1.extra32"
+equiv "vccd1.extra46" "vccd1.extra31"
+equiv "vccd1.extra46" "vccd1.extra30"
+equiv "vccd1.extra46" "vccd1.extra29"
+equiv "vccd1.extra46" "vccd1.extra28"
+equiv "vccd1.extra46" "vccd1.extra27"
+equiv "vccd1.extra46" "vccd1.extra26"
+equiv "vccd1.extra46" "vccd1.extra25"
+equiv "vccd1.extra46" "vccd1.extra24"
+equiv "vccd1.extra46" "vccd1.extra23"
+equiv "vccd1.extra46" "vccd1.extra22"
+equiv "vccd1.extra46" "vccd1.extra21"
+equiv "vccd1.extra46" "vccd1.extra20"
+equiv "vccd1.extra46" "vccd1.extra19"
+equiv "vccd1.extra46" "vccd1.extra18"
+equiv "vccd1.extra46" "vccd1.extra17"
+equiv "vccd1.extra46" "vccd1.extra16"
+equiv "vccd1.extra46" "vccd1.extra15"
+equiv "vccd1.extra46" "vccd1.extra14"
+equiv "vccd1.extra46" "vccd1.extra13"
+equiv "vccd1.extra46" "vccd1.extra12"
+equiv "vccd1.extra46" "vccd1.extra11"
+equiv "vccd1.extra46" "vccd1.extra10"
+equiv "vccd1.extra46" "vccd1.extra9"
+equiv "vccd1.extra46" "vccd1.extra8"
+equiv "vccd1.extra46" "vccd1.extra7"
+equiv "vccd1.extra46" "vccd1.extra6"
+equiv "vccd1.extra46" "vccd1.extra5"
+equiv "vccd1.extra46" "vccd1.extra4"
+equiv "vccd1.extra46" "vccd1.extra3"
+equiv "vccd1.extra46" "vccd1.extra2"
+equiv "vccd1.extra46" "vccd1.extra1"
+equiv "vccd1.extra46" "vccd1"
+node "vssd1.extra45" 0 0 -2936 -1864 m5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "vssd1.extra45" "vssd1.extra44"
+equiv "vssd1.extra45" "vssd1.extra43"
+equiv "vssd1.extra45" "vssd1.extra42"
+equiv "vssd1.extra45" "vssd1.extra41"
+equiv "vssd1.extra45" "vssd1.extra40"
+equiv "vssd1.extra45" "vssd1.extra39"
+equiv "vssd1.extra45" "vssd1.extra38"
+equiv "vssd1.extra45" "vssd1.extra37"
+equiv "vssd1.extra45" "vssd1.extra36"
+equiv "vssd1.extra45" "vssd1.extra35"
+equiv "vssd1.extra45" "vssd1.extra34"
+equiv "vssd1.extra45" "vssd1.extra33"
+equiv "vssd1.extra45" "vssd1.extra32"
+equiv "vssd1.extra45" "vssd1.extra31"
+equiv "vssd1.extra45" "vssd1.extra30"
+equiv "vssd1.extra45" "vssd1.extra29"
+equiv "vssd1.extra45" "vssd1.extra28"
+equiv "vssd1.extra45" "vssd1.extra27"
+equiv "vssd1.extra45" "vssd1.extra26"
+equiv "vssd1.extra45" "vssd1.extra25"
+equiv "vssd1.extra45" "vssd1.extra24"
+equiv "vssd1.extra45" "vssd1.extra23"
+equiv "vssd1.extra45" "vssd1.extra22"
+equiv "vssd1.extra45" "vssd1.extra21"
+equiv "vssd1.extra45" "vssd1.extra20"
+equiv "vssd1.extra45" "vssd1.extra19"
+equiv "vssd1.extra45" "vssd1.extra18"
+equiv "vssd1.extra45" "vssd1.extra17"
+equiv "vssd1.extra45" "vssd1.extra16"
+equiv "vssd1.extra45" "vssd1.extra15"
+equiv "vssd1.extra45" "vssd1.extra14"
+equiv "vssd1.extra45" "vssd1.extra13"
+equiv "vssd1.extra45" "vssd1.extra12"
+equiv "vssd1.extra45" "vssd1.extra11"
+equiv "vssd1.extra45" "vssd1.extra10"
+equiv "vssd1.extra45" "vssd1.extra9"
+equiv "vssd1.extra45" "vssd1.extra8"
+equiv "vssd1.extra45" "vssd1.extra7"
+equiv "vssd1.extra45" "vssd1.extra6"
+equiv "vssd1.extra45" "vssd1.extra5"
+equiv "vssd1.extra45" "vssd1.extra4"
+equiv "vssd1.extra45" "vssd1.extra3"
+equiv "vssd1.extra45" "vssd1.extra2"
+equiv "vssd1.extra45" "vssd1.extra1"
+equiv "vssd1.extra45" "vssd1"
+node "vccd2.extra46" 0 0 -3876 -2804 m5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "vccd2.extra46" "vccd2.extra45"
+equiv "vccd2.extra46" "vccd2.extra44"
+equiv "vccd2.extra46" "vccd2.extra43"
+equiv "vccd2.extra46" "vccd2.extra42"
+equiv "vccd2.extra46" "vccd2.extra41"
+equiv "vccd2.extra46" "vccd2.extra40"
+equiv "vccd2.extra46" "vccd2.extra39"
+equiv "vccd2.extra46" "vccd2.extra38"
+equiv "vccd2.extra46" "vccd2.extra37"
+equiv "vccd2.extra46" "vccd2.extra36"
+equiv "vccd2.extra46" "vccd2.extra35"
+equiv "vccd2.extra46" "vccd2.extra34"
+equiv "vccd2.extra46" "vccd2.extra33"
+equiv "vccd2.extra46" "vccd2.extra32"
+equiv "vccd2.extra46" "vccd2.extra31"
+equiv "vccd2.extra46" "vccd2.extra30"
+equiv "vccd2.extra46" "vccd2.extra29"
+equiv "vccd2.extra46" "vccd2.extra28"
+equiv "vccd2.extra46" "vccd2.extra27"
+equiv "vccd2.extra46" "vccd2.extra26"
+equiv "vccd2.extra46" "vccd2.extra25"
+equiv "vccd2.extra46" "vccd2.extra24"
+equiv "vccd2.extra46" "vccd2.extra23"
+equiv "vccd2.extra46" "vccd2.extra22"
+equiv "vccd2.extra46" "vccd2.extra21"
+equiv "vccd2.extra46" "vccd2.extra20"
+equiv "vccd2.extra46" "vccd2.extra19"
+equiv "vccd2.extra46" "vccd2.extra18"
+equiv "vccd2.extra46" "vccd2.extra17"
+equiv "vccd2.extra46" "vccd2.extra16"
+equiv "vccd2.extra46" "vccd2.extra15"
+equiv "vccd2.extra46" "vccd2.extra14"
+equiv "vccd2.extra46" "vccd2.extra13"
+equiv "vccd2.extra46" "vccd2.extra12"
+equiv "vccd2.extra46" "vccd2.extra11"
+equiv "vccd2.extra46" "vccd2.extra10"
+equiv "vccd2.extra46" "vccd2.extra9"
+equiv "vccd2.extra46" "vccd2.extra8"
+equiv "vccd2.extra46" "vccd2.extra7"
+equiv "vccd2.extra46" "vccd2.extra6"
+equiv "vccd2.extra46" "vccd2.extra5"
+equiv "vccd2.extra46" "vccd2.extra4"
+equiv "vccd2.extra46" "vccd2.extra3"
+equiv "vccd2.extra46" "vccd2.extra2"
+equiv "vccd2.extra46" "vccd2.extra1"
+equiv "vccd2.extra46" "vccd2"
+node "vssd2.extra45" 0 0 -4816 -3744 m5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "vssd2.extra45" "vssd2.extra44"
+equiv "vssd2.extra45" "vssd2.extra43"
+equiv "vssd2.extra45" "vssd2.extra42"
+equiv "vssd2.extra45" "vssd2.extra41"
+equiv "vssd2.extra45" "vssd2.extra40"
+equiv "vssd2.extra45" "vssd2.extra39"
+equiv "vssd2.extra45" "vssd2.extra38"
+equiv "vssd2.extra45" "vssd2.extra37"
+equiv "vssd2.extra45" "vssd2.extra36"
+equiv "vssd2.extra45" "vssd2.extra35"
+equiv "vssd2.extra45" "vssd2.extra34"
+equiv "vssd2.extra45" "vssd2.extra33"
+equiv "vssd2.extra45" "vssd2.extra32"
+equiv "vssd2.extra45" "vssd2.extra31"
+equiv "vssd2.extra45" "vssd2.extra30"
+equiv "vssd2.extra45" "vssd2.extra29"
+equiv "vssd2.extra45" "vssd2.extra28"
+equiv "vssd2.extra45" "vssd2.extra27"
+equiv "vssd2.extra45" "vssd2.extra26"
+equiv "vssd2.extra45" "vssd2.extra25"
+equiv "vssd2.extra45" "vssd2.extra24"
+equiv "vssd2.extra45" "vssd2.extra23"
+equiv "vssd2.extra45" "vssd2.extra22"
+equiv "vssd2.extra45" "vssd2.extra21"
+equiv "vssd2.extra45" "vssd2.extra20"
+equiv "vssd2.extra45" "vssd2.extra19"
+equiv "vssd2.extra45" "vssd2.extra18"
+equiv "vssd2.extra45" "vssd2.extra17"
+equiv "vssd2.extra45" "vssd2.extra16"
+equiv "vssd2.extra45" "vssd2.extra15"
+equiv "vssd2.extra45" "vssd2.extra14"
+equiv "vssd2.extra45" "vssd2.extra13"
+equiv "vssd2.extra45" "vssd2.extra12"
+equiv "vssd2.extra45" "vssd2.extra11"
+equiv "vssd2.extra45" "vssd2.extra10"
+equiv "vssd2.extra45" "vssd2.extra9"
+equiv "vssd2.extra45" "vssd2.extra8"
+equiv "vssd2.extra45" "vssd2.extra7"
+equiv "vssd2.extra45" "vssd2.extra6"
+equiv "vssd2.extra45" "vssd2.extra5"
+equiv "vssd2.extra45" "vssd2.extra4"
+equiv "vssd2.extra45" "vssd2.extra3"
+equiv "vssd2.extra45" "vssd2.extra2"
+equiv "vssd2.extra45" "vssd2.extra1"
+equiv "vssd2.extra45" "vssd2"
+node "vdda1.extra45" 0 0 -5756 -4684 m5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "vdda1.extra45" "vdda1.extra44"
+equiv "vdda1.extra45" "vdda1.extra43"
+equiv "vdda1.extra45" "vdda1.extra42"
+equiv "vdda1.extra45" "vdda1.extra41"
+equiv "vdda1.extra45" "vdda1.extra40"
+equiv "vdda1.extra45" "vdda1.extra39"
+equiv "vdda1.extra45" "vdda1.extra38"
+equiv "vdda1.extra45" "vdda1.extra37"
+equiv "vdda1.extra45" "vdda1.extra36"
+equiv "vdda1.extra45" "vdda1.extra35"
+equiv "vdda1.extra45" "vdda1.extra34"
+equiv "vdda1.extra45" "vdda1.extra33"
+equiv "vdda1.extra45" "vdda1.extra32"
+equiv "vdda1.extra45" "vdda1.extra31"
+equiv "vdda1.extra45" "vdda1.extra30"
+equiv "vdda1.extra45" "vdda1.extra29"
+equiv "vdda1.extra45" "vdda1.extra28"
+equiv "vdda1.extra45" "vdda1.extra27"
+equiv "vdda1.extra45" "vdda1.extra26"
+equiv "vdda1.extra45" "vdda1.extra25"
+equiv "vdda1.extra45" "vdda1.extra24"
+equiv "vdda1.extra45" "vdda1.extra23"
+equiv "vdda1.extra45" "vdda1.extra22"
+equiv "vdda1.extra45" "vdda1.extra21"
+equiv "vdda1.extra45" "vdda1.extra20"
+equiv "vdda1.extra45" "vdda1.extra19"
+equiv "vdda1.extra45" "vdda1.extra18"
+equiv "vdda1.extra45" "vdda1.extra17"
+equiv "vdda1.extra45" "vdda1.extra16"
+equiv "vdda1.extra45" "vdda1.extra15"
+equiv "vdda1.extra45" "vdda1.extra14"
+equiv "vdda1.extra45" "vdda1.extra13"
+equiv "vdda1.extra45" "vdda1.extra12"
+equiv "vdda1.extra45" "vdda1.extra11"
+equiv "vdda1.extra45" "vdda1.extra10"
+equiv "vdda1.extra45" "vdda1.extra9"
+equiv "vdda1.extra45" "vdda1.extra8"
+equiv "vdda1.extra45" "vdda1.extra7"
+equiv "vdda1.extra45" "vdda1.extra6"
+equiv "vdda1.extra45" "vdda1.extra5"
+equiv "vdda1.extra45" "vdda1.extra4"
+equiv "vdda1.extra45" "vdda1.extra3"
+equiv "vdda1.extra45" "vdda1.extra2"
+equiv "vdda1.extra45" "vdda1.extra1"
+equiv "vdda1.extra45" "vdda1"
+node "vssa1.extra45" 0 0 -6696 -5624 m5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "vssa1.extra45" "vssa1.extra44"
+equiv "vssa1.extra45" "vssa1.extra43"
+equiv "vssa1.extra45" "vssa1.extra42"
+equiv "vssa1.extra45" "vssa1.extra41"
+equiv "vssa1.extra45" "vssa1.extra40"
+equiv "vssa1.extra45" "vssa1.extra39"
+equiv "vssa1.extra45" "vssa1.extra38"
+equiv "vssa1.extra45" "vssa1.extra37"
+equiv "vssa1.extra45" "vssa1.extra36"
+equiv "vssa1.extra45" "vssa1.extra35"
+equiv "vssa1.extra45" "vssa1.extra34"
+equiv "vssa1.extra45" "vssa1.extra33"
+equiv "vssa1.extra45" "vssa1.extra32"
+equiv "vssa1.extra45" "vssa1.extra31"
+equiv "vssa1.extra45" "vssa1.extra30"
+equiv "vssa1.extra45" "vssa1.extra29"
+equiv "vssa1.extra45" "vssa1.extra28"
+equiv "vssa1.extra45" "vssa1.extra27"
+equiv "vssa1.extra45" "vssa1.extra26"
+equiv "vssa1.extra45" "vssa1.extra25"
+equiv "vssa1.extra45" "vssa1.extra24"
+equiv "vssa1.extra45" "vssa1.extra23"
+equiv "vssa1.extra45" "vssa1.extra22"
+equiv "vssa1.extra45" "vssa1.extra21"
+equiv "vssa1.extra45" "vssa1.extra20"
+equiv "vssa1.extra45" "vssa1.extra19"
+equiv "vssa1.extra45" "vssa1.extra18"
+equiv "vssa1.extra45" "vssa1.extra17"
+equiv "vssa1.extra45" "vssa1.extra16"
+equiv "vssa1.extra45" "vssa1.extra15"
+equiv "vssa1.extra45" "vssa1.extra14"
+equiv "vssa1.extra45" "vssa1.extra13"
+equiv "vssa1.extra45" "vssa1.extra12"
+equiv "vssa1.extra45" "vssa1.extra11"
+equiv "vssa1.extra45" "vssa1.extra10"
+equiv "vssa1.extra45" "vssa1.extra9"
+equiv "vssa1.extra45" "vssa1.extra8"
+equiv "vssa1.extra45" "vssa1.extra7"
+equiv "vssa1.extra45" "vssa1.extra6"
+equiv "vssa1.extra45" "vssa1.extra5"
+equiv "vssa1.extra45" "vssa1.extra4"
+equiv "vssa1.extra45" "vssa1.extra3"
+equiv "vssa1.extra45" "vssa1.extra2"
+equiv "vssa1.extra45" "vssa1.extra1"
+equiv "vssa1.extra45" "vssa1"
+node "vdda2.extra46" 0 0 -7636 -6564 m5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "vdda2.extra46" "vdda2.extra45"
+equiv "vdda2.extra46" "vdda2.extra44"
+equiv "vdda2.extra46" "vdda2.extra43"
+equiv "vdda2.extra46" "vdda2.extra42"
+equiv "vdda2.extra46" "vdda2.extra41"
+equiv "vdda2.extra46" "vdda2.extra40"
+equiv "vdda2.extra46" "vdda2.extra39"
+equiv "vdda2.extra46" "vdda2.extra38"
+equiv "vdda2.extra46" "vdda2.extra37"
+equiv "vdda2.extra46" "vdda2.extra36"
+equiv "vdda2.extra46" "vdda2.extra35"
+equiv "vdda2.extra46" "vdda2.extra34"
+equiv "vdda2.extra46" "vdda2.extra33"
+equiv "vdda2.extra46" "vdda2.extra32"
+equiv "vdda2.extra46" "vdda2.extra31"
+equiv "vdda2.extra46" "vdda2.extra30"
+equiv "vdda2.extra46" "vdda2.extra29"
+equiv "vdda2.extra46" "vdda2.extra28"
+equiv "vdda2.extra46" "vdda2.extra27"
+equiv "vdda2.extra46" "vdda2.extra26"
+equiv "vdda2.extra46" "vdda2.extra25"
+equiv "vdda2.extra46" "vdda2.extra24"
+equiv "vdda2.extra46" "vdda2.extra23"
+equiv "vdda2.extra46" "vdda2.extra22"
+equiv "vdda2.extra46" "vdda2.extra21"
+equiv "vdda2.extra46" "vdda2.extra20"
+equiv "vdda2.extra46" "vdda2.extra19"
+equiv "vdda2.extra46" "vdda2.extra18"
+equiv "vdda2.extra46" "vdda2.extra17"
+equiv "vdda2.extra46" "vdda2.extra16"
+equiv "vdda2.extra46" "vdda2.extra15"
+equiv "vdda2.extra46" "vdda2.extra14"
+equiv "vdda2.extra46" "vdda2.extra13"
+equiv "vdda2.extra46" "vdda2.extra12"
+equiv "vdda2.extra46" "vdda2.extra11"
+equiv "vdda2.extra46" "vdda2.extra10"
+equiv "vdda2.extra46" "vdda2.extra9"
+equiv "vdda2.extra46" "vdda2.extra8"
+equiv "vdda2.extra46" "vdda2.extra7"
+equiv "vdda2.extra46" "vdda2.extra6"
+equiv "vdda2.extra46" "vdda2.extra5"
+equiv "vdda2.extra46" "vdda2.extra4"
+equiv "vdda2.extra46" "vdda2.extra3"
+equiv "vdda2.extra46" "vdda2.extra2"
+equiv "vdda2.extra46" "vdda2.extra1"
+equiv "vdda2.extra46" "vdda2"
+node "vssa2.extra45" 0 0 -8576 -7504 m5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+equiv "vssa2.extra45" "vssa2.extra44"
+equiv "vssa2.extra45" "vssa2.extra43"
+equiv "vssa2.extra45" "vssa2.extra42"
+equiv "vssa2.extra45" "vssa2.extra41"
+equiv "vssa2.extra45" "vssa2.extra40"
+equiv "vssa2.extra45" "vssa2.extra39"
+equiv "vssa2.extra45" "vssa2.extra38"
+equiv "vssa2.extra45" "vssa2.extra37"
+equiv "vssa2.extra45" "vssa2.extra36"
+equiv "vssa2.extra45" "vssa2.extra35"
+equiv "vssa2.extra45" "vssa2.extra34"
+equiv "vssa2.extra45" "vssa2.extra33"
+equiv "vssa2.extra45" "vssa2.extra32"
+equiv "vssa2.extra45" "vssa2.extra31"
+equiv "vssa2.extra45" "vssa2.extra30"
+equiv "vssa2.extra45" "vssa2.extra29"
+equiv "vssa2.extra45" "vssa2.extra28"
+equiv "vssa2.extra45" "vssa2.extra27"
+equiv "vssa2.extra45" "vssa2.extra26"
+equiv "vssa2.extra45" "vssa2.extra25"
+equiv "vssa2.extra45" "vssa2.extra24"
+equiv "vssa2.extra45" "vssa2.extra23"
+equiv "vssa2.extra45" "vssa2.extra22"
+equiv "vssa2.extra45" "vssa2.extra21"
+equiv "vssa2.extra45" "vssa2.extra20"
+equiv "vssa2.extra45" "vssa2.extra19"
+equiv "vssa2.extra45" "vssa2.extra18"
+equiv "vssa2.extra45" "vssa2.extra17"
+equiv "vssa2.extra45" "vssa2.extra16"
+equiv "vssa2.extra45" "vssa2.extra15"
+equiv "vssa2.extra45" "vssa2.extra14"
+equiv "vssa2.extra45" "vssa2.extra13"
+equiv "vssa2.extra45" "vssa2.extra12"
+equiv "vssa2.extra45" "vssa2.extra11"
+equiv "vssa2.extra45" "vssa2.extra10"
+equiv "vssa2.extra45" "vssa2.extra9"
+equiv "vssa2.extra45" "vssa2.extra8"
+equiv "vssa2.extra45" "vssa2.extra7"
+equiv "vssa2.extra45" "vssa2.extra6"
+equiv "vssa2.extra45" "vssa2.extra5"
+equiv "vssa2.extra45" "vssa2.extra4"
+equiv "vssa2.extra45" "vssa2.extra3"
+equiv "vssa2.extra45" "vssa2.extra2"
+equiv "vssa2.extra45" "vssa2.extra1"
+equiv "vssa2.extra45" "vssa2"
 node "analog_io[0]" 0 0 583520 5796 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "analog_io[1]" 0 0 583520 52716 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 node "analog_io[2]" 0 0 583520 99636 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
