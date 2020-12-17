@@ -12,23 +12,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # SPDX-License-Identifier: Apache-2.0
---- 
-project: 
-  description: "ASIC containing a combined AES128/256 accelerator core and a VGA graphics/game demo"
-  foundry: "SkyWater"
-  git_url: "https://github.com/asinghani/crypto-accelerator-builds.git"
-  organization: ""
-  organization_url: ""
-  owner: "Anish Singhani"
-  process: "SKY130"
-  project_name: "crypto-accelerator-chip"
-  tags: 
-    - "Accelerator"
-    - "Open MPW"
-    - "Processor"
-  category: "Accelerator"
-  top_level_netlist: "verilog/gl/caravel.v"
-  user_level_netlist: "verilog/gl/user_project_wrapper.v"
-  version: "1.00"
-  cover_image: "doc/render.png"
+klayout -z -r render.py
 
