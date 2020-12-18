@@ -36,12 +36,17 @@ module gpio_tb;
 		clock <= 0;
 	end
 
+	wire [37:0] mprj_io;	// Most of these are no-connects
+	wire gpio;
+	reg RSTB;
+
+	wire [40:0] dump = {clock, RSTB, gpio, mprj_io};
 	initial begin
 		$dumpfile("gpio.vcd");
-		$dumpvars(0, gpio_tb);
+		$dumpvars(0, dump);
 
 		// Repeat cycles of 1000 clock edges as needed to complete testbench
-		repeat (25) begin
+		repeat (40) begin
 			repeat (1000) @(posedge clock);
 			$display("+1000 cycles");
 		end
@@ -55,7 +60,6 @@ module gpio_tb;
 		$finish;
 	end
 
-	wire [37:0] mprj_io;	// Most of these are no-connects
 	wire [15:0] checkbits;
 	reg  [7:0] checkbits_lo;
 	wire [7:0] checkbits_hi;
@@ -69,9 +73,6 @@ module gpio_tb;
 	wire flash_clk;
 	wire flash_io0;
 	wire flash_io1;
-	wire gpio;
-
-	reg RSTB;
 
 	// Transactor
 	initial begin
