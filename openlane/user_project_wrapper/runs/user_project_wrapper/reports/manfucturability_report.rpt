@@ -1,0 +1,19 @@
+Design Name: user_project_wrapper
+Run Directory: /project/openlane/user_project_wrapper/runs/user_project_wrapper
+----------------------------------------
+
+Magic DRC Summary:
+Source: /project/openlane/user_project_wrapper/runs/user_project_wrapper/logs/magic/magic.drc
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /project/openlane/user_project_wrapper/runs/user_project_wrapper/results/lvs/user_project_wrapper.lvs_parsed.log
+LVS reports no net, device, pin, or property mismatches.
+Total errors = 0
+----------------------------------------
+
+Antenna Summary:
+Source: /project/openlane/user_project_wrapper/runs/user_project_wrapper/reports/routing/antenna.rpt
+Number of pins violated: 0
+Number of nets violated: 0
