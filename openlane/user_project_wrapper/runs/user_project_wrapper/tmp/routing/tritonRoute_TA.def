@@ -2651,7 +2651,10 @@ VIAS 7 ;
  ;
 END VIAS
 
-COMPONENTS 1 ;
+COMPONENTS 4 ;
+- obs_core_obs_2 obs_core_obs_2 + FIXED ( 0 0 ) N ;
+- obs_core_obs_1 obs_core_obs_1 + FIXED ( 0 0 ) N ;
+- obs_core_obs_0 obs_core_obs_0 + FIXED ( 0 0 ) N ;
 - mprj accelerator_top + FIXED ( 775000 875000 ) N ;
 END COMPONENTS
 

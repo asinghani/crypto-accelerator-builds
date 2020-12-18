@@ -74278,4 +74278,34 @@ MACRO accelerator_top
         RECT 1184.940 165.415 1247.225 1297.265 ;
   END
 END accelerator_top
+MACRO obs_core_obs_0
+   CLASS BLOCK ;
+   FOREIGN obs_core_obs_0 ;
+   ORIGIN 0.000 0.000 ;
+   SIZE 2920.0 BY 3520.0 ;
+   OBS
+        LAYER li1 ;
+             RECT 0.000 0.000 2920.0 3520.0 ;
+   END
+ END obs_core_obs_0
+MACRO obs_core_obs_1
+   CLASS BLOCK ;
+   FOREIGN obs_core_obs_1 ;
+   ORIGIN 0.000 0.000 ;
+   SIZE 2920.0 BY 3520.0 ;
+   OBS
+        LAYER met4 ;
+             RECT 0.000 0.000 2920.0 3520.0 ;
+   END
+ END obs_core_obs_1
+MACRO obs_core_obs_2
+   CLASS BLOCK ;
+   FOREIGN obs_core_obs_2 ;
+   ORIGIN 0.000 0.000 ;
+   SIZE 2920.0 BY 3520.0 ;
+   OBS
+        LAYER met5 ;
+             RECT 0.000 0.000 2920.0 3520.0 ;
+   END
+ END obs_core_obs_2
 END LIBRARY

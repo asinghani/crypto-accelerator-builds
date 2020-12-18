@@ -1320,7 +1320,10 @@ VIAS 7 ;
     - via3_3000x480 + VIARULE M3M4_PR + CUTSIZE 200 200  + LAYERS met3 via3 met4  + CUTSPACING 200 200  + ENCLOSURE 200 60 200 140  + ROWCOL 1 7  ;
     - via4_1600x3000 + VIARULE M4M5_PR + CUTSIZE 800 800  + LAYERS met4 via4 met5  + CUTSPACING 800 800  + ENCLOSURE 400 300 400 310  + ROWCOL 2 1  ;
 END VIAS
-COMPONENTS 1 ;
+COMPONENTS 4 ;
+- obs_core_obs_2 obs_core_obs_2 + FIXED ( 0 0 ) N ;
+- obs_core_obs_1 obs_core_obs_1 + FIXED ( 0 0 ) N ;
+- obs_core_obs_0 obs_core_obs_0 + FIXED ( 0 0 ) N ;
     - mprj accelerator_top + FIXED ( 775000 875000 ) N ;
 END COMPONENTS
 PINS 1016 ;
