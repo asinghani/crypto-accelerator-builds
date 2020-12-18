@@ -42,7 +42,7 @@ endif
 	@echo "###############################################"
 	@sleep 1
 
-	@if [ -f ./$*/interactive.tcl ]; then\
+	if [ -f ./$*/interactive.tcl ]; then\
 		docker run -it -v $(OPENLANE_ROOT):/openLANE_flow \
 		-v $(PDK_ROOT):$(PDK_ROOT) \
 		-v $(PWD)/..:/project \

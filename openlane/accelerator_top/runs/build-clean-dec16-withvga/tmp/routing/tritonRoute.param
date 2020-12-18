@@ -1,0 +1,11 @@
+lef:/project/openlane/accelerator_top/runs/17-12_01-11/tmp/merged_unpadded.lef
+def:/project/openlane/accelerator_top/runs/17-12_01-11/tmp/routing/addspacers.def
+guide:/project/openlane/accelerator_top/runs/17-12_01-11/tmp/routing/fastroute.guide
+output:/project/openlane/accelerator_top/runs/17-12_01-11/results/routing/accelerator_top.def
+outputTA:/project/openlane/accelerator_top/runs/17-12_01-11/tmp/routing/tritonRoute_TA.def
+outputguide:/project/openlane/accelerator_top/runs/17-12_01-11/tmp/routing/tritonRoute.guide
+outputDRC:/project/openlane/accelerator_top/runs/17-12_01-11/reports/routing/tritonRoute.drc
+outputMaze:/project/openlane/accelerator_top/runs/17-12_01-11/tmp/routing/tritonRoute_maze.log
+threads:16
+verbose:1
+drouteEndIterNum:64

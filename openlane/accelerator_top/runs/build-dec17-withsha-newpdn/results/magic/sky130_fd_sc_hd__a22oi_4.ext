@@ -1,0 +1,109 @@
+timestamp 1608143239
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 2200000 3050000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29 5
+parameters sky130_fd_pr__nfet_01v8 l=l w=w
+parameters sky130_fd_pr__pfet_01v8_hvt l=l w=w
+port "VGND" 5 30 -17 64 17 m1
+port "VPWR" 8 30 527 64 561 m1
+port "Y" 9 122 289 156 323 li
+port "A2" 2 1322 221 1356 255 li
+port "A1" 1 954 221 988 255 li
+port "B1" 3 582 221 616 255 li
+port "B2" 4 214 221 248 255 li
+port "VPB" 7 30 527 64 561 nw
+port "VNB" 6 30 -17 64 17 pw
+node "a22oi_4" 0 0 0 0 comment 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_803_47#" 2934 130.942 803 47 ndif 0 0 0 0 0 0 0 0 34580 1832 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 46492 2112 0 0 0 0 0 0 0 0 0 0 0 0
+node "VGND" 2766 1368.49 30 -17 m1 0 0 0 0 0 0 0 0 28080 1472 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 65960 3948 150144 3320 0 0 0 0 0 0 0 0 0 0
+node "a_27_47#" 2934 130.942 27 47 ndif 0 0 0 0 0 0 0 0 34580 1832 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 46492 2112 0 0 0 0 0 0 0 0 0 0 0 0
+node "VPWR" 5006 1230.94 30 527 m1 0 0 0 0 0 0 0 0 0 0 43200 2032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 86776 4540 150144 3320 0 0 0 0 0 0 0 0 0 0
+node "Y" 6843 244.193 122 289 li 0 0 0 0 0 0 0 0 28080 1472 43200 2032 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 76808 3532 0 0 0 0 0 0 0 0 0 0 0 0
+node "a_27_297#" 9804 239.25 27 297 pdif 0 0 0 0 0 0 0 0 0 0 118800 4788 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 136966 5698 0 0 0 0 0 0 0 0 0 0 0 0
+node "A2" 2983 579.604 1322 221 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70932 4184 0 0 15330 814 0 0 0 0 0 0 0 0 0 0 0 0
+node "A1" 2959 530.73 954 221 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70932 4184 0 0 11844 648 0 0 0 0 0 0 0 0 0 0 0 0
+node "B1" 2967 588.613 582 221 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 73242 4254 0 0 11400 650 0 0 0 0 0 0 0 0 0 0 0 0
+node "B2" 2987 576.003 214 221 li 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70932 4184 0 0 14440 802 0 0 0 0 0 0 0 0 0 0 0 0
+node "VPB" 8685 1579.32 30 527 nw 0 0 0 0 526440 3922 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+substrate "VNB" 0 0 30 -17 pw 0 0 1156 136 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "a_803_47#" "a_27_47#" 38.2105
+cap "a_803_47#" "B1" 3.575
+cap "A2" "B1" 3.52941
+cap "a_803_47#" "a_27_297#" 172.665
+cap "VGND" "VPWR" 21.7852
+cap "a_27_297#" "VGND" 132.75
+cap "a_27_297#" "a_27_47#" 102.332
+cap "a_803_47#" "VPWR" 58.3168
+cap "a_27_47#" "VPWR" 36.815
+cap "B1" "a_27_47#" 139.158
+cap "a_803_47#" "VGND" 959.501
+cap "VGND" "a_27_47#" 959.501
+cap "a_27_297#" "VPWR" 2660.67
+cap "a_27_297#" "B1" 208.152
+cap "A2" "VGND" 130.802
+cap "VGND" "B1" 107.225
+cap "A2" "a_803_47#" 520.29
+cap "A2" "a_27_297#" 410.9
+cap "A2" "VPWR" 124.467
+cap "B1" "VPWR" 94.3022
+cap "Y" "A1" 301.068
+cap "Y" "VPB" 3.6852
+cap "Y" "B2" 334.767
+cap "a_803_47#" "A1" 152.358
+cap "a_27_297#" "VPB" 5.22255
+cap "VPB" "VPWR" 94.6101
+cap "VGND" "A1" 106.725
+cap "B2" "VGND" 130.135
+cap "a_27_297#" "A1" 351.694
+cap "B2" "a_27_47#" 529.025
+cap "B2" "a_27_297#" 238.028
+cap "A2" "A1" 222.962
+cap "A1" "VPWR" 114.322
+cap "A1" "B1" 98.4413
+cap "B2" "B1" 201.328
+cap "B2" "VPWR" 103.523
+cap "Y" "VGND" 307.543
+cap "Y" "VPWR" 252.887
+cap "Y" "a_803_47#" 457.218
+cap "Y" "a_27_47#" 584.21
+cap "Y" "a_27_297#" 1465.69
+cap "Y" "B1" 626.103
+device msubckt sky130_fd_pr__nfet_01v8 1443 47 1444 48 l=30 w=130 "VNB" "A2" 60 0 "VGND" 130 0 "a_803_47#" 130 0
+device msubckt sky130_fd_pr__nfet_01v8 1359 47 1360 48 l=30 w=130 "VNB" "A2" 60 0 "a_803_47#" 130 0 "VGND" 130 0
+device msubckt sky130_fd_pr__nfet_01v8 1275 47 1276 48 l=30 w=130 "VNB" "A2" 60 0 "VGND" 130 0 "a_803_47#" 130 0
+device msubckt sky130_fd_pr__nfet_01v8 1191 47 1192 48 l=30 w=130 "VNB" "A2" 60 0 "a_803_47#" 130 0 "VGND" 130 0
+device msubckt sky130_fd_pr__nfet_01v8 1107 47 1108 48 l=30 w=130 "VNB" "A1" 60 0 "Y" 130 0 "a_803_47#" 130 0
+device msubckt sky130_fd_pr__nfet_01v8 1023 47 1024 48 l=30 w=130 "VNB" "A1" 60 0 "a_803_47#" 130 0 "Y" 130 0
+device msubckt sky130_fd_pr__nfet_01v8 939 47 940 48 l=30 w=130 "VNB" "A1" 60 0 "Y" 130 0 "a_803_47#" 130 0
+device msubckt sky130_fd_pr__nfet_01v8 855 47 856 48 l=30 w=130 "VNB" "A1" 60 0 "a_803_47#" 130 0 "Y" 130 0
+device msubckt sky130_fd_pr__nfet_01v8 667 47 668 48 l=30 w=130 "VNB" "B1" 60 0 "Y" 130 0 "a_27_47#" 130 0
+device msubckt sky130_fd_pr__nfet_01v8 583 47 584 48 l=30 w=130 "VNB" "B1" 60 0 "a_27_47#" 130 0 "Y" 130 0
+device msubckt sky130_fd_pr__nfet_01v8 499 47 500 48 l=30 w=130 "VNB" "B1" 60 0 "Y" 130 0 "a_27_47#" 130 0
+device msubckt sky130_fd_pr__nfet_01v8 415 47 416 48 l=30 w=130 "VNB" "B1" 60 0 "a_27_47#" 130 0 "Y" 130 0
+device msubckt sky130_fd_pr__nfet_01v8 331 47 332 48 l=30 w=130 "VNB" "B2" 60 0 "VGND" 130 0 "a_27_47#" 130 0
+device msubckt sky130_fd_pr__nfet_01v8 247 47 248 48 l=30 w=130 "VNB" "B2" 60 0 "a_27_47#" 130 0 "VGND" 130 0
+device msubckt sky130_fd_pr__nfet_01v8 163 47 164 48 l=30 w=130 "VNB" "B2" 60 0 "VGND" 130 0 "a_27_47#" 130 0
+device msubckt sky130_fd_pr__nfet_01v8 79 47 80 48 l=30 w=130 "VNB" "B2" 60 0 "a_27_47#" 130 0 "VGND" 130 0
+device msubckt sky130_fd_pr__pfet_01v8_hvt 1443 297 1444 298 l=30 w=200 "VPB" "A2" 60 0 "VPWR" 200 0 "a_27_297#" 200 0
+device msubckt sky130_fd_pr__pfet_01v8_hvt 1359 297 1360 298 l=30 w=200 "VPB" "A2" 60 0 "a_27_297#" 200 0 "VPWR" 200 0
+device msubckt sky130_fd_pr__pfet_01v8_hvt 1275 297 1276 298 l=30 w=200 "VPB" "A2" 60 0 "VPWR" 200 0 "a_27_297#" 200 0
+device msubckt sky130_fd_pr__pfet_01v8_hvt 1191 297 1192 298 l=30 w=200 "VPB" "A2" 60 0 "a_27_297#" 200 0 "VPWR" 200 0
+device msubckt sky130_fd_pr__pfet_01v8_hvt 1107 297 1108 298 l=30 w=200 "VPB" "A1" 60 0 "VPWR" 200 0 "a_27_297#" 200 0
+device msubckt sky130_fd_pr__pfet_01v8_hvt 1023 297 1024 298 l=30 w=200 "VPB" "A1" 60 0 "a_27_297#" 200 0 "VPWR" 200 0
+device msubckt sky130_fd_pr__pfet_01v8_hvt 939 297 940 298 l=30 w=200 "VPB" "A1" 60 0 "VPWR" 200 0 "a_27_297#" 200 0
+device msubckt sky130_fd_pr__pfet_01v8_hvt 855 297 856 298 l=30 w=200 "VPB" "A1" 60 0 "a_27_297#" 200 0 "VPWR" 200 0
+device msubckt sky130_fd_pr__pfet_01v8_hvt 667 297 668 298 l=30 w=200 "VPB" "B1" 60 0 "Y" 200 0 "a_27_297#" 200 0
+device msubckt sky130_fd_pr__pfet_01v8_hvt 583 297 584 298 l=30 w=200 "VPB" "B1" 60 0 "a_27_297#" 200 0 "Y" 200 0
+device msubckt sky130_fd_pr__pfet_01v8_hvt 499 297 500 298 l=30 w=200 "VPB" "B1" 60 0 "Y" 200 0 "a_27_297#" 200 0
+device msubckt sky130_fd_pr__pfet_01v8_hvt 415 297 416 298 l=30 w=200 "VPB" "B1" 60 0 "a_27_297#" 200 0 "Y" 200 0
+device msubckt sky130_fd_pr__pfet_01v8_hvt 331 297 332 298 l=30 w=200 "VPB" "B2" 60 0 "Y" 200 0 "a_27_297#" 200 0
+device msubckt sky130_fd_pr__pfet_01v8_hvt 247 297 248 298 l=30 w=200 "VPB" "B2" 60 0 "a_27_297#" 200 0 "Y" 200 0
+device msubckt sky130_fd_pr__pfet_01v8_hvt 163 297 164 298 l=30 w=200 "VPB" "B2" 60 0 "Y" 200 0 "a_27_297#" 200 0
+device msubckt sky130_fd_pr__pfet_01v8_hvt 79 297 80 298 l=30 w=200 "VPB" "B2" 60 0 "a_27_297#" 200 0 "Y" 200 0
+subcap "a_803_47#" -35.7403
+subcap "VGND" -219.329
+subcap "VPWR" -178.771
+subcap "A2" -261.842
+subcap "VPB" -358.92
