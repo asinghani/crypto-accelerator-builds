@@ -1,0 +1,19 @@
+Design Name: accelerator_top
+Run Directory: /project/openlane/accelerator_top/runs/18-12_10-52
+----------------------------------------
+
+Magic DRC Summary:
+Source: /project/openlane/accelerator_top/runs/18-12_10-52/logs/magic/magic.drc
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /project/openlane/accelerator_top/runs/18-12_10-52/results/lvs/accelerator_top.lvs_parsed.log
+LVS reports no net, device, pin, or property mismatches.
+Total errors = 0
+----------------------------------------
+
+Antenna Summary:
+Source: /project/openlane/accelerator_top/runs/18-12_10-52/reports/routing/antenna.rpt
+Number of pins violated: 6
+Number of nets violated: 6
