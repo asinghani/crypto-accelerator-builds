@@ -1,1 +1,0 @@
-../../../../../crypto-accelerator-chip/verilog/dv/caravel/accelerator/aes56/aes56.c

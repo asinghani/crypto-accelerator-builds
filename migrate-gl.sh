@@ -17,6 +17,6 @@ if [ "$1" == "" ] || [ $# -gt 1 ]; then
     exit 0
 fi
 
-cp openlane/user_project_wrapper/runs/user_project_wrapper/results/synthesis/user_project_wrapper.synthesis.v verilog/gl/user_project_wrapper.v
-cp $1/results/synthesis/accelerator_top.synthesis.v verilog/gl/accelerator_top.v
+cp openlane/user_project_wrapper/runs/user_project_wrapper/results/lvs/user_project_wrapper.lvs.powered.v verilog/gl/user_project_wrapper.v
+cp $1/results/lvs/accelerator_top.lvs.powered.v verilog/gl/accelerator_top.v
 

@@ -83,7 +83,11 @@
 /*------------------------------*/
 /* Include user project here	*/
 /*------------------------------*/
+`ifdef GL
+`include "gl/accelerator_top.v"
+`else
 `include "accelerator/accelerator_top.v"
+`endif
 
 // `ifdef USE_OPENRAM
 //     `include "sram_1rw1r_32_256_8_sky130.v"

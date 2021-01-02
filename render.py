@@ -21,5 +21,5 @@ lv.min_hier_levels = 0
 lv.max_hier_levels = 1000
 lv.max_hier()
 lv.show_all_cells()
-lv.save_image("doc/render.png", 1200, 1500)
+lv.save_image("render.png", 1200, 1500)
 
